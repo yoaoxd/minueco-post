@@ -1,0 +1,137 @@
+{
+  "_documentation": {
+    "description": "Plantilla para cargar noticias en The Minuecus Post",
+    "version": "1.0",
+    "notes": "Los campos marcados con (*) son obligatorios"
+  },
+
+  "publication": {
+    "_comment": "Información general del periódico",
+    "name": "The Minuecus Post",
+    "motto": "El Periódico Oficial de la República",
+    "date": "DD de Mes, YYYY"
+  },
+
+  "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
+
+  "finance": {
+    "_comment": "Indicador del dólar en la cabecera",
+    "dollarRate": "550,00",
+    "currency": "Bs",
+    "trend": "stable | up | down"
+  },
+
+  "ads": [
+    {
+      "_comment": "Publicidad que aparece como banner",
+      "id": 1,
+      "title": "Nombre del Anunciante *",
+      "slogan": "Eslogan del anunciante *",
+      "description": "Descripción breve del producto/servicio",
+      "cta": "Texto del botón (ej: Visítanos, Compra Ahora)",
+      "sponsored": true
+    }
+  ],
+
+  "breaking": {
+    "_comment": "Banner de última hora (aparece en la parte superior)",
+    "active": true,
+    "text": "ÚLTIMA HORA: Texto de la noticia urgente"
+  },
+
+  "featured": {
+    "_comment": "Noticia principal destacada (aparece grande a la izquierda)",
+    "id": 1,
+    "category": "CATEGORÍA EN MAYÚSCULAS *",
+    "headline": "Título principal de la noticia *",
+    "summary": "Resumen breve de 1-2 oraciones *",
+    "content": "Contenido completo de la noticia. Usar \\n\\n para párrafos.",
+    "author": "Nombre del Autor *",
+    "role": "Cargo del autor (opcional)",
+    "timestamp": "2026-02-13T14:00:00Z",
+    "readTime": "X min",
+    "image": "https://url-de-imagen.com/imagen.jpg"
+  },
+
+  "topStories": [
+    {
+      "_comment": "Noticias principales (aparecen a la derecha del featured)",
+      "id": 2,
+      "category": "CATEGORÍA *",
+      "headline": "Título de la noticia *",
+      "summary": "Resumen breve *",
+      "content": "Contenido completo (opcional, si no existe solo muestra el summary)",
+      "author": "Nombre del Autor *",
+      "timestamp": "2026-02-13T12:00:00Z",
+      "readTime": "X min",
+      "image": "https://url-de-imagen.com/imagen.jpg"
+    }
+  ],
+
+  "moreStories": [
+    {
+      "_comment": "Más noticias (aparecen en grid debajo de las principales)",
+      "id": 5,
+      "category": "CATEGORÍA *",
+      "headline": "Título *",
+      "summary": "Resumen *",
+      "content": "Contenido completo (opcional)",
+      "author": "Autor *",
+      "timestamp": "2026-02-13T15:00:00Z",
+      "readTime": "X min",
+      "image": "https://url-de-imagen.com/imagen.jpg"
+    }
+  ],
+
+  "opinion": [
+    {
+      "_comment": "Artículos de opinión/editorial (aparecen en sección separada)",
+      "id": 11,
+      "category": "EDITORIAL | OPINIÓN | INVESTIGACIÓN | ANÁLISIS",
+      "headline": "Título del artículo *",
+      "summary": "Subtítulo o resumen *",
+      "content": "Contenido completo del artículo (opcional)",
+      "author": "Nombre del columnista *",
+      "timestamp": "2026-02-13T14:30:00Z",
+      "readTime": "X min"
+    }
+  ],
+
+  "_categorias_sugeridas": [
+    "OFICIAL",
+    "GOBIERNO", 
+    "POLÍTICA",
+    "ECONOMÍA",
+    "DEPORTES",
+    "CULTURA",
+    "TECNOLOGÍA",
+    "JUSTICIA",
+    "DIPLOMACIA",
+    "CRÓNICA",
+    "PERFIL",
+    "EN DESARROLLO",
+    "ÚLTIMA HORA",
+    "EDITORIAL",
+    "OPINIÓN",
+    "INVESTIGACIÓN",
+    "ANÁLISIS"
+  ],
+
+  "_formato_imagen": {
+    "recomendacion": "Usar imágenes de Unsplash con parámetros w=800&q=80",
+    "ejemplo": "https://images.unsplash.com/photo-XXXXX?w=800&q=80",
+    "aspectRatio": "16:9 preferido para mejor visualización"
+  },
+
+  "_formato_timestamp": {
+    "formato": "ISO 8601",
+    "ejemplo": "2026-02-13T14:00:00Z",
+    "nota": "La Z indica UTC. Ajustar según zona horaria si es necesario."
+  },
+
+  "_formato_content": {
+    "parrafos": "Separar párrafos con \\n\\n",
+    "listas": "Usar • para bullets, cada item en línea nueva con \\n\\n• ",
+    "ejemplo": "Primer párrafo.\\n\\nSegundo párrafo.\\n\\n• Item 1\\n\\n• Item 2"
+  }
+}
