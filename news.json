@@ -1,0 +1,114 @@
+{
+  "publication": {
+    "name": "The Minuecus Post",
+    "motto": "La Democracia Muere en la Hora de la Siesta",
+    "date": "13 de Febrero, 2026"
+  },
+  "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
+  "featured": {
+    "id": 1,
+    "category": "HISTÓRICO",
+    "headline": "¡SE ACTIVÓ LA CLÁUSULA PAROLA! Primera Cumbre Republicana Define el Futuro de Minueco",
+    "summary": "En una jornada histórica celebrada ayer en el Palacio del Chief of Staff, los líderes de la República de Minueco activaron oficialmente la legendaria Cláusula Parola y conformaron el primer gabinete de gobierno.",
+    "content": "El Palacio del Chief of Staff fue testigo ayer de un momento que quedará grabado en los libros de historia de Minueco (cuando los escriban). La Primera Cumbre Republicana reunió a los fundadores de la nación en una sesión maratónica de 6 horas que incluyó debates acalorados, tres recesos para café y una discusión de 45 minutos sobre quién traería las empanadas la próxima vez. El momento cumbre llegó cuando, tras una votación unánime (porque nadie se atrevió a decir que no), se activó la mítica Cláusula Parola. 'Este es el inicio de una nueva era', proclamó el Chief of Staff desde su silla giratoria ejecutiva. 'A partir de hoy, Minueco tiene gobierno oficial, gabinete completo, y lo más importante: alguien a quien culpar cuando las cosas salgan mal'. Los nuevos ministros juraron sus cargos sobre una edición especial del Manual del Perfecto Minuecano, prometiendo servir a la república 'al menos hasta que se aburran'.",
+    "author": "Margarita Plumafina",
+    "role": "Corresponsal de Asuntos Históricos y Dramáticos",
+    "timestamp": "2026-02-13T08:00:00Z",
+    "readTime": "5 min"
+  },
+  "topStories": [
+    {
+      "id": 2,
+      "category": "POLÍTICA",
+      "headline": "Gabinete Completo: Estos Son los Nuevos Ministros de Minueco",
+      "summary": "La Cumbre Republicana definió los cargos del gobierno. Desde el Ministro de Siestas hasta el Canciller de Asuntos Confusos, conoce a quienes dirigirán el destino de la nación.",
+      "author": "Roberto Político",
+      "content": "El flamante gabinete de Minueco quedó conformado tras intensas negociaciones que incluyeron piedra-papel-tijera y un sorteo con papelitos. Los ciudadanos ahora tienen representantes oficiales para cada aspecto de la vida nacional, desde la economía hasta la gestión de memes oficiales. El Chief of Staff expresó su satisfacción: 'Finalmente tenemos un equipo completo. Ahora sí podemos empezar a hacer reuniones que no lleven a nada, como toda república seria'.",
+      "timestamp": "2026-02-13T10:00:00Z",
+      "readTime": "4 min"
+    },
+    {
+      "id": 3,
+      "category": "EXCLUSIVA",
+      "headline": "¿Qué es la Cláusula Parola? El Documento Secreto al Descubierto",
+      "summary": "Por primera vez, The Minuecus Post revela los detalles de la misteriosa cláusula que oficializa la existencia de la república y otorga poderes especiales al gabinete.",
+      "author": "Investigador Curioso",
+      "content": "La Cláusula Parola, redactada en una servilleta durante la reunión fundacional de Minueco, establece las bases legales de la república. Entre sus artículos más destacados: el derecho inalienable a la siesta, la obligación de traer algo para compartir a las reuniones de estado, y el controversial 'Artículo 7' que permite al gabinete declarar feriado nacional 'cuando se sientan agotados'. Su activación requiere el consenso de todos los miembros fundadores y, según fuentes cercanas, 'que alguien se acuerde dónde la guardaron'.",
+      "timestamp": "2026-02-13T09:30:00Z",
+      "readTime": "4 min"
+    },
+    {
+      "id": 4,
+      "category": "CRÓNICA",
+      "headline": "Así Fue la Histórica Noche en el Palacio del Chief of Staff",
+      "summary": "Crónica exclusiva de las 6 horas que definieron el futuro de Minueco: desde los nervios iniciales hasta el brindis final con café con leche.",
+      "author": "Cronista Testigo",
+      "content": "Las puertas del Palacio del Chief of Staff se abrieron a las 18:00 horas. Los fundadores llegaron con carpetas, laptops y tuppers de comida (lección aprendida de cumbres anteriores). A las 19:30, la primera crisis: se acabó el café. Tras una pausa de emergencia, las deliberaciones continuaron. A las 22:00, la votación histórica: la Cláusula Parola fue activada por unanimidad. Los aplausos duraron 3 minutos. Las selfies de celebración, 45 minutos más.",
+      "timestamp": "2026-02-13T07:00:00Z",
+      "readTime": "6 min"
+    }
+  ],
+  "moreStories": [
+    {
+      "id": 5,
+      "category": "POLÍTICA",
+      "headline": "Chief of Staff Asume Rol Clave en el Nuevo Gobierno",
+      "summary": "El anfitrión de la cumbre histórica coordinará las operaciones del gabinete y será responsable de 'que las cosas funcionen, o al menos parezca que funcionan'.",
+      "author": "Patricia Oficial",
+      "timestamp": "2026-02-13T11:00:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 6,
+      "category": "ECONOMÍA",
+      "headline": "Ministerio de Economía Anuncia: 'Tenemos un Presupuesto, Más o Menos'",
+      "summary": "El flamante ministro de economía presentó las cuentas nacionales escritas en una hoja de cuaderno. 'Los números cuadran si no los miras muy de cerca', aseguró.",
+      "author": "Roberto Contador",
+      "timestamp": "2026-02-13T10:30:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 7,
+      "category": "SOCIEDAD",
+      "headline": "Ciudadanos Celebran en las Calles: '¡Por Fin Somos Oficiales!'",
+      "summary": "La activación de la Cláusula Parola desató festejos espontáneos. Un vecino declaró: 'Ahora sí puedo poner Minueco en mi dirección de correo'.",
+      "author": "Vecina Feliz",
+      "timestamp": "2026-02-13T09:00:00Z",
+      "readTime": "2 min"
+    },
+    {
+      "id": 8,
+      "category": "INTERNACIONAL",
+      "headline": "Vecinolandia 'Toma Nota' del Nuevo Gobierno de Minueco",
+      "summary": "El país vecino emitió un comunicado de 3 palabras reconociendo la cumbre. Analistas interpretan esto como 'probablemente positivo, o no'.",
+      "author": "Agustina Diplomática",
+      "timestamp": "2026-02-13T08:30:00Z",
+      "readTime": "2 min"
+    }
+  ],
+  "opinion": [
+    {
+      "id": 9,
+      "category": "EDITORIAL",
+      "headline": "La Cláusula Parola: Un Antes y un Después Para Minueco",
+      "summary": "Reflexionamos sobre el significado histórico de la activación de la cláusula y lo que significa para el futuro de nuestra querida república.",
+      "author": "El Editorial",
+      "content": "Ayer, Minueco dejó de ser una idea y se convirtió en una realidad con gabinete, ministros y todo. La activación de la Cláusula Parola representa el compromiso de un grupo de visionarios (o locos, según a quién le preguntes) de construir algo diferente. ¿Funcionará? Nadie lo sabe. ¿Será divertido intentarlo? Absolutamente. Desde The Minuecus Post, felicitamos al nuevo gobierno y prometemos fiscalizar sus acciones... después de la siesta.",
+      "timestamp": "2026-02-13T12:00:00Z",
+      "readTime": "4 min"
+    },
+    {
+      "id": 10,
+      "category": "OPINIÓN",
+      "headline": "Yo Estuve Ahí: Memorias de un Testigo de la Primera Cumbre",
+      "summary": "Un asistente a la histórica reunión comparte sus impresiones sobre la noche que cambió todo (y sobre las empanadas que se sirvieron).",
+      "author": "Testigo Anónimo",
+      "timestamp": "2026-02-13T11:30:00Z",
+      "readTime": "5 min"
+    }
+  ],
+  "breaking": {
+    "active": true,
+    "text": "HISTÓRICO: La Cláusula Parola ha sido activada oficialmente. Minueco tiene gobierno, gabinete y razones para celebrar."
+  }
+}

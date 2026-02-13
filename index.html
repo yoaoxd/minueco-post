@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Minuecus Post</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Source+Serif+Pro:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
+</head>
+<body>
+    <!-- Article Detail Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <article class="modal-content" id="modal-content">
+                <!-- Populated by JS -->
+            </article>
+        </div>
+    </div>
+
+    <!-- Breaking News Banner -->
+    <div class="breaking-banner" id="breaking-banner" style="display: none;">
+        <span class="breaking-label">URGENTE</span>
+        <span class="breaking-text" id="breaking-text"></span>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-top">
+                <div class="header-left">
+                    <span class="edition">Edición República</span>
+                </div>
+                <div class="header-center">
+                    <a href="#" class="logo-link" id="home-link">
+                        <h1 class="logo">The Minuecus Post</h1>
+                    </a>
+                    <p class="tagline" id="tagline"></p>
+                </div>
+                <div class="header-right">
+                    <span class="date" id="pub-date"></span>
+                </div>
+            </div>
+            <nav class="nav">
+                <ul class="nav-list" id="nav-list">
+                    <!-- Populated by JS -->
+                </ul>
+            </nav>
+        </header>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Featured Story -->
+            <article class="featured" id="featured">
+                <!-- Populated by JS -->
+            </article>
+
+            <!-- Top Stories Grid -->
+            <section class="top-stories">
+                <div class="stories-grid" id="top-stories">
+                    <!-- Populated by JS -->
+                </div>
+            </section>
+
+            <!-- More Headlines + Opinion -->
+            <div class="bottom-section">
+                <section class="more-stories">
+                    <h2 class="section-title">Más Noticias</h2>
+                    <div class="headlines-list" id="more-stories">
+                        <!-- Populated by JS -->
+                    </div>
+                </section>
+
+                <aside class="opinion-section">
+                    <h2 class="section-title">Opinión</h2>
+                    <div class="opinion-list" id="opinion">
+                        <!-- Populated by JS -->
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-logo">The Minuecus Post</p>
+                <p class="footer-text">© 2026 The Minuecus Post. Establecido cuando nos dió la gana.</p>
+                <p class="footer-text">Sirviendo a la República con Periodismo Cuestionable Desde Hace Poco.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        let newsData = null;
+
+        // Fetch and render news
+        async function loadNews() {
+            try {
+                const response = await fetch('news.json');
+                newsData = await response.json();
+                renderPage(newsData);
+            } catch (error) {
+                console.error('Error loading news:', error);
+            }
+        }
+
+        function formatTime(timestamp) {
+            const date = new Date(timestamp);
+            const now = new Date();
+            const diffHours = Math.floor((now - date) / (1000 * 60 * 60));
+            
+            if (diffHours < 1) return 'Ahora mismo';
+            if (diffHours < 24) return `Hace ${diffHours}h`;
+            return date.toLocaleDateString('es-ES', { month: 'short', day: 'numeric' });
+        }
+
+        function formatFullDate(timestamp) {
+            const date = new Date(timestamp);
+            return date.toLocaleDateString('es-ES', { 
+                weekday: 'long', 
+                year: 'numeric', 
+                month: 'long', 
+                day: 'numeric',
+                hour: '2-digit',
+                minute: '2-digit'
+            });
+        }
+
+        function getAllArticles() {
+            if (!newsData) return [];
+            return [
+                newsData.featured,
+                ...newsData.topStories,
+                ...newsData.moreStories,
+                ...newsData.opinion
+            ];
+        }
+
+        function findArticleById(id) {
+            return getAllArticles().find(article => article.id === id);
+        }
+
+        function openArticle(id) {
+            const article = findArticleById(id);
+            if (!article) return;
+
+            const modalContent = document.getElementById('modal-content');
+            modalContent.innerHTML = `
+                <span class="modal-category">${article.category}</span>
+                <h1 class="modal-headline">${article.headline}</h1>
+                <div class="modal-meta">
+                    <span class="modal-author">Por <strong>${article.author}</strong></span>
+                    ${article.role ? `<span class="modal-role">${article.role}</span>` : ''}
+                    <span class="modal-date">${formatFullDate(article.timestamp)}</span>
+                    <span class="modal-read-time">${article.readTime} de lectura</span>
+                </div>
+                <div class="modal-body">
+                    <p class="modal-summary">${article.summary}</p>
+                    ${article.content ? `<p>${article.content}</p>` : ''}
+                    ${!article.content ? generateFakeContent(article) : ''}
+                </div>
+                <div class="modal-footer">
+                    <p class="modal-disclaimer">Esta noticia es completamente ficticia y forma parte del universo satírico de la República de Minueco.</p>
+                </div>
+            `;
+
+            document.getElementById('modal-overlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function generateFakeContent(article) {
+            const paragraphs = [
+                `Los ciudadanos de Minueco reaccionaron con una mezcla de sorpresa y confusión ante esta noticia. "Sinceramente, no sé qué pensar", declaró un transeúnte que prefirió mantener el anonimato porque se le olvidó su nombre.`,
+                `El Ministerio de Asuntos Que Nadie Entiende emitió un comunicado de 47 páginas que, según expertos, "solo añade más preguntas". El documento incluye 23 referencias a la Cláusula Parola, aunque ninguna la explica.`,
+                `Mientras tanto, el gato del Gran Canciller, Don Bigotes, fue visto durmiendo durante todo el anuncio, lo que algunos interpretan como una señal de aprobación y otros como indiferencia felina.`,
+                `La oposición ha convocado una protesta para el próximo martes, aunque aún no han decidido si será antes o después de la siesta obligatoria.`
+            ];
+            return paragraphs.map(p => `<p>${p}</p>`).join('');
+        }
+
+        function closeModal() {
+            document.getElementById('modal-overlay').classList.remove('active');
+            document.body.style.overflow = '';
+        }
+
+        function renderPage(data) {
+            // Publication info
+            document.getElementById('tagline').textContent = data.publication.motto;
+            document.getElementById('pub-date').textContent = data.publication.date;
+
+            // Breaking news
+            if (data.breaking && data.breaking.active) {
+                const banner = document.getElementById('breaking-banner');
+                document.getElementById('breaking-text').textContent = data.breaking.text;
+                banner.style.display = 'flex';
+            }
+
+            // Navigation
+            const navList = document.getElementById('nav-list');
+            navList.innerHTML = data.sections.map(section => 
+                `<li><a href="#${section.toLowerCase()}">${section}</a></li>`
+            ).join('');
+
+            // Featured story
+            const featured = data.featured;
+            document.getElementById('featured').innerHTML = `
+                <div class="featured-content clickable" data-id="${featured.id}">
+                    <span class="category">${featured.category}</span>
+                    <h2 class="featured-headline">${featured.headline}</h2>
+                    <p class="featured-summary">${featured.summary}</p>
+                    <div class="meta">
+                        <span class="author">Por ${featured.author}</span>
+                        <span class="timestamp">${formatTime(featured.timestamp)}</span>
+                        <span class="read-time">${featured.readTime} de lectura</span>
+                    </div>
+                    <span class="read-more">Leer artículo completo →</span>
+                </div>
+            `;
+
+            // Top stories
+            const topStories = document.getElementById('top-stories');
+            topStories.innerHTML = data.topStories.map(story => `
+                <article class="story-card clickable" data-id="${story.id}">
+                    <span class="category">${story.category}</span>
+                    <h3 class="story-headline">${story.headline}</h3>
+                    <p class="story-summary">${story.summary}</p>
+                    <div class="meta">
+                        <span class="author">Por ${story.author}</span>
+                        <span class="timestamp">${formatTime(story.timestamp)}</span>
+                    </div>
+                </article>
+            `).join('');
+
+            // More stories
+            const moreStories = document.getElementById('more-stories');
+            moreStories.innerHTML = data.moreStories.map(story => `
+                <article class="headline-item clickable" data-id="${story.id}">
+                    <span class="category">${story.category}</span>
+                    <h4 class="headline-title">${story.headline}</h4>
+                    <div class="meta">
+                        <span class="timestamp">${formatTime(story.timestamp)}</span>
+                    </div>
+                </article>
+            `).join('');
+
+            // Opinion
+            const opinion = document.getElementById('opinion');
+            opinion.innerHTML = data.opinion.map(story => `
+                <article class="opinion-item clickable" data-id="${story.id}">
+                    <h4 class="opinion-title">${story.headline}</h4>
+                    <p class="opinion-summary">${story.summary}</p>
+                    <div class="meta">
+                        <span class="author">${story.author}</span>
+                    </div>
+                </article>
+            `).join('');
+
+            // Add click handlers
+            document.querySelectorAll('.clickable').forEach(el => {
+                el.addEventListener('click', () => {
+                    const id = parseInt(el.dataset.id);
+                    openArticle(id);
+                });
+            });
+        }
+
+        // Event listeners
+        document.addEventListener('DOMContentLoaded', () => {
+            loadNews();
+
+            // Close modal
+            document.getElementById('modal-close').addEventListener('click', closeModal);
+            document.getElementById('modal-overlay').addEventListener('click', (e) => {
+                if (e.target === e.currentTarget) closeModal();
+            });
+
+            // Close with Escape key
+            document.addEventListener('keydown', (e) => {
+                if (e.key === 'Escape') closeModal();
+            });
+        });
+    </script>
+</body>
+</html>
