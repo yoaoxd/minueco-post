@@ -134,6 +134,16 @@
   "opinion": [
     {
       "id": 11,
+      "category": "INVESTIGACIÓN",
+      "headline": "Antecedentes Penales: Ministro de Propaganda y Ministro de Interior Tienen Más en Común de lo que Sus Cargos Contemplan",
+      "summary": "El oscuro secreto que los unirá por la eternidad. Una investigación de The Minuecus Post revela el vínculo oculto entre dos figuras clave del gabinete.",
+      "author": "Unidad de Investigación",
+      "content": "Se confirma que Víctor Peña, Ministro de Propaganda, y Jesús Constantino, Ministro de Interior, compartieron un hito histórico y oscuro en sus vidas, habiendo sido artífices de una transgresión en común hacia uno de los valores más fundamentales de la república.\n\nTres letras son capaces de englobar este oscuro secreto compartido por dos personeros del gobierno actual. Un acrónimo que, según fuentes cercanas a ambos funcionarios, representa un capítulo que preferirían mantener en el olvido.\n\nLa Fiscalía de la República, a cargo de Amado Vivas, ha confirmado la existencia de registros que vinculan a ambos ministros en un incidente previo a la fundación de Minueco. Si bien la Ley de Amnistía podría aplicarse a este caso, las implicaciones morales trascienden cualquier marco legal.\n\nFuentes anónimas dentro del gabinete sugieren que este vínculo secreto podría explicar la aparente complicidad observada entre ambos funcionarios durante la Primera Cumbre Republicana.\n\nAl cierre de esta edición, ni el Ministerio de Propaganda ni el Ministerio de Interior han emitido declaraciones oficiales sobre estas revelaciones. El silencio, sin embargo, resulta ensordecedor.\n\nEsta investigación continúa en desarrollo. The Minuecus Post se compromete a revelar la verdad completa cuando las circunstancias lo permitan.",
+      "timestamp": "2026-02-13T16:00:00Z",
+      "readTime": "5 min"
+    },
+    {
+      "id": 12,
       "category": "EDITORIAL",
       "headline": "Nueva Ciudadana en el Horizonte: Lo Que Sabemos",
       "summary": "Análisis sobre las negociaciones para la posible incorporación de una nueva integrante a la república.",
@@ -143,7 +153,7 @@
       "readTime": "4 min"
     },
     {
-      "id": 12,
+      "id": 13,
       "category": "OPINIÓN",
       "headline": "Reflexiones Sobre la Primera Semana de Gobierno",
       "summary": "Balance preliminar de los primeros días de la administración republicana.",
