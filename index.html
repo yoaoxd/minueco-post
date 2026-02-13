@@ -30,6 +30,10 @@
             <div class="header-top">
                 <div class="header-left">
                     <span class="edition">Edición República</span>
+                    <div class="dollar-rate" id="dollar-rate">
+                        <span class="dollar-label">Dólar Minueco:</span>
+                        <span class="dollar-value" id="dollar-value"></span>
+                    </div>
                 </div>
                 <div class="header-center">
                     <a href="#" class="logo-link" id="home-link">
@@ -47,6 +51,11 @@
                 </ul>
             </nav>
         </header>
+
+        <!-- Ad Banner -->
+        <div class="ad-banner" id="ad-banner">
+            <!-- Populated by JS -->
+        </div>
 
         <!-- Main Content -->
         <main class="main">
@@ -84,8 +93,8 @@
         <footer class="footer">
             <div class="footer-content">
                 <p class="footer-logo">The Minuecus Post</p>
-                <p class="footer-text">© 2026 The Minuecus Post. Establecido cuando nos dió la gana.</p>
-                <p class="footer-text">Sirviendo a la República con Periodismo Cuestionable Desde Hace Poco.</p>
+                <p class="footer-text">© 2026 The Minuecus Post. El periódico oficial de la República de Minueco.</p>
+                <p class="footer-text">Información institucional al servicio de la ciudadanía.</p>
             </div>
         </footer>
     </div>
@@ -146,6 +155,7 @@
 
             const modalContent = document.getElementById('modal-content');
             modalContent.innerHTML = `
+                ${article.image ? `<img class="modal-image" src="${article.image}" alt="${article.headline}">` : ''}
                 <span class="modal-category">${article.category}</span>
                 <h1 class="modal-headline">${article.headline}</h1>
                 <div class="modal-meta">
@@ -160,7 +170,7 @@
                     ${!article.content ? generateFakeContent(article) : ''}
                 </div>
                 <div class="modal-footer">
-                    <p class="modal-disclaimer">Esta noticia es completamente ficticia y forma parte del universo satírico de la República de Minueco.</p>
+                    <p class="modal-disclaimer">Publicación oficial de la República de Minueco.</p>
                 </div>
             `;
 
@@ -170,10 +180,10 @@
 
         function generateFakeContent(article) {
             const paragraphs = [
-                `Los ciudadanos de Minueco reaccionaron con una mezcla de sorpresa y confusión ante esta noticia. "Sinceramente, no sé qué pensar", declaró un transeúnte que prefirió mantener el anonimato porque se le olvidó su nombre.`,
-                `El Ministerio de Asuntos Que Nadie Entiende emitió un comunicado de 47 páginas que, según expertos, "solo añade más preguntas". El documento incluye 23 referencias a la Cláusula Parola, aunque ninguna la explica.`,
-                `Mientras tanto, el gato del Gran Canciller, Don Bigotes, fue visto durmiendo durante todo el anuncio, lo que algunos interpretan como una señal de aprobación y otros como indiferencia felina.`,
-                `La oposición ha convocado una protesta para el próximo martes, aunque aún no han decidido si será antes o después de la siesta obligatoria.`
+                `La ciudadanía de Minueco ha recibido esta información con interés, según sondeos realizados por el Ministerio de Comunicaciones.`,
+                `Fuentes oficiales indicaron que se espera mayor información en las próximas horas a medida que se desarrollen los acontecimientos.`,
+                `El gabinete ministerial continúa trabajando en los lineamientos institucionales establecidos durante la Primera Cumbre Republicana.`,
+                `Se recomienda a la ciudadanía mantenerse informada a través de los canales oficiales de comunicación de la república.`
             ];
             return paragraphs.map(p => `<p>${p}</p>`).join('');
         }
@@ -187,6 +197,27 @@
             // Publication info
             document.getElementById('tagline').textContent = data.publication.motto;
             document.getElementById('pub-date').textContent = data.publication.date;
+
+            // Dollar rate
+            if (data.finance) {
+                document.getElementById('dollar-value').textContent = `${data.finance.dollarRate} ${data.finance.currency}`;
+            }
+
+            // Ad banner
+            if (data.ads && data.ads.length > 0) {
+                const ad = data.ads[0];
+                document.getElementById('ad-banner').innerHTML = `
+                    <div class="ad-content">
+                        <span class="ad-label">PUBLICIDAD</span>
+                        <div class="ad-main">
+                            <span class="ad-title">${ad.title}</span>
+                            <span class="ad-slogan">${ad.slogan}</span>
+                            <span class="ad-description">${ad.description}</span>
+                        </div>
+                        <span class="ad-cta">${ad.cta} →</span>
+                    </div>
+                `;
+            }
 
             // Breaking news
             if (data.breaking && data.breaking.active) {
@@ -205,15 +236,18 @@
             const featured = data.featured;
             document.getElementById('featured').innerHTML = `
                 <div class="featured-content clickable" data-id="${featured.id}">
-                    <span class="category">${featured.category}</span>
-                    <h2 class="featured-headline">${featured.headline}</h2>
-                    <p class="featured-summary">${featured.summary}</p>
-                    <div class="meta">
-                        <span class="author">Por ${featured.author}</span>
-                        <span class="timestamp">${formatTime(featured.timestamp)}</span>
-                        <span class="read-time">${featured.readTime} de lectura</span>
+                    ${featured.image ? `<img class="featured-image" src="${featured.image}" alt="${featured.headline}">` : ''}
+                    <div class="featured-text">
+                        <span class="category">${featured.category}</span>
+                        <h2 class="featured-headline">${featured.headline}</h2>
+                        <p class="featured-summary">${featured.summary}</p>
+                        <div class="meta">
+                            <span class="author">Por ${featured.author}</span>
+                            <span class="timestamp">${formatTime(featured.timestamp)}</span>
+                            <span class="read-time">${featured.readTime} de lectura</span>
+                        </div>
+                        <span class="read-more">Leer artículo completo →</span>
                     </div>
-                    <span class="read-more">Leer artículo completo →</span>
                 </div>
             `;
 
@@ -221,6 +255,7 @@
             const topStories = document.getElementById('top-stories');
             topStories.innerHTML = data.topStories.map(story => `
                 <article class="story-card clickable" data-id="${story.id}">
+                    ${story.image ? `<img class="story-image" src="${story.image}" alt="${story.headline}">` : ''}
                     <span class="category">${story.category}</span>
                     <h3 class="story-headline">${story.headline}</h3>
                     <p class="story-summary">${story.summary}</p>
@@ -235,10 +270,13 @@
             const moreStories = document.getElementById('more-stories');
             moreStories.innerHTML = data.moreStories.map(story => `
                 <article class="headline-item clickable" data-id="${story.id}">
-                    <span class="category">${story.category}</span>
-                    <h4 class="headline-title">${story.headline}</h4>
-                    <div class="meta">
-                        <span class="timestamp">${formatTime(story.timestamp)}</span>
+                    ${story.image ? `<img class="headline-image" src="${story.image}" alt="${story.headline}">` : ''}
+                    <div class="headline-text">
+                        <span class="category">${story.category}</span>
+                        <h4 class="headline-title">${story.headline}</h4>
+                        <div class="meta">
+                            <span class="timestamp">${formatTime(story.timestamp)}</span>
+                        </div>
                     </div>
                 </article>
             `).join('');

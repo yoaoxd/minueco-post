@@ -1,134 +1,159 @@
 {
   "publication": {
     "name": "The Minuecus Post",
-    "motto": "La Democracia Muere en la Hora de la Siesta",
+    "motto": "El Periódico Oficial de la República",
     "date": "13 de Febrero, 2026"
   },
   "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
+  "finance": {
+    "dollarRate": "550,00",
+    "currency": "Bs",
+    "trend": "stable"
+  },
+  "ads": [
+    {
+      "id": 1,
+      "title": "Todo Carnes",
+      "slogan": "Lo Mejor en Carnes Premium",
+      "description": "Cortes selectos para los paladares más exigentes de la República",
+      "cta": "Visítanos",
+      "sponsored": true
+    }
+  ],
   "featured": {
     "id": 1,
     "category": "EN DESARROLLO",
-    "headline": "¡CLAUSULA PAROLA ACTIVADA! Potencial Nueva Minueca en el Horizonte",
-    "summary": "La Primera Cumbre Republicana celebrada en la residencia del Chief of Staff Hernán Zapata activó oficialmente la Cláusula Parola. Fuentes cercanas al gabinete confirman que hay una potencial nueva Minueca. Historia en desarrollo.",
-    "content": "En lo que ya se considera el evento político más importante en la corta pero intensa historia de Minueco, la Primera Cumbre Republicana culminó con la activación de la legendaria Cláusula Parola. La reunión, celebrada en la casa de Hernán Zapata (ahora conocida oficialmente como 'El Palacio del Chief of Staff'), marcó el inicio formal de la república. Pero la noticia que tiene a todos en vilo es otra: fuentes gubernamentales han confirmado que existe una potencial nueva Minueca. Los detalles aún son escasos, pero el Ministerio de Propaganda ha prometido un comunicado oficial 'cuando se les ocurra qué decir'. La ciudadanía permanece expectante, refrescando The Minuecus Post cada 5 minutos para más actualizaciones.",
+    "headline": "Cláusula Parola Activada: Se Confirma Potencial Nueva Integrante de la República",
+    "summary": "La Primera Cumbre Republicana celebrada en la residencia del Chief of Staff Hernán Zapata activó oficialmente la Cláusula Parola. Fuentes gubernamentales confirman negociaciones avanzadas con una potencial nueva ciudadana.",
+    "content": "En lo que constituye el evento político más significativo en la historia de Minueco, la Primera Cumbre Republicana culminó con la activación de la Cláusula Parola. La reunión, celebrada en la residencia oficial del Chief of Staff Hernán Zapata, marcó el inicio formal de las operaciones gubernamentales. Según fuentes cercanas al gabinete, existen negociaciones avanzadas para la incorporación de una nueva ciudadana a la república. El Ministerio de Comunicaciones ha indicado que se emitirá un comunicado oficial en las próximas horas. La ciudadanía permanece atenta a los desarrollos.",
     "author": "Margarita Plumafina",
-    "role": "Corresponsal de Asuntos Históricos y Dramáticos",
+    "role": "Corresponsal Principal",
     "timestamp": "2026-02-13T14:00:00Z",
-    "readTime": "4 min"
+    "readTime": "4 min",
+    "image": "https://images.unsplash.com/photo-1577415124269-fc1140a69e91?w=800&q=80"
   },
   "topStories": [
     {
       "id": 2,
       "category": "OFICIAL",
-      "headline": "Gabinete Completo: Conoce a los Ministros que Dirigirán Minueco",
-      "summary": "La Cumbre Republicana asignó todos los cargos del gobierno. Un gabinete de lujo para una república de primera.",
+      "headline": "Gabinete Ministerial Queda Conformado Tras Primera Cumbre",
+      "summary": "La Cumbre Republicana definió la estructura completa del gobierno. Ocho funcionarios asumirán responsabilidades ejecutivas.",
       "author": "Roberto Político",
-      "content": "El gabinete de la República de Minueco ha quedado oficialmente conformado tras la histórica Primera Cumbre:\n\n• Vicepresidente: Andrés Mata - El segundo al mando, listo para asumir funciones cuando el presidente esté buscando sus llaves.\n\n• Chief of Staff: Hernán Zapata - El anfitrión de la cumbre y cerebro logístico detrás de la operación. Su casa ahora es patrimonio nacional.\n\n• Ministro de Tecnología y Lírica: Juan De Sousa - A cargo de la innovación digital y las rimas oficiales del estado.\n\n• Ministro de Industrias: Andrés Chávez - Responsable de que Minueco produzca... algo, eventualmente.\n\n• Ministro de Propaganda: Víctor Peña - Encargado de que todo suene bien, aunque no lo sea.\n\n• Ministro de Transporte: Ramón García - Garantizará que los ciudadanos lleguen a donde van, o al menos cerca.\n\n• Canciller Minueco: Carlos Gondelles - La cara de Minueco ante el mundo (especialmente ante Vecinolandia).\n\n• Fiscal de la República: Amado Vivas - Hará cumplir las leyes que aún no hemos escrito.",
+      "content": "El gabinete de la República de Minueco ha quedado oficialmente conformado tras la Primera Cumbre Republicana:\n\n• Vicepresidente: Andrés Mata\n\n• Chief of Staff: Hernán Zapata\n\n• Ministro de Tecnología y Lírica: Juan De Sousa\n\n• Ministro de Industrias: Andrés Chávez\n\n• Ministro de Propaganda: Víctor Peña\n\n• Ministro de Transporte: Ramón García\n\n• Canciller: Carlos Gondelles\n\n• Fiscal de la República: Amado Vivas\n\nCada funcionario juramentó su cargo durante la ceremonia oficial, comprometiéndose a servir a los intereses de la república.",
       "timestamp": "2026-02-13T12:00:00Z",
-      "readTime": "5 min"
+      "readTime": "5 min",
+      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80"
     },
     {
       "id": 3,
-      "category": "CRISIS",
-      "headline": "URGENTE: El Presidente Perdió Sus Llaves",
-      "summary": "La primera crisis del gobierno estalló apenas horas después de la cumbre. El mandatario no puede entrar a su casa y el gabinete evalúa opciones.",
-      "author": "Cronista de Emergencias",
-      "content": "Lo que debía ser una mañana de celebración post-cumbre se convirtió en la primera crisis oficial del gobierno de Minueco: el Presidente ha perdido sus llaves. Según fuentes cercanas al mandatario, las llaves fueron vistas por última vez 'en algún lugar de la casa de Hernán, probablemente'. El Chief of Staff Hernán Zapata ha desplegado un operativo de búsqueda que incluye revisar debajo de los cojines del sofá y en los bolsillos de todos los sacos. El Vicepresidente Andrés Mata se ha declarado 'listo para asumir funciones temporales si es necesario', aunque aclaró que él tampoco sabe dónde están sus propias llaves. El Ministro de Propaganda Víctor Peña emitió un comunicado: 'Las llaves no están perdidas, están en una ubicación alternativa temporal'.",
+      "category": "GOBIERNO",
+      "headline": "Presidente Reporta Extravío de Llaves Personales",
+      "summary": "El mandatario informó al gabinete sobre la pérdida de sus llaves durante la jornada de ayer. Se han activado protocolos de búsqueda.",
+      "author": "Cronista Oficial",
+      "content": "En un comunicado emitido esta mañana, la oficina del Presidente confirmó que el mandatario extravió sus llaves personales durante las actividades del día anterior. Según fuentes oficiales, el último registro de las llaves las ubica en las instalaciones donde se realizó la Primera Cumbre. El Chief of Staff Hernán Zapata ha coordinado un equipo de búsqueda. El Vicepresidente Andrés Mata se ha puesto a disposición para cualquier eventualidad. El Ministerio de Comunicaciones calificó la situación como 'un inconveniente menor que será resuelto prontamente'.",
       "timestamp": "2026-02-13T11:00:00Z",
-      "readTime": "3 min"
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1582139329536-e7284fece509?w=800&q=80"
     },
     {
       "id": 4,
       "category": "CRÓNICA",
-      "headline": "Así Fue la Primera Cumbre Republicana en Casa de Hernán",
-      "summary": "Crónica exclusiva de la noche que cambió la historia de Minueco. Hubo debates, café, y alguien se comió la última empanada.",
-      "author": "Testigo Presencial",
-      "content": "La residencia de Hernán Zapata abrió sus puertas a las 19:00 horas para recibir a los fundadores de la república. La mesa del comedor, ahora rebautizada como 'Mesa del Consejo Supremo', fue testigo de 5 horas de deliberaciones intensas. Entre los momentos destacados: la discusión de 40 minutos sobre si la siesta debería ser un derecho constitucional (resultó que sí), el debate sobre quién sería el Ministro de Tecnología y Lírica (Juan De Sousa ganó tras improvisar un rap sobre blockchain), y el misterio de quién se comió la última empanada (investigación en curso). A las 23:47, la Cláusula Parola fue activada. El resto es historia.",
+      "headline": "Primera Cumbre Republicana: Crónica de una Jornada Histórica",
+      "summary": "Detalles de la reunión que marcó el inicio formal de las operaciones gubernamentales de la República de Minueco.",
+      "author": "Cronista Oficial",
+      "content": "La residencia del Chief of Staff Hernán Zapata fue sede de la Primera Cumbre Republicana, iniciada a las 19:00 horas. Durante cinco horas de deliberaciones, los fundadores abordaron temas constitucionales, asignación de carteras ministeriales y lineamientos de política interna. Entre las resoluciones adoptadas destaca el reconocimiento del derecho al descanso como garantía ciudadana. A las 23:47, se procedió a la activación formal de la Cláusula Parola, documento fundacional de la república.",
       "timestamp": "2026-02-13T09:00:00Z",
-      "readTime": "6 min"
+      "readTime": "6 min",
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80"
     }
   ],
   "moreStories": [
     {
       "id": 5,
       "category": "DEPORTES",
-      "headline": "Festival Deportivo de la República: El Peor Hasta Ahora",
-      "summary": "El miércoles pasado se celebró el Festival Deportivo y fue catalogado como el peor de la historia. ¿La razón? El Presidente no asistió.",
-      "author": "Patricio Goleador",
-      "content": "Lo que debía ser una jornada de unión nacional a través del deporte se convirtió en el evento más decepcionante de la joven historia de Minueco. El Festival Deportivo de la República, celebrado el miércoles pasado, fue un fracaso rotundo según todos los asistentes, y la razón es unánime: el Presidente no se presentó. 'Sin el Presidente, ¿quién iba a inaugurar el torneo de dominó?', se quejó un participante. 'Tuvimos que empezar sin discurso, fue muy raro'. El Ministro de Propaganda Víctor Peña intentó salvar la situación declarando que 'el Presidente estaba ahí en espíritu', pero nadie le creyó. Fuentes cercanas al mandatario sugieren que estaba buscando sus llaves.",
+      "headline": "Festival Deportivo Registra Baja Participación Institucional",
+      "summary": "El evento deportivo celebrado el miércoles contó con ausencias notables en la representación gubernamental.",
+      "author": "Sección Deportes",
+      "content": "El Festival Deportivo de la República, celebrado el pasado miércoles, se desarrolló sin la presencia del Presidente, quien no pudo asistir debido a compromisos previos. Fuentes oficiales indicaron que el mandatario se encontraba atendiendo asuntos relacionados con la organización del nuevo gobierno. A pesar de la ausencia presidencial, las actividades deportivas se llevaron a cabo según lo programado. El Ministerio de Comunicaciones señaló que se espera mayor presencia institucional en futuros eventos.",
       "timestamp": "2026-02-13T15:00:00Z",
-      "readTime": "3 min"
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1461896836934-649b8f5e9985?w=800&q=80"
     },
     {
       "id": 6,
-      "category": "POLÍTICA",
-      "headline": "Ley de Amnistía de la Nueva República Funciona: Conflictos Apaciguados",
-      "summary": "En un hito para la justicia minuecana, la Ley de Amnistía ha logrado resolver todas las disputas pendientes. La paz reina en la república.",
+      "category": "JUSTICIA",
+      "headline": "Ley de Amnistía Entra en Vigencia: Disputas Previas Quedan Resueltas",
+      "summary": "El marco legal aprobado durante la Primera Cumbre establece un punto de partida para las relaciones entre ciudadanos.",
       "author": "Lex Jurista",
-      "content": "La Ley de Amnistía de la Nueva República, aprobada durante la Primera Cumbre, ha demostrado ser un éxito rotundo. Todos los conflictos históricos entre ciudadanos han sido oficialmente apaciguados. '¿Quién se comió mi almuerzo en 2019? Perdonado. ¿Quién no devolvió el cargador? Amnistiado. ¿Quién dijo que mi playlist era mala? Ya no importa', explicó el Fiscal Amado Vivas. La ley establece que todo agravio anterior a la activación de la Cláusula Parola queda automáticamente perdonado, permitiendo a la república empezar con borrón y cuenta nueva. 'Es como reiniciar una computadora, pero con rencores', añadió el Ministro de Tecnología y Lírica Juan De Sousa.",
+      "content": "La Ley de Amnistía de la Nueva República, aprobada durante la Primera Cumbre Republicana, ha entrado oficialmente en vigencia. El instrumento legal establece que toda disputa o conflicto entre ciudadanos ocurrido antes de la activación de la Cláusula Parola queda formalmente resuelto. El Fiscal de la República, Amado Vivas, explicó que esta medida permite a la nación iniciar su andadura institucional sin cargas del pasado. La norma ha sido recibida favorablemente por la ciudadanía.",
       "timestamp": "2026-02-13T14:30:00Z",
-      "readTime": "3 min"
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
     },
     {
       "id": 7,
-      "category": "POLÍTICA",
-      "headline": "Hernán Zapata: El Chief of Staff que Abrió las Puertas de su Casa a la Historia",
-      "summary": "Perfil del hombre cuya sala ahora es sede oficial del gobierno. 'Solo pedí que no mancharan el sofá', declaró.",
-      "author": "Patricia Perfil",
+      "category": "PERFIL",
+      "headline": "Hernán Zapata: El Chief of Staff y Anfitrión de la Historia",
+      "summary": "Perfil del funcionario cuya residencia sirvió como sede de la Primera Cumbre Republicana.",
+      "author": "Sección Perfiles",
       "timestamp": "2026-02-13T13:00:00Z",
-      "readTime": "4 min"
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
     },
     {
       "id": 8,
       "category": "TECNOLOGÍA",
-      "headline": "Ministerio de Tecnología y Lírica Promete 'WiFi y Rimas Para Todos'",
-      "summary": "Juan De Sousa presenta su plan de gobierno: internet estable y un himno nacional que rime. 'Es lo mínimo que merecemos', afirmó.",
-      "author": "Byte Rodríguez",
+      "headline": "Ministerio de Tecnología Presenta Lineamientos de Gestión",
+      "summary": "Juan De Sousa anunció las prioridades de su cartera: conectividad y desarrollo de contenido cultural digital.",
+      "author": "Sección Tecnología",
       "timestamp": "2026-02-13T12:30:00Z",
-      "readTime": "3 min"
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1518770660439-4636190af475?w=800&q=80"
     },
     {
       "id": 9,
       "category": "DIPLOMACIA",
-      "headline": "Canciller Gondelles Envía Primer Mensaje a Vecinolandia: 'Hola'",
-      "summary": "Carlos Gondelles inició relaciones diplomáticas con un mensaje breve pero contundente. Aún espera respuesta.",
-      "author": "Agustina Diplomática",
+      "headline": "Cancillería Inicia Contactos con Naciones Vecinas",
+      "summary": "Carlos Gondelles estableció los primeros canales de comunicación diplomática con países limítrofes.",
+      "author": "Sección Internacional",
       "timestamp": "2026-02-13T11:30:00Z",
-      "readTime": "2 min"
+      "readTime": "2 min",
+      "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80"
     },
     {
       "id": 10,
       "category": "JUSTICIA",
-      "headline": "Fiscal Amado Vivas: 'Primero Escribiremos las Leyes, Luego las Haremos Cumplir'",
-      "summary": "El Fiscal de la República presentó su plan de trabajo. Paso uno: conseguir un cuaderno para anotar las leyes.",
-      "author": "Lex Jurista",
+      "headline": "Fiscalía Anuncia Plan de Trabajo Institucional",
+      "summary": "Amado Vivas presentó los ejes de acción para el desarrollo del marco legal de la república.",
+      "author": "Sección Justicia",
       "timestamp": "2026-02-13T10:30:00Z",
-      "readTime": "3 min"
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1589994965851-a8f479c573a9?w=800&q=80"
     }
   ],
   "opinion": [
     {
       "id": 11,
       "category": "EDITORIAL",
-      "headline": "¿Quién es la Potencial Nueva Minueca? Las Teorías",
-      "summary": "Analizamos las pistas sobre la misteriosa figura que podría unirse a la república. Internet ya tiene sus favoritas.",
+      "headline": "Nueva Ciudadana en el Horizonte: Lo Que Sabemos",
+      "summary": "Análisis sobre las negociaciones para la posible incorporación de una nueva integrante a la república.",
       "author": "El Editorial",
-      "content": "Desde que se filtró la noticia de una 'potencial nueva Minueca', las redes de Minueco (básicamente un grupo de WhatsApp) no paran de especular. ¿Quién será? ¿De dónde viene? ¿Traerá empanadas a las reuniones? El Ministerio de Propaganda ha mantenido un hermetismo sospechoso, lo cual solo alimenta más las teorías. Lo único seguro es que la Cláusula Parola, recién activada, contempla este tipo de incorporaciones. Mantendremos a nuestros lectores informados.",
+      "content": "Las fuentes gubernamentales han confirmado que existen negociaciones avanzadas para la incorporación de una nueva ciudadana a la República de Minueco. Si bien los detalles permanecen bajo reserva, la activación de la Cláusula Parola habilita formalmente este tipo de procedimientos. El Ministerio de Comunicaciones ha señalado que se emitirá información oficial en las próximas horas. Desde este editorial, celebramos el crecimiento institucional de la nación.",
       "timestamp": "2026-02-13T14:30:00Z",
       "readTime": "4 min"
     },
     {
       "id": 12,
       "category": "OPINIÓN",
-      "headline": "Carta Abierta al Presidente: Revise los Bolsillos del Otro Pantalón",
-      "summary": "Un ciudadano preocupado ofrece consejos prácticos para resolver la crisis de las llaves perdidas.",
-      "author": "Ciudadano Servicial",
+      "headline": "Reflexiones Sobre la Primera Semana de Gobierno",
+      "summary": "Balance preliminar de los primeros días de la administración republicana.",
+      "author": "Columnista Invitado",
       "timestamp": "2026-02-13T13:30:00Z",
       "readTime": "2 min"
     }
   ],
   "breaking": {
     "active": true,
-    "text": "EN DESARROLLO: Cláusula Parola activada. Potencial nueva Minueca en el horizonte. El Presidente aún busca sus llaves."
+    "text": "EN DESARROLLO: Cláusula Parola activada. Negociaciones avanzadas con potencial nueva ciudadana."
   }
 }
