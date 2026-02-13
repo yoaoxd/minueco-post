@@ -51,6 +51,26 @@
   "moreStories": [
     {
       "id": 5,
+      "category": "DEPORTES",
+      "headline": "Festival Deportivo de la República: El Peor Hasta Ahora",
+      "summary": "El miércoles pasado se celebró el Festival Deportivo y fue catalogado como el peor de la historia. ¿La razón? El Presidente no asistió.",
+      "author": "Patricio Goleador",
+      "content": "Lo que debía ser una jornada de unión nacional a través del deporte se convirtió en el evento más decepcionante de la joven historia de Minueco. El Festival Deportivo de la República, celebrado el miércoles pasado, fue un fracaso rotundo según todos los asistentes, y la razón es unánime: el Presidente no se presentó. 'Sin el Presidente, ¿quién iba a inaugurar el torneo de dominó?', se quejó un participante. 'Tuvimos que empezar sin discurso, fue muy raro'. El Ministro de Propaganda Víctor Peña intentó salvar la situación declarando que 'el Presidente estaba ahí en espíritu', pero nadie le creyó. Fuentes cercanas al mandatario sugieren que estaba buscando sus llaves.",
+      "timestamp": "2026-02-13T15:00:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 6,
+      "category": "POLÍTICA",
+      "headline": "Ley de Amnistía de la Nueva República Funciona: Conflictos Apaciguados",
+      "summary": "En un hito para la justicia minuecana, la Ley de Amnistía ha logrado resolver todas las disputas pendientes. La paz reina en la república.",
+      "author": "Lex Jurista",
+      "content": "La Ley de Amnistía de la Nueva República, aprobada durante la Primera Cumbre, ha demostrado ser un éxito rotundo. Todos los conflictos históricos entre ciudadanos han sido oficialmente apaciguados. '¿Quién se comió mi almuerzo en 2019? Perdonado. ¿Quién no devolvió el cargador? Amnistiado. ¿Quién dijo que mi playlist era mala? Ya no importa', explicó el Fiscal Amado Vivas. La ley establece que todo agravio anterior a la activación de la Cláusula Parola queda automáticamente perdonado, permitiendo a la república empezar con borrón y cuenta nueva. 'Es como reiniciar una computadora, pero con rencores', añadió el Ministro de Tecnología y Lírica Juan De Sousa.",
+      "timestamp": "2026-02-13T14:30:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 7,
       "category": "POLÍTICA",
       "headline": "Hernán Zapata: El Chief of Staff que Abrió las Puertas de su Casa a la Historia",
       "summary": "Perfil del hombre cuya sala ahora es sede oficial del gobierno. 'Solo pedí que no mancharan el sofá', declaró.",
@@ -59,7 +79,7 @@
       "readTime": "4 min"
     },
     {
-      "id": 6,
+      "id": 8,
       "category": "TECNOLOGÍA",
       "headline": "Ministerio de Tecnología y Lírica Promete 'WiFi y Rimas Para Todos'",
       "summary": "Juan De Sousa presenta su plan de gobierno: internet estable y un himno nacional que rime. 'Es lo mínimo que merecemos', afirmó.",
@@ -68,7 +88,7 @@
       "readTime": "3 min"
     },
     {
-      "id": 7,
+      "id": 9,
       "category": "DIPLOMACIA",
       "headline": "Canciller Gondelles Envía Primer Mensaje a Vecinolandia: 'Hola'",
       "summary": "Carlos Gondelles inició relaciones diplomáticas con un mensaje breve pero contundente. Aún espera respuesta.",
@@ -77,7 +97,7 @@
       "readTime": "2 min"
     },
     {
-      "id": 8,
+      "id": 10,
       "category": "JUSTICIA",
       "headline": "Fiscal Amado Vivas: 'Primero Escribiremos las Leyes, Luego las Haremos Cumplir'",
       "summary": "El Fiscal de la República presentó su plan de trabajo. Paso uno: conseguir un cuaderno para anotar las leyes.",
@@ -88,7 +108,7 @@
   ],
   "opinion": [
     {
-      "id": 9,
+      "id": 11,
       "category": "EDITORIAL",
       "headline": "¿Quién es la Potencial Nueva Minueca? Las Teorías",
       "summary": "Analizamos las pistas sobre la misteriosa figura que podría unirse a la república. Internet ya tiene sus favoritas.",
@@ -98,7 +118,7 @@
       "readTime": "4 min"
     },
     {
-      "id": 10,
+      "id": 12,
       "category": "OPINIÓN",
       "headline": "Carta Abierta al Presidente: Revise los Bolsillos del Otro Pantalón",
       "summary": "Un ciudadano preocupado ofrece consejos prácticos para resolver la crisis de las llaves perdidas.",
