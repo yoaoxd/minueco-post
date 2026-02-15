@@ -53,10 +53,10 @@
     {
       "id": 1,
       "type": "banner",
-      "title": "El Central",
-      "slogan": "La Mejor Arena para Gatas",
-      "description": "Absorción superior, aroma fresco. La elección de las felinas más exigentes.",
-      "cta": "Comprar",
+      "title": "Todo Carnes",
+      "slogan": "Lo Mejor",
+      "description": "Cortes premium para los paladares más exigentes de la República",
+      "cta": "Visítanos",
       "sponsored": true
     },
     {
@@ -71,19 +71,19 @@
     {
       "id": 3,
       "type": "inline",
-      "title": "Monte Amor de Papi",
-      "slogan": "Sucio pero Pega",
-      "description": "Productos agrícolas con carácter. Directo del campo a su mesa.",
-      "cta": "Conocer",
+      "title": "El Central",
+      "slogan": "La Mejor Arena para Gatas",
+      "description": "Absorción superior, aroma fresco",
+      "cta": "Comprar",
       "sponsored": true
     },
     {
       "id": 4,
       "type": "footer",
-      "title": "Todo Carnes",
-      "slogan": "Lo Mejor",
-      "description": "Cortes premium para los paladares más exigentes",
-      "cta": "Visítanos",
+      "title": "Monte Amor de Papi",
+      "slogan": "Sucio pero Pega",
+      "description": "Productos agrícolas con carácter",
+      "cta": "Conocer",
       "sponsored": true
     }
   ],
