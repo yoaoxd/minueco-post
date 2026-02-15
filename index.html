@@ -155,11 +155,6 @@
                         <p class="poll-total" id="poll-total"></p>
                     </div>
 
-                    <!-- Sidebar Ad -->
-                    <div class="sidebar-ad" id="sidebar-ad">
-                        <!-- Populated by JS -->
-                    </div>
-
                     <!-- Newsletter -->
                     <div class="newsletter-widget" id="newsletter-widget">
                         <h3 class="widget-title" id="newsletter-title"></h3>
@@ -172,6 +167,11 @@
                 </aside>
             </div>
         </main>
+
+        <!-- Pre-Footer Ad Banner -->
+        <div class="ad-banner pre-footer-ad" id="pre-footer-ad">
+            <!-- Populated by JS -->
+        </div>
 
         <!-- Footer -->
         <footer class="footer">
@@ -331,16 +331,22 @@
                 `;
             }
 
-            // Sidebar Ad
-            if (data.ads && data.ads.length > 1) {
-                const sidebarAd = data.ads.find(a => a.type === 'sidebar') || data.ads[1];
-                document.getElementById('sidebar-ad').innerHTML = `
-                    <span class="ad-label">PUBLICIDAD</span>
-                    <p class="sidebar-ad-title">${sidebarAd.title}</p>
-                    <p class="sidebar-ad-slogan">${sidebarAd.slogan}</p>
-                    <p class="sidebar-ad-desc">${sidebarAd.description}</p>
-                    <button class="sidebar-ad-btn">${sidebarAd.cta}</button>
+            // Pre-footer Ad Banner
+            const footerAd = data.ads ? data.ads.find(a => a.type === 'footer') : null;
+            if (footerAd) {
+                document.getElementById('pre-footer-ad').innerHTML = `
+                    <div class="ad-content">
+                        <span class="ad-label">PUBLICIDAD</span>
+                        <div class="ad-main">
+                            <span class="ad-title">${footerAd.title}</span>
+                            <span class="ad-slogan">${footerAd.slogan}</span>
+                            <span class="ad-description">${footerAd.description}</span>
+                        </div>
+                        <span class="ad-cta">${footerAd.cta} →</span>
+                    </div>
                 `;
+            } else {
+                document.getElementById('pre-footer-ad').style.display = 'none';
             }
 
             // Poll widget
