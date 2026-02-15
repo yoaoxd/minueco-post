@@ -61,15 +61,6 @@
     },
     {
       "id": 2,
-      "type": "sidebar",
-      "title": "Belmont",
-      "slogan": "El Cigarrillo Oficial de la República",
-      "description": "Sabor auténtico, tradición minueca",
-      "cta": "Descubrir",
-      "sponsored": true
-    },
-    {
-      "id": 3,
       "type": "inline",
       "title": "El Central",
       "slogan": "La Mejor Arena para Gatas",
