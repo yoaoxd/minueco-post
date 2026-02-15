@@ -53,28 +53,37 @@
     {
       "id": 1,
       "type": "banner",
-      "title": "Todo Carnes",
-      "slogan": "Lo Mejor en Carnes Premium",
-      "description": "Cortes selectos para los paladares más exigentes de la República",
-      "cta": "Visítanos",
+      "title": "El Central",
+      "slogan": "La Mejor Arena para Gatas",
+      "description": "Absorción superior, aroma fresco. La elección de las felinas más exigentes.",
+      "cta": "Comprar",
       "sponsored": true
     },
     {
       "id": 2,
       "type": "sidebar",
-      "title": "Banco de Minueco",
-      "slogan": "Tu dinero, nuestra prioridad",
-      "description": "Cuentas de ahorro con las mejores tasas",
-      "cta": "Abrir cuenta",
+      "title": "Belmont",
+      "slogan": "El Cigarrillo Oficial de la República",
+      "description": "Sabor auténtico, tradición minueca",
+      "cta": "Descubrir",
       "sponsored": true
     },
     {
       "id": 3,
       "type": "inline",
-      "title": "Universidad Republicana",
-      "slogan": "Forma parte del futuro",
-      "description": "Inscripciones abiertas 2026",
-      "cta": "Inscríbete",
+      "title": "Monte Amor de Papi",
+      "slogan": "Sucio pero Pega",
+      "description": "Productos agrícolas con carácter. Directo del campo a su mesa.",
+      "cta": "Conocer",
+      "sponsored": true
+    },
+    {
+      "id": 4,
+      "type": "footer",
+      "title": "Todo Carnes",
+      "slogan": "Lo Mejor",
+      "description": "Cortes premium para los paladares más exigentes",
+      "cta": "Visítanos",
       "sponsored": true
     }
   ],
