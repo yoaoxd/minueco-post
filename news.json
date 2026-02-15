@@ -180,7 +180,9 @@
       "timestamp": "2026-02-13T15:00:00Z",
       "readTime": "3 min",
       "image": "https://images.unsplash.com/photo-1546519638-68e109498ffc?w=800&q=80"
-    },
+    }
+  ],
+  "moreStories": [
     {
       "id": 6,
       "category": "JUSTICIA",
@@ -191,9 +193,7 @@
       "timestamp": "2026-02-13T14:30:00Z",
       "readTime": "3 min",
       "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
-    }
-  ],
-  "moreStories": [
+    },
     {
       "id": 1,
       "category": "HISTÓRICO",
