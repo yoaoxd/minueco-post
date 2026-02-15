@@ -33,10 +33,10 @@ body {
     padding: 8px 20px;
     display: flex;
     align-items: center;
-    justify-content: center;
     gap: 12px;
     font-family: var(--font-ui);
     font-size: 0.875rem;
+    overflow: hidden;
 }
 
 .breaking-label {
@@ -46,10 +46,28 @@ body {
     font-weight: 700;
     font-size: 0.75rem;
     letter-spacing: 0.5px;
+    flex-shrink: 0;
+}
+
+.marquee-container {
+    flex: 1;
+    overflow: hidden;
+    position: relative;
 }
 
 .breaking-text {
     font-weight: 400;
+}
+
+.marquee {
+    display: inline-block;
+    white-space: nowrap;
+    animation: marquee 20s linear infinite;
+}
+
+@keyframes marquee {
+    0% { transform: translateX(100%); }
+    100% { transform: translateX(-100%); }
 }
 
 /* Container */

@@ -18,10 +18,12 @@
         </div>
     </div>
 
-    <!-- Breaking News Banner -->
+    <!-- Breaking News Banner (Marquee) -->
     <div class="breaking-banner" id="breaking-banner" style="display: none;">
         <span class="breaking-label">URGENTE</span>
-        <span class="breaking-text" id="breaking-text"></span>
+        <div class="marquee-container">
+            <span class="breaking-text marquee" id="breaking-text"></span>
+        </div>
     </div>
 
     <div class="container">
@@ -113,14 +115,6 @@
                         <p class="poll-total" id="poll-total"></p>
                     </div>
 
-                    <!-- Most Read -->
-                    <div class="most-read-widget">
-                        <h3 class="widget-title">Lo Más Leído</h3>
-                        <ol class="most-read-list" id="most-read">
-                            <!-- Populated by JS -->
-                        </ol>
-                    </div>
-
                     <!-- Sidebar Ad -->
                     <div class="sidebar-ad" id="sidebar-ad">
                         <!-- Populated by JS -->
@@ -133,17 +127,6 @@
                         <div class="newsletter-form">
                             <input type="email" placeholder="tu@correo.com" class="newsletter-input">
                             <button class="newsletter-btn" id="newsletter-btn"></button>
-                        </div>
-                    </div>
-
-                    <!-- Podcast -->
-                    <div class="podcast-widget" id="podcast-widget">
-                        <h3 class="widget-title">🎧 Podcast</h3>
-                        <div class="podcast-content">
-                            <p class="podcast-title" id="podcast-title"></p>
-                            <p class="podcast-episode" id="podcast-episode"></p>
-                            <p class="podcast-desc" id="podcast-desc"></p>
-                            <button class="podcast-play">▶ Escuchar</button>
                         </div>
                     </div>
                 </aside>
@@ -338,28 +321,11 @@
                 document.getElementById('poll-total').textContent = `${data.poll.totalVotes.toLocaleString()} votos`;
             }
 
-            // Most Read
-            if (data.mostRead) {
-                document.getElementById('most-read').innerHTML = data.mostRead.map((item, i) => `
-                    <li class="most-read-item clickable" data-id="${item.id}">
-                        <span class="most-read-num">${i + 1}</span>
-                        <span class="most-read-title">${item.title}</span>
-                    </li>
-                `).join('');
-            }
-
             // Newsletter
             if (data.newsletter) {
                 document.getElementById('newsletter-title').textContent = data.newsletter.title;
                 document.getElementById('newsletter-desc').textContent = data.newsletter.description;
                 document.getElementById('newsletter-btn').textContent = data.newsletter.cta;
-            }
-
-            // Podcast
-            if (data.podcast) {
-                document.getElementById('podcast-title').textContent = data.podcast.title;
-                document.getElementById('podcast-episode').textContent = `${data.podcast.episode} • ${data.podcast.duration}`;
-                document.getElementById('podcast-desc').textContent = data.podcast.description;
             }
 
             // Breaking news
