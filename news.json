@@ -92,6 +92,17 @@
   },
   "topStories": [
     {
+      "id": 25,
+      "category": "EJECUTIVO",
+      "headline": "Presidente Trabajando Más Que Nunca: 54 Llamadas Laborales Atendidas en Una Sola Jornada",
+      "summary": "El mandatario registró una jornada histórica de productividad. Todas las comunicaciones fueron resueltas exitosamente según confirma el Chief of Staff.",
+      "author": "Cronista Oficial",
+      "content": "El Presidente de la República de Minueco estableció un nuevo récord de gestión al atender y resolver exitosamente 54 llamadas laborales durante la jornada de ayer, según confirmaron fuentes oficiales del Palacio Oval.\n\nEl Chief of Staff Hernán Zapata calificó el desempeño presidencial como 'excepcional' y destacó que 'cada una de las comunicaciones fue procesada con la diligencia y eficiencia que caracteriza a esta administración'. Según el reporte oficial, ninguna llamada quedó sin respuesta ni resolución.\n\nEl Ministerio de Propaganda, a cargo de Víctor Peña, señaló que esta cifra refleja 'el compromiso inquebrantable del mandatario con sus responsabilidades, tanto republicanas como profesionales'. La intensidad de la jornada laboral explicaría, en parte, la suspensión temporal de la Cláusula Parola anunciada previamente.\n\nFuncionarios cercanos al Presidente indicaron que la carga de trabajo se ha intensificado en las últimas semanas debido a múltiples proyectos en curso. 'El Presidente no descansa. Mientras otros duermen, él está resolviendo', comentó una fuente que solicitó el anonimato.\n\nEl Vicepresidente Andrés Mata expresó su admiración por la capacidad de trabajo del mandatario y sugirió que esta dedicación 'debería servir de ejemplo para todos los ciudadanos de la república'.",
+      "timestamp": "2026-02-15T18:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80"
+    },
+    {
       "id": 16,
       "category": "OFICIAL",
       "headline": "Cláusula Parola Desactivada: Compromisos Laborales del Presidente Postergan Negociaciones",
