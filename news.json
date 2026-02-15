@@ -60,15 +60,6 @@
       "sponsored": true
     },
     {
-      "id": 2,
-      "type": "inline",
-      "title": "El Central",
-      "slogan": "La Mejor Arena para Gatas",
-      "description": "Absorción superior, aroma fresco",
-      "cta": "Comprar",
-      "sponsored": true
-    },
-    {
       "id": 4,
       "type": "footer",
       "title": "Monte Amor de Papi",
