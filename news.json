@@ -2,13 +2,13 @@
   "publication": {
     "name": "The Minuecus Post",
     "motto": "El Periódico Oficial de la República",
-    "date": "13 de Febrero, 2026"
+    "date": "15 de Febrero, 2026"
   },
   "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
   "finance": {
-    "dollarRate": "550,00",
+    "dollarRate": "532,34",
     "currency": "Bs",
-    "trend": "stable"
+    "trend": "down"
   },
   "ads": [
     {
@@ -21,53 +21,97 @@
     }
   ],
   "featured": {
-    "id": 1,
-    "category": "EN DESARROLLO",
-    "headline": "Cláusula Parola Activada: Se Confirma Potencial Nueva Integrante de la República",
-    "summary": "La Primera Cumbre Republicana celebrada en la residencia del Chief of Staff Hernán Zapata activó oficialmente la Cláusula Parola. Fuentes gubernamentales confirman negociaciones avanzadas con una potencial nueva ciudadana.",
-    "content": "En lo que constituye el evento político más significativo en la historia de Minueco, la Primera Cumbre Republicana culminó con la activación de la Cláusula Parola. La reunión, celebrada en la residencia oficial del Chief of Staff Hernán Zapata, marcó el inicio formal de las operaciones gubernamentales. Según fuentes cercanas al gabinete, existen negociaciones avanzadas para la incorporación de una nueva ciudadana a la república. El Ministerio de Comunicaciones ha indicado que se emitirá un comunicado oficial en las próximas horas. La ciudadanía permanece atenta a los desarrollos.",
+    "id": 15,
+    "category": "DEFENSA NACIONAL",
+    "headline": "Presidente Declara Estado de Guerra: Agente de Inteligencia Enemiga Vetado del Palacio Oval",
+    "summary": "En una decisión sin precedentes, el mandatario tomó medidas drásticas contra naciones hostiles y prohibió el acceso a instalaciones gubernamentales a un presunto integrante de servicios de inteligencia extranjeros.",
+    "content": "El Presidente de la República de Minueco anunció esta tarde una serie de medidas de defensa nacional que incluyen la declaración formal de estado de guerra contra países considerados enemigos de la nación.\n\nEn el mismo decreto ejecutivo, se establece la prohibición de ingreso al Palacio Oval a un individuo identificado como presunto agente de inteligencia de una potencia hostil. Según fuentes del Ministerio de Interior, el sujeto había intentado infiltrarse en círculos cercanos al gobierno.\n\nEl Canciller Carlos Gondelles fue convocado de urgencia para evaluar las implicaciones diplomáticas de la decisión. Por su parte, el Fiscal de la República, Amado Vivas, confirmó que se abrirán investigaciones sobre posibles actividades de espionaje en territorio minueco.\n\nEl Ministerio de Propaganda, a cargo de Víctor Peña, emitió un comunicado instando a la ciudadanía a mantener la calma y confiar en las instituciones. 'La seguridad de la república es nuestra máxima prioridad', señaló el documento oficial.\n\nEl Chief of Staff Hernán Zapata indicó que se reforzarán los protocolos de seguridad en todas las instalaciones gubernamentales con efecto inmediato.",
     "author": "Margarita Plumafina",
     "role": "Corresponsal Principal",
-    "timestamp": "2026-02-13T14:00:00Z",
-    "readTime": "4 min",
-    "image": "https://images.unsplash.com/photo-1577415124269-fc1140a69e91?w=800&q=80"
+    "timestamp": "2026-02-15T16:00:00Z",
+    "readTime": "5 min",
+    "image": "https://images.unsplash.com/photo-1569025743873-ea3a9ber02ff0e?w=800&q=80"
   },
   "topStories": [
     {
-      "id": 2,
+      "id": 16,
       "category": "OFICIAL",
-      "headline": "Gabinete Ministerial Queda Conformado Tras Primera Cumbre",
-      "summary": "La Cumbre Republicana definió la estructura completa del gobierno. Ocho funcionarios asumirán responsabilidades ejecutivas.",
+      "headline": "Cláusula Parola Desactivada: Compromisos Laborales del Presidente Postergan Negociaciones",
+      "summary": "La cláusula fundacional que habilitaba la incorporación de nuevos ciudadanos fue suspendida temporalmente debido a la carga de trabajo del mandatario.",
       "author": "Roberto Político",
-      "content": "El gabinete de la República de Minueco ha quedado oficialmente conformado tras la Primera Cumbre Republicana:\n\n• Vicepresidente: Andrés Mata\n\n• Chief of Staff: Hernán Zapata\n\n• Ministro de Tecnología y Lírica: Juan De Sousa\n\n• Ministro de Industrias: Andrés Chávez\n\n• Ministro de Propaganda: Víctor Peña\n\n• Ministro de Transporte: Ramón García\n\n• Ministro de Interior: Jesús Constantino\n\n• Canciller: Carlos Gondelles\n\n• Fiscal de la República: Amado Vivas\n\nCada funcionario juramentó su cargo durante la ceremonia oficial, comprometiéndose a servir a los intereses de la república.",
-      "timestamp": "2026-02-13T12:00:00Z",
-      "readTime": "5 min",
-      "image": "https://images.unsplash.com/photo-1529107386315-e1a2ed48a620?w=800&q=80"
-    },
-    {
-      "id": 3,
-      "category": "GOBIERNO",
-      "headline": "Presidente Reporta Extravío de Llaves Personales",
-      "summary": "El mandatario informó al gabinete sobre la pérdida de sus llaves durante la jornada de ayer. Se han activado protocolos de búsqueda.",
-      "author": "Cronista Oficial",
-      "content": "En un comunicado emitido esta mañana, la oficina del Presidente confirmó que el mandatario extravió sus llaves personales durante las actividades del día anterior. Según fuentes oficiales, el último registro de las llaves las ubica en las instalaciones donde se realizó la Primera Cumbre. El Chief of Staff Hernán Zapata ha coordinado un equipo de búsqueda. El Vicepresidente Andrés Mata se ha puesto a disposición para cualquier eventualidad. El Ministerio de Comunicaciones calificó la situación como 'un inconveniente menor que será resuelto prontamente'.",
-      "timestamp": "2026-02-13T11:00:00Z",
+      "content": "En un comunicado oficial emitido esta mañana, el Gobierno de la República de Minueco anunció la desactivación temporal de la Cláusula Parola. La medida responde a los múltiples compromisos laborales que actualmente ocupan la agenda del Presidente.\n\nSegún fuentes cercanas al Ejecutivo, las obligaciones profesionales del mandatario fuera del ámbito republicano han imposibilitado la continuidad de las negociaciones para la incorporación de nuevos ciudadanos.\n\nEl Chief of Staff Hernán Zapata explicó que 'la cláusula permanecerá en estado de suspensión hasta que las circunstancias permitan retomar los procesos correspondientes'. No se especificó una fecha tentativa para su reactivación.\n\nLa ciudadanía ha recibido la noticia con comprensión, reconociendo las múltiples responsabilidades que recaen sobre el Presidente.",
+      "timestamp": "2026-02-15T14:00:00Z",
       "readTime": "3 min",
-      "image": "https://images.unsplash.com/photo-1582139329536-e7284fece509?w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
     },
     {
-      "id": 4,
-      "category": "CRÓNICA",
-      "headline": "Primera Cumbre Republicana: Crónica de una Jornada Histórica",
-      "summary": "Detalles de la reunión que marcó el inicio formal de las operaciones gubernamentales de la República de Minueco.",
+      "id": 17,
+      "category": "TRANSPORTE",
+      "headline": "Can-Am Mini Lidera Opciones para Vehículo Presidencial: Censo de Arcas Determinará Presupuesto",
+      "summary": "El Ministerio de Transporte evalúa alternativas para la movilización del mandatario. Se espera inventario del tesoro nacional para definir gastos.",
+      "author": "Sección Transporte",
+      "content": "El Ministro de Transporte, Ramón García, presentó ante el gabinete las opciones evaluadas para el transporte personal del Presidente. Entre las alternativas analizadas, una Can-Am Mini emerge como la opción más viable hasta el momento.\n\nSegún el informe ministerial, el vehículo ofrece 'versatilidad, economía de combustible y una imagen acorde con los valores de austeridad de la república'. Sin embargo, la decisión final quedará sujeta al censo de las arcas nacionales que determinará la capacidad de gasto para este y otros rubros.\n\nEl Ministerio de Industrias, a cargo de Andrés Chávez, colaborará en la evaluación técnica del vehículo. Fuentes extraoficiales señalan que el tamaño compacto del Can-Am Mini permitiría transportar cómodamente a una eventual nueva ciudadana, de concretarse las negociaciones actualmente suspendidas.",
+      "timestamp": "2026-02-15T13:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
+    },
+    {
+      "id": 18,
+      "category": "RESUELTO",
+      "headline": "¡Aparecieron las Llaves! Ministerio de Tecnología y Lírica las Tenía en Su Poder",
+      "summary": "El incidente que mantuvo en vilo al gobierno se resolvió sin mayores consecuencias. Las llaves presidenciales fueron localizadas en dependencias tecnológicas.",
       "author": "Cronista Oficial",
-      "content": "La residencia del Chief of Staff Hernán Zapata fue sede de la Primera Cumbre Republicana, iniciada a las 19:00 horas. Durante cinco horas de deliberaciones, los fundadores abordaron temas constitucionales, asignación de carteras ministeriales y lineamientos de política interna. Entre las resoluciones adoptadas destaca el reconocimiento del derecho al descanso como garantía ciudadana. A las 23:47, se procedió a la activación formal de la Cláusula Parola, documento fundacional de la república.",
-      "timestamp": "2026-02-13T09:00:00Z",
-      "readTime": "6 min",
-      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80"
+      "content": "En un giro favorable para la administración, las llaves personales del Presidente que habían sido reportadas como extraviadas fueron finalmente localizadas en las instalaciones del Ministerio de Tecnología y Lírica.\n\nEl Ministro Juan De Sousa confirmó el hallazgo y procedió a la devolución inmediata del objeto al mandatario. 'Las llaves se encontraban en una de las áreas de trabajo del ministerio. Aparentemente quedaron allí tras una visita del Presidente durante la jornada de planificación tecnológica', explicó De Sousa.\n\nEl incidente no pasó a mayores y el Ministerio de Comunicaciones agradeció a la ciudadanía por su paciencia durante el proceso de búsqueda. El Chief of Staff Hernán Zapata desactivó los protocolos de emergencia implementados días atrás.",
+      "timestamp": "2026-02-15T12:00:00Z",
+      "readTime": "2 min",
+      "image": "https://images.unsplash.com/photo-1558618666-fcd25c85cd64?w=800&q=80"
     }
   ],
   "moreStories": [
+    {
+      "id": 19,
+      "category": "BIENESTAR",
+      "headline": "Plan 'Cuerpo e Lobito': Ministro de Propaganda Propone Programa de Acondicionamiento Físico Presidencial",
+      "summary": "Víctor Peña presentó una iniciativa integral para mejorar el estado físico del mandatario. El programa contempla rutinas personalizadas.",
+      "author": "Sección Bienestar",
+      "content": "El Ministro de Propaganda, Víctor Peña, sorprendió al gabinete con la presentación del plan 'Cuerpo e Lobito', una propuesta integral destinada a optimizar la condición física del Presidente de la República.\n\nSegún el documento presentado, el programa incluye rutinas de ejercicio adaptadas a la agenda presidencial, recomendaciones nutricionales y metas progresivas de acondicionamiento. 'Un presidente en óptimas condiciones físicas proyecta fortaleza y determinación ante la ciudadanía y las naciones extranjeras', argumentó Peña durante la exposición.\n\nEl Ministerio de Industrias expresó su apoyo a la iniciativa, mientras que el Vicepresidente Andrés Mata se ofreció como compañero de entrenamiento ocasional. La implementación del plan quedará sujeta a la aprobación final del mandatario.",
+      "timestamp": "2026-02-15T11:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1571019614242-c5c5dee9f50b?w=800&q=80"
+    },
+    {
+      "id": 20,
+      "category": "EN ESPERA",
+      "headline": "Sin Novedades Sobre Potencial Nueva Ciudadana: Cabría en el Vehículo Presidencial",
+      "summary": "Las negociaciones permanecen en pausa. Fuentes confirman que la candidata sería compatible con las dimensiones del transporte oficial.",
+      "author": "Sección Sociedad",
+      "content": "A pesar de la suspensión de la Cláusula Parola, fuentes gubernamentales mantienen el optimismo respecto a la eventual incorporación de una nueva ciudadana a la República de Minueco.\n\nSi bien no se han producido avances concretos en las negociaciones, el Ministerio de Transporte confirmó extraoficialmente que la potencial minueca 'cabría sin inconvenientes en el vehículo presidencial actualmente en evaluación', en referencia al Can-Am Mini.\n\nEl dato, aparentemente trivial, ha sido interpretado por analistas como una señal de que las conversaciones podrían reanudarse una vez se normalice la agenda del Presidente. El Ministerio de Comunicaciones declinó hacer comentarios adicionales.",
+      "timestamp": "2026-02-15T11:00:00Z",
+      "readTime": "2 min",
+      "image": "https://images.unsplash.com/photo-1516627145497-ae6968895b74?w=800&q=80"
+    },
+    {
+      "id": 21,
+      "category": "ALERTA",
+      "headline": "Ministro de Interior Permanece Ilocalizable: Se Presume Ocultamiento de Información",
+      "summary": "Jesús Constantino no ha sido visto en dependencias oficiales. Fuentes sugieren que su ministerio resguarda datos sensibles de la república.",
+      "author": "Unidad de Investigación",
+      "content": "El Ministro de Interior, Jesús Constantino, parece haberse extraviado de las funciones gubernamentales durante los últimos días. Intentos de contactarlo por parte de otros miembros del gabinete han resultado infructuosos.\n\nFuentes dentro del Ministerio de Interior, que solicitaron el anonimato, sugieren que el funcionario podría estar ocultando información sensible de la república con el fin de 'salvaguardar su imagen ante sus empleados en el ámbito privado'.\n\nEl Fiscal de la República, Amado Vivas, indicó que se mantendrá vigilante ante cualquier irregularidad. Por su parte, el Chief of Staff Hernán Zapata minimizó la situación señalando que 'el ministro probablemente esté atendiendo asuntos personales urgentes'.\n\nThe Minuecus Post continuará monitoreando la situación.",
+      "timestamp": "2026-02-15T10:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=800&q=80"
+    },
+    {
+      "id": 22,
+      "category": "PERFIL",
+      "headline": "Ministro de Industrias Revela Lesión de Rodilla que Truncó su Carrera Futbolística",
+      "summary": "Andrés Chávez compartió en exclusiva la historia detrás de su abandono del fútbol profesional. Una vieja lesión cambió el rumbo de su vida.",
+      "author": "Sección Perfiles",
+      "content": "En una entrevista exclusiva con The Minuecus Post, el Ministro de Industrias, Andrés Chávez, reveló detalles sobre una etapa poco conocida de su vida: su frustrada carrera como futbolista profesional.\n\n'Tuve la oportunidad de jugar en divisiones importantes, pero una lesión en la rodilla lo cambió todo', confesó el funcionario. Según relató, el incidente ocurrió durante un entrenamiento cuando era joven y prometedor.\n\n'Los médicos fueron claros: podía seguir jugando, pero con riesgo de daño permanente. Decidí priorizar mi salud a largo plazo', explicó Chávez con evidente nostalgia.\n\nEl ministro señaló que la experiencia le enseñó resiliencia y capacidad de adaptación, cualidades que ahora aplica en su gestión al frente de la cartera de Industrias. 'El fútbol me preparó para los desafíos de la vida pública', concluyó.",
+      "timestamp": "2026-02-15T10:00:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1431324155629-1a6deb1dec8d?w=800&q=80"
+    },
     {
       "id": 5,
       "category": "DEPORTES",
@@ -175,6 +219,6 @@
   ],
   "breaking": {
     "active": true,
-    "text": "EN DESARROLLO: Cláusula Parola activada. Negociaciones avanzadas con potencial nueva ciudadana."
+    "text": "ÚLTIMA HORA: Presidente declara estado de guerra. Agente de inteligencia enemiga vetado del Palacio Oval. Cláusula Parola desactivada."
   }
 }
