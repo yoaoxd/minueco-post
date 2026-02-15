@@ -188,6 +188,26 @@
   ],
   "opinion": [
     {
+      "id": 23,
+      "category": "EDITORIAL",
+      "headline": "Estado de Guerra: ¿Decisión Necesaria o Escalada Prematura?",
+      "summary": "La declaratoria de guerra del Presidente divide opiniones. Un análisis sobre los riesgos y beneficios de la postura beligerante.",
+      "author": "El Editorial",
+      "content": "La decisión del Presidente de declarar estado de guerra contra naciones enemigas y vetar el acceso de un presunto agente de inteligencia al Palacio Oval marca un punto de inflexión en la joven historia de la República de Minueco.\n\nDesde esta tribuna reconocemos la importancia de proteger la soberanía nacional. Sin embargo, cabe preguntarse: ¿es esta la respuesta proporcional a la amenaza percibida? La república apenas cuenta con días de existencia formal y ya se posiciona en un escenario de confrontación internacional.\n\nEl Canciller Carlos Gondelles, quien apenas iniciaba contactos diplomáticos con naciones vecinas, ahora enfrenta un panorama radicalmente distinto. Las implicaciones de esta decisión podrían afectar las relaciones exteriores por generaciones.\n\nNo obstante, si las amenazas de espionaje son reales y verificables, el Presidente no solo tiene el derecho sino el deber de actuar con firmeza. La seguridad de los ciudadanos minuecos debe ser prioridad.\n\nEl tiempo dirá si esta fue una jugada magistral de ajedrez geopolítico o un error de cálculo que la historia juzgará con severidad.",
+      "timestamp": "2026-02-15T17:00:00Z",
+      "readTime": "4 min"
+    },
+    {
+      "id": 24,
+      "category": "OPINIÓN",
+      "headline": "El Ministro Fantasma: Cuando la Transparencia se Convierte en Espejismo",
+      "summary": "La desaparición de Jesús Constantino del radar gubernamental plantea interrogantes sobre la rendición de cuentas en la nueva república.",
+      "author": "Columnista Anónimo",
+      "content": "Un ministro que no aparece. Un ministerio que presuntamente oculta información. Empleados en el ámbito privado que desconocen las actividades republicanas de su jefe. El caso del Ministro de Interior, Jesús Constantino, es un espejo incómodo para nuestra naciente institucionalidad.\n\n¿Qué clase de república estamos construyendo cuando uno de sus máximos funcionarios puede simplemente 'desaparecer' de sus funciones sin consecuencias aparentes? El Chief of Staff minimiza la situación hablándo de 'asuntos personales urgentes'. ¿Es esta la rendición de cuentas que merecen los ciudadanos?\n\nMás preocupante aún es la presunción de que el Ministerio de Interior resguarda información sensible para 'salvaguardar la imagen' del ministro ante terceros. La transparencia no puede ser opcional ni selectiva.\n\nSi el ministro enfrenta conflictos entre sus obligaciones republicanas y su vida privada, la solución no es el ocultamiento sino la honestidad. Minueco merece funcionarios comprometidos al cien por ciento.\n\nExigimos respuestas. Exigimos presencia. Exigimos un Ministro de Interior que esté a la altura del cargo que juramentó.",
+      "timestamp": "2026-02-15T16:30:00Z",
+      "readTime": "4 min"
+    },
+    {
       "id": 11,
       "category": "INVESTIGACIÓN",
       "headline": "Antecedentes Penales: Ministro de Propaganda y Ministro de Interior Tienen Más en Común de lo que Sus Cargos Contemplan",
