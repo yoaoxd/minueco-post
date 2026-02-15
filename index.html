@@ -133,11 +133,14 @@
                 <div class="stories-grid" id="top-stories">
                     <!-- Populated by JS -->
                 </div>
+                <div class="load-more-container" id="load-more-container">
+                    <button class="load-more-btn" id="load-more-btn">Ver más noticias</button>
+                </div>
             </section>
 
             <!-- More Headlines + Sidebar -->
             <div class="bottom-section">
-                <section class="more-stories">
+                <section class="more-stories" id="more-stories-section">
                     <h2 class="section-title">Más Noticias</h2>
                     <div class="headlines-list" id="more-stories">
                         <!-- Populated by JS -->
@@ -198,6 +201,9 @@
 
     <script>
         let newsData = null;
+        let allStories = [];
+        let currentPage = 0;
+        const STORIES_PER_PAGE = 9;
 
         // Fetch and render news
         async function loadNews() {
@@ -288,6 +294,70 @@
         function closeModal() {
             document.getElementById('modal-overlay').classList.remove('active');
             document.body.style.overflow = '';
+        }
+
+        function renderStories() {
+            const container = document.getElementById('top-stories');
+            const loadMoreBtn = document.getElementById('load-more-container');
+            const moreStoriesSection = document.getElementById('more-stories-section');
+            const moreStoriesContainer = document.getElementById('more-stories');
+            
+            const endIndex = (currentPage + 1) * STORIES_PER_PAGE;
+            const storiesInGrid = allStories.slice(0, endIndex);
+            const remainingStories = allStories.slice(endIndex);
+            
+            // Render grid stories
+            container.innerHTML = storiesInGrid.map(story => `
+                <article class="story-card clickable" data-id="${story.id}">
+                    ${story.image ? `<img class="story-image" src="${story.image}" alt="${story.headline}">` : ''}
+                    <span class="category">${story.category}</span>
+                    <h3 class="story-headline">${story.headline}</h3>
+                    <p class="story-summary">${story.summary}</p>
+                    <div class="meta">
+                        <span class="author">Por ${story.author}</span>
+                        <span class="timestamp">${formatTime(story.timestamp)}</span>
+                    </div>
+                </article>
+            `).join('');
+            
+            // Hide button if no more stories to load
+            if (endIndex >= allStories.length) {
+                loadMoreBtn.style.display = 'none';
+            } else {
+                loadMoreBtn.style.display = 'flex';
+            }
+            
+            // Render remaining stories in "Más Noticias" section
+            if (remainingStories.length > 0) {
+                moreStoriesSection.style.display = 'block';
+                moreStoriesContainer.innerHTML = remainingStories.map(story => `
+                    <article class="headline-item clickable" data-id="${story.id}">
+                        ${story.image ? `<img class="headline-image" src="${story.image}" alt="${story.headline}">` : ''}
+                        <div class="headline-text">
+                            <span class="category">${story.category}</span>
+                            <h4 class="headline-title">${story.headline}</h4>
+                            <div class="meta">
+                                <span class="timestamp">${formatTime(story.timestamp)}</span>
+                            </div>
+                        </div>
+                    </article>
+                `).join('');
+            } else {
+                moreStoriesSection.style.display = 'none';
+            }
+            
+            // Re-add click handlers for all clickable elements
+            document.querySelectorAll('.clickable').forEach(el => {
+                el.addEventListener('click', () => {
+                    const id = parseInt(el.dataset.id);
+                    openArticle(id);
+                });
+            });
+        }
+
+        function loadMoreStories() {
+            currentPage++;
+            renderStories();
         }
 
         function renderPage(data) {
@@ -406,35 +476,12 @@
                 </div>
             `;
 
-            // Top stories
-            const topStories = document.getElementById('top-stories');
-            topStories.innerHTML = data.topStories.map(story => `
-                <article class="story-card clickable" data-id="${story.id}">
-                    ${story.image ? `<img class="story-image" src="${story.image}" alt="${story.headline}">` : ''}
-                    <span class="category">${story.category}</span>
-                    <h3 class="story-headline">${story.headline}</h3>
-                    <p class="story-summary">${story.summary}</p>
-                    <div class="meta">
-                        <span class="author">Por ${story.author}</span>
-                        <span class="timestamp">${formatTime(story.timestamp)}</span>
-                    </div>
-                </article>
-            `).join('');
-
-            // More stories
-            const moreStories = document.getElementById('more-stories');
-            moreStories.innerHTML = data.moreStories.map(story => `
-                <article class="headline-item clickable" data-id="${story.id}">
-                    ${story.image ? `<img class="headline-image" src="${story.image}" alt="${story.headline}">` : ''}
-                    <div class="headline-text">
-                        <span class="category">${story.category}</span>
-                        <h4 class="headline-title">${story.headline}</h4>
-                        <div class="meta">
-                            <span class="timestamp">${formatTime(story.timestamp)}</span>
-                        </div>
-                    </div>
-                </article>
-            `).join('');
+            // Combine all stories
+            allStories = [...data.topStories, ...data.moreStories];
+            currentPage = 0;
+            
+            // Render first page of stories
+            renderStories();
 
             // Opinion
             const opinion = document.getElementById('opinion');
@@ -471,6 +518,9 @@
             document.addEventListener('keydown', (e) => {
                 if (e.key === 'Escape') closeModal();
             });
+
+            // Load more stories button
+            document.getElementById('load-more-btn').addEventListener('click', loadMoreStories);
         });
     </script>
 </body>
