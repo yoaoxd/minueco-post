@@ -204,6 +204,7 @@
         let allStories = [];
         let currentPage = 0;
         const STORIES_PER_PAGE = 9;
+        const BASE_URL = 'https://yoaoxd.github.io/minueco-post/';
 
         // Fetch and render news
         async function loadNews() {
@@ -211,9 +212,50 @@
                 const response = await fetch('news.json');
                 newsData = await response.json();
                 renderPage(newsData);
+                
+                // Check for article in URL hash
+                checkUrlForArticle();
             } catch (error) {
                 console.error('Error loading news:', error);
             }
+        }
+
+        function checkUrlForArticle() {
+            const hash = window.location.hash;
+            if (hash && hash.startsWith('#article-')) {
+                const id = parseInt(hash.replace('#article-', ''));
+                if (id) openArticle(id);
+            }
+        }
+
+        function getArticleUrl(id) {
+            return `${BASE_URL}#article-${id}`;
+        }
+
+        function shareArticle(id, e) {
+            if (e) e.stopPropagation();
+            const article = findArticleById(id);
+            if (!article) return;
+            
+            const url = getArticleUrl(id);
+            const text = article.headline;
+            
+            if (navigator.share) {
+                navigator.share({ title: text, url: url });
+            } else {
+                navigator.clipboard.writeText(url);
+                alert('Enlace copiado al portapapeles');
+            }
+        }
+
+        function shareWhatsApp(id, e) {
+            if (e) e.stopPropagation();
+            const article = findArticleById(id);
+            if (!article) return;
+            
+            const url = getArticleUrl(id);
+            const text = encodeURIComponent(`📰 *${article.headline}*\n\n${article.summary}\n\n🔗 ${url}\n\n_The Minuecus Post_`);
+            window.open(`https://wa.me/?text=${text}`, '_blank');
         }
 
         function formatTime(timestamp) {
@@ -256,6 +298,9 @@
             const article = findArticleById(id);
             if (!article) return;
 
+            // Update URL hash
+            window.location.hash = `article-${id}`;
+
             const modalContent = document.getElementById('modal-content');
             modalContent.innerHTML = `
                 ${article.image ? `<img class="modal-image" src="${article.image}" alt="${article.headline}">` : ''}
@@ -266,6 +311,10 @@
                     ${article.role ? `<span class="modal-role">${article.role}</span>` : ''}
                     <span class="modal-date">${formatFullDate(article.timestamp)}</span>
                     <span class="modal-read-time">${article.readTime} de lectura</span>
+                </div>
+                <div class="modal-share">
+                    <button class="share-btn" onclick="shareArticle(${id})"><span>🔗</span> Compartir</button>
+                    <button class="share-btn whatsapp" onclick="shareWhatsApp(${id})"><span>📱</span> WhatsApp</button>
                 </div>
                 <div class="modal-body">
                     <p class="modal-summary">${article.summary}</p>
@@ -281,19 +330,11 @@
             document.body.style.overflow = 'hidden';
         }
 
-        function generateFakeContent(article) {
-            const paragraphs = [
-                `La ciudadanía de Minueco ha recibido esta información con interés, según sondeos realizados por el Ministerio de Comunicaciones.`,
-                `Fuentes oficiales indicaron que se espera mayor información en las próximas horas a medida que se desarrollen los acontecimientos.`,
-                `El gabinete ministerial continúa trabajando en los lineamientos institucionales establecidos durante la Primera Cumbre Republicana.`,
-                `Se recomienda a la ciudadanía mantenerse informada a través de los canales oficiales de comunicación de la república.`
-            ];
-            return paragraphs.map(p => `<p>${p}</p>`).join('');
-        }
-
         function closeModal() {
             document.getElementById('modal-overlay').classList.remove('active');
             document.body.style.overflow = '';
+            // Clear hash without scrolling
+            history.pushState('', document.title, window.location.pathname + window.location.search);
         }
 
         function renderStories() {
@@ -316,6 +357,10 @@
                     <div class="meta">
                         <span class="author">Por ${story.author}</span>
                         <span class="timestamp">${formatTime(story.timestamp)}</span>
+                    </div>
+                    <div class="card-share">
+                        <button class="share-icon" onclick="shareArticle(${story.id}, event)" title="Compartir">🔗</button>
+                        <button class="share-icon whatsapp" onclick="shareWhatsApp(${story.id}, event)" title="WhatsApp">📱</button>
                     </div>
                 </article>
             `).join('');
@@ -521,6 +566,17 @@
 
             // Load more stories button
             document.getElementById('load-more-btn').addEventListener('click', loadMoreStories);
+
+            // Handle browser back/forward
+            window.addEventListener('hashchange', () => {
+                const hash = window.location.hash;
+                if (hash && hash.startsWith('#article-')) {
+                    const id = parseInt(hash.replace('#article-', ''));
+                    if (id) openArticle(id);
+                } else {
+                    closeModal();
+                }
+            });
         });
     </script>
 </body>
