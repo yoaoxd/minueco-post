@@ -85,26 +85,96 @@ body {
     text-align: right;
 }
 
+/* Header Widgets */
+.header-widgets {
+    display: flex;
+    gap: 10px;
+    margin-top: 8px;
+}
+
+/* Weather Widget */
+.weather-widget {
+    padding: 4px 10px;
+    background-color: var(--color-bg-secondary);
+    border-radius: 4px;
+    display: flex;
+    gap: 6px;
+    align-items: center;
+}
+
+.weather-icon {
+    font-size: 1rem;
+}
+
+.weather-temp {
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-primary);
+}
+
 /* Dollar Rate */
 .dollar-rate {
-    margin-top: 8px;
-    padding: 6px 12px;
+    padding: 4px 10px;
     background-color: var(--color-bg-secondary);
     border-radius: 4px;
     display: inline-flex;
-    gap: 8px;
+    gap: 6px;
     align-items: center;
 }
 
 .dollar-label {
-    font-size: 0.7rem;
+    font-size: 0.65rem;
     color: var(--color-secondary);
 }
 
 .dollar-value {
-    font-size: 0.8rem;
+    font-size: 0.75rem;
     font-weight: 700;
     color: var(--color-primary);
+}
+
+/* Live Updates Banner */
+.live-updates {
+    background-color: #1a1a2e;
+    color: white;
+    padding: 8px 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+}
+
+.live-dot {
+    width: 8px;
+    height: 8px;
+    background-color: #ff4757;
+    border-radius: 50%;
+    animation: pulse 1.5s infinite;
+}
+
+@keyframes pulse {
+    0%, 100% { opacity: 1; }
+    50% { opacity: 0.4; }
+}
+
+.live-label {
+    background-color: #ff4757;
+    color: white;
+    padding: 2px 8px;
+    font-weight: 700;
+    font-size: 0.7rem;
+    border-radius: 3px;
+}
+
+.live-text {
+    font-weight: 600;
+}
+
+.live-time {
+    color: #888;
+    font-size: 0.75rem;
 }
 
 /* Ad Banner */
@@ -403,6 +473,318 @@ body {
     gap: 40px;
 }
 
+/* Sidebar */
+.sidebar {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+/* Widget Styles */
+.widget-title {
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: var(--color-primary);
+    border-bottom: 2px solid var(--color-primary);
+    padding-bottom: 8px;
+    margin-bottom: 15px;
+}
+
+/* Poll Widget */
+.poll-widget {
+    background-color: var(--color-bg-secondary);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.poll-question {
+    font-family: var(--font-headline);
+    font-size: 1rem;
+    font-weight: 600;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+.poll-option {
+    margin-bottom: 12px;
+}
+
+.poll-option-text {
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    margin-bottom: 5px;
+}
+
+.poll-bar-container {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.poll-bar {
+    height: 8px;
+    background-color: var(--color-accent);
+    border-radius: 4px;
+    transition: width 0.5s ease;
+}
+
+.poll-percent {
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    font-weight: 600;
+    color: var(--color-secondary);
+}
+
+.poll-total {
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    color: var(--color-secondary);
+    margin-top: 10px;
+    text-align: right;
+}
+
+/* Most Read Widget */
+.most-read-widget {
+    border: 1px solid var(--color-border);
+    padding: 20px;
+    border-radius: 4px;
+}
+
+.most-read-list {
+    list-style: none;
+    counter-reset: item;
+}
+
+.most-read-item {
+    display: flex;
+    align-items: flex-start;
+    gap: 12px;
+    padding: 10px 0;
+    border-bottom: 1px solid var(--color-border);
+}
+
+.most-read-item:last-child {
+    border-bottom: none;
+}
+
+.most-read-num {
+    font-family: var(--font-ui);
+    font-size: 1.25rem;
+    font-weight: 700;
+    color: var(--color-accent);
+    min-width: 25px;
+}
+
+.most-read-title {
+    font-family: var(--font-headline);
+    font-size: 0.9rem;
+    line-height: 1.3;
+    color: var(--color-primary);
+}
+
+.most-read-item:hover .most-read-title {
+    color: var(--color-accent);
+}
+
+/* Sidebar Ad */
+.sidebar-ad {
+    background: linear-gradient(135deg, #2c3e50 0%, #34495e 100%);
+    padding: 20px;
+    border-radius: 4px;
+    text-align: center;
+    color: white;
+}
+
+.sidebar-ad .ad-label {
+    font-size: 0.6rem;
+    color: rgba(255,255,255,0.6);
+    display: block;
+    margin-bottom: 10px;
+}
+
+.sidebar-ad-title {
+    font-family: var(--font-headline);
+    font-size: 1.1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.sidebar-ad-slogan {
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    margin-bottom: 8px;
+    opacity: 0.9;
+}
+
+.sidebar-ad-desc {
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    opacity: 0.7;
+    margin-bottom: 15px;
+}
+
+.sidebar-ad-btn {
+    background-color: white;
+    color: #2c3e50;
+    border: none;
+    padding: 8px 20px;
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.sidebar-ad-btn:hover {
+    transform: scale(1.05);
+}
+
+/* Newsletter Widget */
+.newsletter-widget {
+    background-color: #f8f9fa;
+    padding: 20px;
+    border-radius: 4px;
+    border: 2px solid var(--color-primary);
+}
+
+.newsletter-desc {
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    color: var(--color-secondary);
+    margin-bottom: 15px;
+}
+
+.newsletter-form {
+    display: flex;
+    gap: 8px;
+}
+
+.newsletter-input {
+    flex: 1;
+    padding: 10px 12px;
+    border: 1px solid var(--color-border);
+    border-radius: 4px;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+}
+
+.newsletter-btn {
+    background-color: var(--color-primary);
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    font-weight: 600;
+    border-radius: 4px;
+    cursor: pointer;
+    white-space: nowrap;
+}
+
+.newsletter-btn:hover {
+    background-color: #333;
+}
+
+/* Podcast Widget */
+.podcast-widget {
+    background: linear-gradient(135deg, #8B0000 0%, #c0392b 100%);
+    padding: 20px;
+    border-radius: 4px;
+    color: white;
+}
+
+.podcast-widget .widget-title {
+    color: white;
+    border-bottom-color: rgba(255,255,255,0.3);
+}
+
+.podcast-title {
+    font-family: var(--font-headline);
+    font-size: 1rem;
+    font-weight: 700;
+    margin-bottom: 5px;
+}
+
+.podcast-episode {
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    opacity: 0.8;
+    margin-bottom: 10px;
+}
+
+.podcast-desc {
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    line-height: 1.4;
+    opacity: 0.9;
+    margin-bottom: 15px;
+}
+
+.podcast-play {
+    background-color: white;
+    color: #8B0000;
+    border: none;
+    padding: 8px 20px;
+    font-family: var(--font-ui);
+    font-size: 0.85rem;
+    font-weight: 600;
+    border-radius: 20px;
+    cursor: pointer;
+    transition: transform 0.2s;
+}
+
+.podcast-play:hover {
+    transform: scale(1.05);
+}
+
+/* Footer Updates */
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 15px;
+    flex-wrap: wrap;
+}
+
+.footer-links a {
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    color: #999;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    color: white;
+}
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+.footer-social span {
+    font-family: var(--font-ui);
+    font-size: 0.8rem;
+    color: #999;
+}
+
+.social-link {
+    font-size: 1.2rem;
+    text-decoration: none;
+    transition: transform 0.2s;
+}
+
+.social-link:hover {
+    transform: scale(1.2);
+}
+
 .section-title {
     font-family: var(--font-ui);
     font-size: 0.85rem;
@@ -547,11 +929,14 @@ body {
         grid-template-columns: 1fr;
     }
 
+    .sidebar {
+        border-top: 1px solid var(--color-border);
+        padding-top: 30px;
+    }
+
     .opinion-section {
         padding-left: 0;
-        padding-top: 30px;
         border-left: none;
-        border-top: 1px solid var(--color-border);
     }
 
     .header-top {
@@ -563,6 +948,10 @@ body {
     .header-left,
     .header-right {
         text-align: center;
+    }
+
+    .header-widgets {
+        justify-content: center;
     }
 
     .nav-list {
@@ -578,6 +967,16 @@ body {
     .ad-main {
         flex-direction: column;
         gap: 8px;
+    }
+
+    .live-updates {
+        flex-wrap: wrap;
+        text-align: center;
+        gap: 8px;
+    }
+
+    .newsletter-form {
+        flex-direction: column;
     }
 }
 

@@ -10,13 +10,71 @@
     "currency": "Bs",
     "trend": "down"
   },
+  "weather": {
+    "location": "Minueco",
+    "temp": "24",
+    "condition": "Parcialmente nublado",
+    "icon": "⛅"
+  },
+  "poll": {
+    "question": "¿Apoya la declaración de estado de guerra del Presidente?",
+    "options": [
+      { "text": "Sí, es necesario para la seguridad nacional", "votes": 342 },
+      { "text": "No, es una escalada prematura", "votes": 287 },
+      { "text": "Necesito más información", "votes": 156 }
+    ],
+    "totalVotes": 785,
+    "closesAt": "2026-02-16T23:59:00Z"
+  },
+  "mostRead": [
+    { "id": 15, "title": "Presidente Declara Estado de Guerra" },
+    { "id": 21, "title": "Ministro de Interior Permanece Ilocalizable" },
+    { "id": 11, "title": "Antecedentes Penales: El Oscuro Secreto" },
+    { "id": 19, "title": "Plan 'Cuerpo e Lobito' para el Presidente" },
+    { "id": 17, "title": "Can-Am Mini: El Vehículo Presidencial" }
+  ],
+  "newsletter": {
+    "title": "Boletín Minueco",
+    "description": "Recibe las noticias más importantes directamente en tu correo.",
+    "cta": "Suscríbete gratis"
+  },
+  "podcast": {
+    "title": "El Podcast de la República",
+    "episode": "Ep. 3: Análisis del Estado de Guerra",
+    "duration": "45 min",
+    "description": "Nuestros analistas debaten las implicaciones de la declaratoria presidencial."
+  },
+  "liveUpdates": {
+    "active": true,
+    "story": "Estado de Guerra",
+    "lastUpdate": "Hace 12 minutos"
+  },
   "ads": [
     {
       "id": 1,
+      "type": "banner",
       "title": "Todo Carnes",
       "slogan": "Lo Mejor en Carnes Premium",
       "description": "Cortes selectos para los paladares más exigentes de la República",
       "cta": "Visítanos",
+      "sponsored": true
+    },
+    {
+      "id": 2,
+      "type": "sidebar",
+      "title": "Banco de Minueco",
+      "slogan": "Tu dinero, nuestra prioridad",
+      "description": "Cuentas de ahorro con las mejores tasas",
+      "cta": "Abrir cuenta",
+      "sponsored": true
+    },
+    {
+      "id": 3,
+      "type": "inline",
+      "title": "Universidad Republicana",
+      "slogan": "Forma parte del futuro",
+      "description": "Inscripciones abiertas 2026",
+      "cta": "Inscríbete",
       "sponsored": true
     }
   ],

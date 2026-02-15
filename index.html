@@ -30,9 +30,15 @@
             <div class="header-top">
                 <div class="header-left">
                     <span class="edition">Edición República</span>
-                    <div class="dollar-rate" id="dollar-rate">
-                        <span class="dollar-label">Dólar Minueco:</span>
-                        <span class="dollar-value" id="dollar-value"></span>
+                    <div class="header-widgets">
+                        <div class="weather-widget" id="weather-widget">
+                            <span class="weather-icon" id="weather-icon"></span>
+                            <span class="weather-temp" id="weather-temp"></span>
+                        </div>
+                        <div class="dollar-rate" id="dollar-rate">
+                            <span class="dollar-label">Dólar:</span>
+                            <span class="dollar-value" id="dollar-value"></span>
+                        </div>
                     </div>
                 </div>
                 <div class="header-center">
@@ -51,6 +57,14 @@
                 </ul>
             </nav>
         </header>
+
+        <!-- Live Updates Banner -->
+        <div class="live-updates" id="live-updates" style="display: none;">
+            <span class="live-dot"></span>
+            <span class="live-label">EN VIVO</span>
+            <span class="live-text" id="live-text"></span>
+            <span class="live-time" id="live-time"></span>
+        </div>
 
         <!-- Ad Banner -->
         <div class="ad-banner" id="ad-banner">
@@ -71,7 +85,7 @@
                 </div>
             </section>
 
-            <!-- More Headlines + Opinion -->
+            <!-- More Headlines + Sidebar -->
             <div class="bottom-section">
                 <section class="more-stories">
                     <h2 class="section-title">Más Noticias</h2>
@@ -80,10 +94,57 @@
                     </div>
                 </section>
 
-                <aside class="opinion-section">
-                    <h2 class="section-title">Opinión</h2>
-                    <div class="opinion-list" id="opinion">
+                <aside class="sidebar">
+                    <!-- Poll Widget -->
+                    <div class="poll-widget" id="poll-widget">
+                        <h3 class="widget-title">Encuesta del Día</h3>
+                        <p class="poll-question" id="poll-question"></p>
+                        <div class="poll-options" id="poll-options">
+                            <!-- Populated by JS -->
+                        </div>
+                        <p class="poll-total" id="poll-total"></p>
+                    </div>
+
+                    <!-- Most Read -->
+                    <div class="most-read-widget">
+                        <h3 class="widget-title">Lo Más Leído</h3>
+                        <ol class="most-read-list" id="most-read">
+                            <!-- Populated by JS -->
+                        </ol>
+                    </div>
+
+                    <!-- Sidebar Ad -->
+                    <div class="sidebar-ad" id="sidebar-ad">
                         <!-- Populated by JS -->
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="newsletter-widget" id="newsletter-widget">
+                        <h3 class="widget-title" id="newsletter-title"></h3>
+                        <p class="newsletter-desc" id="newsletter-desc"></p>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="tu@correo.com" class="newsletter-input">
+                            <button class="newsletter-btn" id="newsletter-btn"></button>
+                        </div>
+                    </div>
+
+                    <!-- Podcast -->
+                    <div class="podcast-widget" id="podcast-widget">
+                        <h3 class="widget-title">🎧 Podcast</h3>
+                        <div class="podcast-content">
+                            <p class="podcast-title" id="podcast-title"></p>
+                            <p class="podcast-episode" id="podcast-episode"></p>
+                            <p class="podcast-desc" id="podcast-desc"></p>
+                            <button class="podcast-play">▶ Escuchar</button>
+                        </div>
+                    </div>
+
+                    <!-- Opinion Section -->
+                    <div class="opinion-section">
+                        <h2 class="section-title">Opinión</h2>
+                        <div class="opinion-list" id="opinion">
+                            <!-- Populated by JS -->
+                        </div>
                     </div>
                 </aside>
             </div>
@@ -93,6 +154,19 @@
         <footer class="footer">
             <div class="footer-content">
                 <p class="footer-logo">The Minuecus Post</p>
+                <div class="footer-links">
+                    <a href="#">Términos</a>
+                    <a href="#">Privacidad</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Publicidad</a>
+                    <a href="#">Suscripciones</a>
+                </div>
+                <div class="footer-social">
+                    <span>Síguenos:</span>
+                    <a href="#" class="social-link">📧</a>
+                    <a href="#" class="social-link">📱</a>
+                    <a href="#" class="social-link">🌐</a>
+                </div>
                 <p class="footer-text">© 2026 The Minuecus Post. El periódico oficial de la República de Minueco.</p>
                 <p class="footer-text">Información institucional al servicio de la ciudadanía.</p>
             </div>
@@ -198,14 +272,29 @@
             document.getElementById('tagline').textContent = data.publication.motto;
             document.getElementById('pub-date').textContent = data.publication.date;
 
+            // Weather widget
+            if (data.weather) {
+                document.getElementById('weather-icon').textContent = data.weather.icon;
+                document.getElementById('weather-temp').textContent = `${data.weather.temp}°C`;
+            }
+
             // Dollar rate
             if (data.finance) {
-                document.getElementById('dollar-value').textContent = `${data.finance.dollarRate} ${data.finance.currency}`;
+                const trendIcon = data.finance.trend === 'up' ? '↑' : data.finance.trend === 'down' ? '↓' : '';
+                document.getElementById('dollar-value').textContent = `${data.finance.dollarRate} ${data.finance.currency} ${trendIcon}`;
+            }
+
+            // Live updates
+            if (data.liveUpdates && data.liveUpdates.active) {
+                const liveEl = document.getElementById('live-updates');
+                document.getElementById('live-text').textContent = data.liveUpdates.story;
+                document.getElementById('live-time').textContent = data.liveUpdates.lastUpdate;
+                liveEl.style.display = 'flex';
             }
 
             // Ad banner
             if (data.ads && data.ads.length > 0) {
-                const ad = data.ads[0];
+                const ad = data.ads.find(a => a.type === 'banner') || data.ads[0];
                 document.getElementById('ad-banner').innerHTML = `
                     <div class="ad-content">
                         <span class="ad-label">PUBLICIDAD</span>
@@ -217,6 +306,60 @@
                         <span class="ad-cta">${ad.cta} →</span>
                     </div>
                 `;
+            }
+
+            // Sidebar Ad
+            if (data.ads && data.ads.length > 1) {
+                const sidebarAd = data.ads.find(a => a.type === 'sidebar') || data.ads[1];
+                document.getElementById('sidebar-ad').innerHTML = `
+                    <span class="ad-label">PUBLICIDAD</span>
+                    <p class="sidebar-ad-title">${sidebarAd.title}</p>
+                    <p class="sidebar-ad-slogan">${sidebarAd.slogan}</p>
+                    <p class="sidebar-ad-desc">${sidebarAd.description}</p>
+                    <button class="sidebar-ad-btn">${sidebarAd.cta}</button>
+                `;
+            }
+
+            // Poll widget
+            if (data.poll) {
+                document.getElementById('poll-question').textContent = data.poll.question;
+                document.getElementById('poll-options').innerHTML = data.poll.options.map(opt => {
+                    const percent = Math.round((opt.votes / data.poll.totalVotes) * 100);
+                    return `
+                        <div class="poll-option">
+                            <div class="poll-option-text">${opt.text}</div>
+                            <div class="poll-bar-container">
+                                <div class="poll-bar" style="width: ${percent}%"></div>
+                                <span class="poll-percent">${percent}%</span>
+                            </div>
+                        </div>
+                    `;
+                }).join('');
+                document.getElementById('poll-total').textContent = `${data.poll.totalVotes.toLocaleString()} votos`;
+            }
+
+            // Most Read
+            if (data.mostRead) {
+                document.getElementById('most-read').innerHTML = data.mostRead.map((item, i) => `
+                    <li class="most-read-item clickable" data-id="${item.id}">
+                        <span class="most-read-num">${i + 1}</span>
+                        <span class="most-read-title">${item.title}</span>
+                    </li>
+                `).join('');
+            }
+
+            // Newsletter
+            if (data.newsletter) {
+                document.getElementById('newsletter-title').textContent = data.newsletter.title;
+                document.getElementById('newsletter-desc').textContent = data.newsletter.description;
+                document.getElementById('newsletter-btn').textContent = data.newsletter.cta;
+            }
+
+            // Podcast
+            if (data.podcast) {
+                document.getElementById('podcast-title').textContent = data.podcast.title;
+                document.getElementById('podcast-episode').textContent = `${data.podcast.episode} • ${data.podcast.duration}`;
+                document.getElementById('podcast-desc').textContent = data.podcast.description;
             }
 
             // Breaking news
