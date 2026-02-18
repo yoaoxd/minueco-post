@@ -2,7 +2,7 @@
   "publication": {
     "name": "The Minuecus Post",
     "motto": "El Periódico Oficial de la República",
-    "date": "15 de Febrero, 2026"
+    "date": "19 de Febrero, 2026"
   },
   "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
   "finance": {
@@ -46,8 +46,8 @@
   },
   "liveUpdates": {
     "active": true,
-    "story": "Estado de Guerra",
-    "lastUpdate": "Hace 12 minutos"
+    "story": "Decreto Ministerial N° 001/2026",
+    "lastUpdate": "Hace 5 minutos"
   },
   "ads": [
     {
@@ -70,18 +70,29 @@
     }
   ],
   "featured": {
-    "id": 15,
-    "category": "DEFENSA NACIONAL",
-    "headline": "Presidente Declara Estado de Guerra: Agente de Inteligencia Enemiga Vetado del Palacio Oval",
-    "summary": "En una decisión sin precedentes, el mandatario tomó medidas drásticas contra naciones hostiles y prohibió el acceso a instalaciones gubernamentales a un presunto integrante de servicios de inteligencia extranjeros.",
-    "content": "El Presidente de la República de Minueco anunció esta tarde una serie de medidas de defensa nacional que incluyen la declaración formal de estado de guerra contra países considerados enemigos de la nación.\n\nEn el mismo decreto ejecutivo, se establece la prohibición de ingreso al Palacio Oval a un individuo identificado como presunto agente de inteligencia de una potencia hostil. Según fuentes del Ministerio de Interior, el sujeto había intentado infiltrarse en círculos cercanos al gobierno.\n\nEl Canciller Carlos Gondelles fue convocado de urgencia para evaluar las implicaciones diplomáticas de la decisión. Por su parte, el Fiscal de la República, Amado Vivas, confirmó que se abrirán investigaciones sobre posibles actividades de espionaje en territorio minueco.\n\nEl Ministerio de Propaganda, a cargo de Víctor Peña, emitió un comunicado instando a la ciudadanía a mantener la calma y confiar en las instituciones. 'La seguridad de la república es nuestra máxima prioridad', señaló el documento oficial.\n\nEl Chief of Staff Hernán Zapata indicó que se reforzarán los protocolos de seguridad en todas las instalaciones gubernamentales con efecto inmediato.",
-    "author": "Margarita Plumafina",
-    "role": "Corresponsal Principal",
-    "timestamp": "2026-02-15T16:00:00Z",
-    "readTime": "5 min",
-    "image": "https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=800&q=80"
+    "id": 26,
+    "category": "GACETA OFICIAL",
+    "headline": "Ministerio del Interior Emite Decreto de Protección Presidencial: Nuevos Protocolos de Seguridad Entran en Vigencia",
+    "summary": "El Decreto Ministerial N° 001/2026 establece protocolos obligatorios para proteger la integridad física, mental y patrimonial del Presidente tras los sucesos de la semana pasada.",
+    "content": "GACETA OFICIAL DEL GOBIERNO MINUECO\nNúmero Extraordinario \u2013 19 de febrero de 2026\n\nDECRETO MINISTERIAL N° 001/2026\nMinisterio del Interior\n\nVISTOS: Los sucesos acaecidos la semana pasada, que generaron situaciones de riesgo para el Presidente y le ocasionaron innecesarios tragos amargos.\n\nCONSIDERANDO:\n\nQue es deber del Estado proteger la integridad física, mental y patrimonial del Presidente de la República;\n\nQue se deben establecer protocolos claros y preventivos para evitar la intervención o interacción con las '3 letras' y minimizar cualquier escalada innecesaria.\n\nEL MINISTRO DEL INTERIOR DECRETA:\n\nArtículo 1° \u2013 Protocolo Post-reunión\nLuego de toda reunión oficial o extraoficial en la que participe el Presidente, el responsable de protocolo o el funcionario de mayor rango presente deberá consultar expresamente al Presidente: 'Señor Presidente, ¿confirma que cuenta con todas sus pertenencias personales?' De detectarse cualquier falta, se tomarán medidas correctivas inmediatas para subsanar la situación en el acto.\n\nArtículo 2° \u2013 Protocolo de Notificación de Situación Crítica\nEn caso de presentarse cualquier situación que ponga en riesgo la integridad física o mental del Presidente (insurgencia verbal, emocional o de cualquier otra índole), este podrá \u2013y se le exhorta a\u2013 notificar de inmediato utilizando la frase o señal acordada, solicitando expresamente: a) Apoyo moral, b) Apoyo físico, c) De ser necesario, apoyo vicioso.\n\nArtículo 3° \u2013 Escalada controlada\nRecibida la notificación, el personal cercano o disponible deberá: 1) Intentar desescalar la situación de forma prioritaria. 2) Solo en caso de imposibilidad de desescalada, y previa autorización expresa o implícita del Presidente, se prestará el apoyo necesario para neutralizar la amenaza (opción de último recurso).\n\nArtículo 4° \u2013 Vigencia\nEl presente decreto entrará en vigor de forma inmediata y será de obligatorio cumplimiento por todo funcionario, colaborador y allegado al Presidente.\n\nPublíquese y cúmplase.\n\nDado en la sede del Ministerio del Interior, a 19 de febrero de 2026.\n[JC]\nMinistro del Interior\nGobierno Minueco",
+    "author": "Gaceta Oficial",
+    "role": "Publicación Oficial",
+    "timestamp": "2026-02-19T10:00:00Z",
+    "readTime": "6 min",
+    "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
   },
   "topStories": [
+    {
+      "id": 15,
+      "category": "DEFENSA NACIONAL",
+      "headline": "Presidente Declara Estado de Guerra: Agente de Inteligencia Enemiga Vetado del Palacio Oval",
+      "summary": "En una decisión sin precedentes, el mandatario tomó medidas drásticas contra naciones hostiles y prohibió el acceso a instalaciones gubernamentales a un presunto integrante de servicios de inteligencia extranjeros.",
+      "author": "Margarita Plumafina",
+      "content": "El Presidente de la República de Minueco anunció esta tarde una serie de medidas de defensa nacional que incluyen la declaración formal de estado de guerra contra países considerados enemigos de la nación.\n\nEn el mismo decreto ejecutivo, se establece la prohibición de ingreso al Palacio Oval a un individuo identificado como presunto agente de inteligencia de una potencia hostil. Según fuentes del Ministerio de Interior, el sujeto había intentado infiltrarse en círculos cercanos al gobierno.\n\nEl Canciller Carlos Gondelles fue convocado de urgencia para evaluar las implicaciones diplomáticas de la decisión. Por su parte, el Fiscal de la República, Amado Vivas, confirmó que se abrirán investigaciones sobre posibles actividades de espionaje en territorio minueco.",
+      "timestamp": "2026-02-15T16:00:00Z",
+      "readTime": "5 min",
+      "image": "https://images.unsplash.com/photo-1453873531674-2151bcd01707?w=800&q=80"
+    },
     {
       "id": 25,
       "category": "EJECUTIVO",
@@ -263,6 +274,26 @@
   ],
   "opinion": [
     {
+      "id": 27,
+      "category": "EDITORIAL",
+      "headline": "Decreto 001/2026: Un Escudo Necesario para la Estabilidad Presidencial",
+      "summary": "El nuevo marco normativo del Ministerio del Interior representa un avance institucional que la república necesitaba con urgencia.",
+      "author": "El Editorial",
+      "content": "El Decreto Ministerial N° 001/2026 emitido por el Ministerio del Interior no es un capricho burocrático. Es una respuesta institucional a situaciones reales que pusieron en riesgo la integridad del Presidente durante la semana pasada.\n\nDesde esta tribuna editorial, aplaudimos la iniciativa del Ministro Jesús Constantino. Los protocolos establecidos en los artículos 1° al 4° demuestran una comprensión profunda de las amenazas que enfrenta nuestra joven república.\n\nEl Protocolo Post-reunión (Artículo 1°) aborda directamente el incidente de las llaves extraviadas. Nunca más un Presidente minueco deberá sufrir la angustia de perder sus pertenencias por falta de procedimientos claros.\n\nEl Protocolo de Notificación de Situación Crítica (Artículo 2°) es particularmente brillante. Al establecer categorías de apoyo \u2013moral, físico y vicioso\u2013 se reconoce que las amenazas al bienestar presidencial no siempre son tangibles. A veces, un buen trago es la mejor defensa.\n\nEl Artículo 3° sobre escalada controlada demuestra madurez institucional. La desescalada como prioridad, con la neutralización como último recurso, refleja los valores de una república civilizada.\n\nCríticos dirán que este decreto es excesivo. Nosotros decimos: es exactamente lo que Minueco necesita para consolidarse como nación seria.\n\nPublíquese y cúmplase, en efecto.",
+      "timestamp": "2026-02-19T11:00:00Z",
+      "readTime": "4 min"
+    },
+    {
+      "id": 28,
+      "category": "OPINIÓN",
+      "headline": "El Decreto de las '3 Letras': ¿Protección o Paranoia Institucionalizada?",
+      "summary": "Una mirada crítica al nuevo marco normativo que algunos consideran desproporcionado y otros, una cortina de humo.",
+      "author": "Columnista Anónimo",
+      "content": "Leo el Decreto Ministerial N° 001/2026 y me pregunto: ¿estamos construyendo una república o un bunker presidencial?\n\nNo me malinterpreten. La protección del Presidente es legítima. Pero cuando un decreto oficial menciona 'las 3 letras' sin definirlas, 'apoyo vicioso' como categoría formal, y autoriza 'neutralizar amenazas' de manera implícita, algo huele mal en la República de Minueco.\n\n¿Qué son exactamente estas '3 letras' que tanto preocupan al Ministerio del Interior? ¿Por qué el lenguaje críptico en un documento oficial? La ciudadanía merece transparencia, no acertijos.\n\nEl Artículo 2° habla de 'insurgencia verbal, emocional o de cualquier otra índole'. ¿Significa esto que una discusión acalorada ahora es una 'situación crítica'? ¿Quién define los límites?\n\nMás preocupante aún: el mismo Ministro que estuvo 'ilocalizable' durante días ahora emite decretos de protección. ¿Dónde estaba cuando supuestamente ocurrían estos 'sucesos de riesgo'?\n\nNo digo que el decreto sea innecesario. Digo que merecíamos una explicación más clara de los hechos que lo motivaron, y menos ambigüedad en su redacción.\n\nMinueco nació como un proyecto de amigos. No dejemos que muera como una fortaleza de sospechas.\n\nFirmado: Un ciudadano preocupado.",
+      "timestamp": "2026-02-19T10:30:00Z",
+      "readTime": "4 min"
+    },
+    {
       "id": 23,
       "category": "EDITORIAL",
       "headline": "Estado de Guerra: ¿Decisión Necesaria o Escalada Prematura?",
@@ -315,6 +346,6 @@
   ],
   "breaking": {
     "active": true,
-    "text": "ÚLTIMA HORA: Presidente declara estado de guerra. Agente de inteligencia enemiga vetado del Palacio Oval. Cláusula Parola desactivada."
+    "text": "GACETA OFICIAL: Ministerio del Interior emite Decreto N° 001/2026 de Protección Presidencial. Nuevos protocolos de seguridad entran en vigencia inmediata."
   }
 }
