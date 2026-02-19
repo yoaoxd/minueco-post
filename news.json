@@ -46,8 +46,8 @@
   },
   "liveUpdates": {
     "active": true,
-    "story": "Decreto Ministerial N° 001/2026",
-    "lastUpdate": "Hace 5 minutos"
+    "story": "Festival Deportivo - Presidente destaca en voleibol",
+    "lastUpdate": "Hace 10 minutos"
   },
   "ads": [
     {
@@ -82,6 +82,28 @@
     "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
   },
   "topStories": [
+    {
+      "id": 29,
+      "category": "DEPORTES",
+      "headline": "Festival Deportivo Cuenta con Participación Presidencial: Mandatario Brilla en la Cancha",
+      "summary": "El Presidente de la República asistió al evento deportivo y demostró sus habilidades atléticas ante una entusiasta concurrencia.",
+      "author": "Sección Deportes",
+      "content": "En un giro histórico respecto a ediciones anteriores, el Festival Deportivo de la República de Minueco contó esta vez con la participación activa del Presidente, quien no solo asistió al evento sino que se sumó a las actividades deportivas con notable entusiasmo.\n\nFuentes presentes en el recinto deportivo confirmaron que el mandatario llegó puntualmente y se integró de inmediato a los equipos conformados para la jornada. 'Se notó que venía preparado. No era un presidente que solo venía a saludar', comentó un asistente.\n\nEl Chief of Staff Hernán Zapata, quien también participó en el evento, destacó que 'la presencia del Presidente elevó el nivel competitivo de todo el festival'. El Ministro de Propaganda, Víctor Peña, se encargó de documentar los mejores momentos para los archivos oficiales de la república.\n\nLa ciudadanía presenté celebró la participación presidencial con aplausos y muestras de apoyo. El Ministerio de Comunicaciones confirmó que se planean más eventos deportivos con participación del Ejecutivo.",
+      "timestamp": "2026-02-19T14:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=800&q=80"
+    },
+    {
+      "id": 30,
+      "category": "DEPORTES",
+      "headline": "Presidente es el Más Destacado con los Saques: Dominio Absoluto en el Voleibol",
+      "summary": "El mandatario demostró una técnica impecable en los servicios, siendo reconocido como el jugador más destacado de la jornada.",
+      "author": "Cronista Deportivo",
+      "content": "Si algún ciudadano dudaba de las capacidades atléticas del Presidente, el Festival Deportivo de hoy disipó toda incertidumbre. El mandatario se consagró como el jugador más destacado en la disciplina de voleibol, particularmente por su dominio en los saques.\n\nTestigos presenciales describieron los servicios presidenciales como 'potentes', 'precisos' y 'devastadores para el equipo contrario'. Según el conteo oficial del Ministerio de Deportes (aún por crearse), el Presidente ejecutó múltiples aces que dejaron sin respuesta a los rivales.\n\n'No esperaba que sacara tan fuerte', admitió un miembro del equipo contrario que prefirió el anonimato. 'Cuando lo vi calentar pensé que sería protocolar, pero el hombre juega en serio'.\n\nEl Vicepresidente Andrés Mata, quien fungió como armador en el equipo presidencial, señaló que 'es un privilegio jugar al lado del Presidente. Su saque es un arma estratégica'.\n\nEl Ministro de Industrias, Andrés Chávez, comentó con humor: 'Ahora entiendo por qué a mí me tocó la rodilla mala. El Presidente se llevó todo el talento deportivo'.\n\nSe espera que el voleibol sea declarado deporte oficial de la República de Minueco en las próximas semanas.",
+      "timestamp": "2026-02-19T14:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1592656094267-764a45160876?w=800&q=80"
+    },
     {
       "id": 15,
       "category": "DEFENSA NACIONAL",
@@ -274,6 +296,16 @@
   ],
   "opinion": [
     {
+      "id": 31,
+      "category": "OPINIÓN",
+      "headline": "Un Presidente que Saca Aces: El Voleibol como Metáfora del Liderazgo Minueco",
+      "summary": "El desempeño deportivo del mandatario ha cautivado a la república y revela cualidades de liderazgo que trascienden lo político.",
+      "author": "Analista Deportivo",
+      "content": "Hoy presencié algo que me reconcilió con la política: un Presidente que no solo gobierna, sino que juega. Y juega bien.\n\nLos saques del mandatario en el Festival Deportivo no fueron simples ejecuciones técnicas. Fueron declaraciones de intención. Cada balón que cruzó la red con precisión quirúrgica enviaba un mensaje: este es un líder que no teme ponerse en la cancha, literal y metafóricamente.\n\nLa República de Minueco necesitaba esto. Después de semanas de decretos, controversias sobre ministros ilocalizables y tensiones con las 'tres letras', ver al Presidente sudar la camiseta junto a sus ciudadanos es un bálsamo para el alma nacional.\n\nEl voleibol, además, es el deporte perfecto para un mandatario. Requiere trabajo en equipo pero permite momentos individuales de brillantez. Exige estrategia pero premia la acción decisiva. Y sobre todo, un buen saque puede cambiar el curso del partido, así como una buena decisión puede cambiar el rumbo de una nación.\n\nMis fuentes me dicen que al Presidente le gusta mucho el voleibol. Y saben qué, a la república también le gusta mucho que le guste. Porque un líder que encuentra alegría en la competencia sana es un líder que entiende que gobernar no es solo firmar papeles.\n\nQue sigan los saques, Señor Presidente. La cancha lo espera, y nosotros también.",
+      "timestamp": "2026-02-19T15:00:00Z",
+      "readTime": "3 min"
+    },
+    {
       "id": 27,
       "category": "EDITORIAL",
       "headline": "Decreto 001/2026: Un Escudo Necesario para la Estabilidad Presidencial",
@@ -346,6 +378,6 @@
   ],
   "breaking": {
     "active": true,
-    "text": "GACETA OFICIAL: Ministerio del Interior emite Decreto N° 001/2026 de Protección Presidencial. Nuevos protocolos de seguridad entran en vigencia inmediata."
+    "text": "DEPORTES: Presidente brilla en Festival Deportivo con saques de voleibol devastadores. Ciudadanía celebra participación del mandatario."
   }
 }
