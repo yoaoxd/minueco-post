@@ -2,7 +2,7 @@
   "publication": {
     "name": "The Minuecus Post",
     "motto": "El Periódico Oficial de la República",
-    "date": "19 de Febrero, 2026"
+    "date": "23 de Febrero, 2026"
   },
   "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
   "finance": {
@@ -46,8 +46,8 @@
   },
   "liveUpdates": {
     "active": true,
-    "story": "Festival Deportivo - Presidente destaca en voleibol",
-    "lastUpdate": "Hace 10 minutos"
+    "story": "Presidente domina en Call of Duty Warzone",
+    "lastUpdate": "Hace 5 minutos"
   },
   "ads": [
     {
@@ -70,18 +70,62 @@
     }
   ],
   "featured": {
-    "id": 26,
-    "category": "GACETA OFICIAL",
-    "headline": "Ministerio del Interior Emite Decreto de Protección Presidencial: Nuevos Protocolos de Seguridad Entran en Vigencia",
-    "summary": "El Decreto Ministerial N° 001/2026 establece protocolos obligatorios para proteger la integridad física, mental y patrimonial del Presidente tras los sucesos de la semana pasada.",
-    "content": "GACETA OFICIAL DEL GOBIERNO MINUECO\nNúmero Extraordinario \u2013 19 de febrero de 2026\n\nDECRETO MINISTERIAL N° 001/2026\nMinisterio del Interior\n\nVISTOS: Los sucesos acaecidos la semana pasada, que generaron situaciones de riesgo para el Presidente y le ocasionaron innecesarios tragos amargos.\n\nCONSIDERANDO:\n\nQue es deber del Estado proteger la integridad física, mental y patrimonial del Presidente de la República;\n\nQue se deben establecer protocolos claros y preventivos para evitar la intervención o interacción con las '3 letras' y minimizar cualquier escalada innecesaria.\n\nEL MINISTRO DEL INTERIOR DECRETA:\n\nArtículo 1° \u2013 Protocolo Post-reunión\nLuego de toda reunión oficial o extraoficial en la que participe el Presidente, el responsable de protocolo o el funcionario de mayor rango presente deberá consultar expresamente al Presidente: 'Señor Presidente, ¿confirma que cuenta con todas sus pertenencias personales?' De detectarse cualquier falta, se tomarán medidas correctivas inmediatas para subsanar la situación en el acto.\n\nArtículo 2° \u2013 Protocolo de Notificación de Situación Crítica\nEn caso de presentarse cualquier situación que ponga en riesgo la integridad física o mental del Presidente (insurgencia verbal, emocional o de cualquier otra índole), este podrá \u2013y se le exhorta a\u2013 notificar de inmediato utilizando la frase o señal acordada, solicitando expresamente: a) Apoyo moral, b) Apoyo físico, c) De ser necesario, apoyo vicioso.\n\nArtículo 3° \u2013 Escalada controlada\nRecibida la notificación, el personal cercano o disponible deberá: 1) Intentar desescalar la situación de forma prioritaria. 2) Solo en caso de imposibilidad de desescalada, y previa autorización expresa o implícita del Presidente, se prestará el apoyo necesario para neutralizar la amenaza (opción de último recurso).\n\nArtículo 4° \u2013 Vigencia\nEl presente decreto entrará en vigor de forma inmediata y será de obligatorio cumplimiento por todo funcionario, colaborador y allegado al Presidente.\n\nPublíquese y cúmplase.\n\nDado en la sede del Ministerio del Interior, a 19 de febrero de 2026.\n[JC]\nMinistro del Interior\nGobierno Minueco",
-    "author": "Gaceta Oficial",
-    "role": "Publicación Oficial",
-    "timestamp": "2026-02-19T10:00:00Z",
-    "readTime": "6 min",
-    "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
+    "id": 32,
+    "category": "TECNOLOGÍA Y GAMING",
+    "headline": "Presidente Avanza en Gestión Tecnológica y Resulta Letal en Sus Primeras Partidas de Call of Duty Warzone",
+    "summary": "El mandatario demuestra que su liderazgo trasciende lo político: dominio absoluto en el campo de batalla virtual con estadísticas que impresionan al gabinete.",
+    "content": "En una jornada que quedará registrada en los anales de la historia tecnológica de Minueco, el Presidente de la República dio un salto cualitativo en su gestión al demostrar dominio absoluto en el popular videojuego Call of Duty: Warzone.\n\nFuentes cercanas al Ejecutivo confirmaron que el mandatario, en sus primeras partidas oficiales, exhibió habilidades que dejaron atónitos a propios y extraños. 'Es letal', declaró el Ministro de Tecnología y Lírica, Juan De Sousa, quien fungió como guía inicial del Presidente en el campo de batalla virtual.\n\nLas estadísticas preliminares son contundentes: el Presidente logró múltiples eliminaciones en sus primeros encuentros, demostrando una curva de aprendizaje que el Ministerio de Tecnología calificó como 'excepcional'. Su precisión con el armamento virtual y su capacidad para tomar decisiones tácticas bajo presión fueron destacadas por todos los presentes.\n\n'Esto no es solo entretenimiento', explicó el Chief of Staff Hernán Zapata. 'Es una herramienta de cohesión del gabinete y entrenamiento en toma de decisiones rápidas. El Presidente lo entendió de inmediato'.\n\nEl Ministerio de Propaganda ya trabaja en material audiovisual que documente los logros gaming del mandatario. Se espera que Call of Duty: Warzone sea declarado plataforma oficial de entrenamiento estratégico de la República.",
+    "author": "Sección Tecnología",
+    "role": "Corresponsal Gaming",
+    "timestamp": "2026-02-23T18:00:00Z",
+    "readTime": "4 min",
+    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80"
   },
   "topStories": [
+    {
+      "id": 33,
+      "category": "GAMING",
+      "headline": "Ministros Se Unen para Jugar Warzone con el Presidente: Práctica de Políticas de Protección y Seguridad",
+      "summary": "El gabinete en pleno se conecta a sesiones de Call of Duty como método innovador de entrenamiento en coordinación y respuesta rápida.",
+      "author": "Sección Tecnología",
+      "content": "En una iniciativa sin precedentes en la historia de las repúblicas modernas, los ministros del gabinete de Minueco se han unido a las sesiones de Call of Duty: Warzone junto al Presidente como parte de un programa de entrenamiento en políticas de protección y seguridad.\n\nEl Ministro del Interior, Jesús Constantino, explicó la lógica detrás de la iniciativa: 'En Warzone, como en la vida real, la comunicación y la coordinación son fundamentales. Cada partida es un simulacro de situaciones críticas donde debemos proteger al Presidente'.\n\nEl Chief of Staff Hernán Zapata funge como líder de escuadrón, coordinando los movimientos del equipo. 'Cuando el Presidente pide apoyo en el juego, respondemos igual que lo haríamos en la vida real. Es entrenamiento puro', señaló.\n\nEl Ministro de Tecnología y Lírica, Juan De Sousa, ha sido designado como responsable técnico de las sesiones, asegurando conectividad óptima y configuración de equipos.\n\nLas sesiones se realizan en horarios nocturnos y ya han mostrado resultados positivos en la cohesión del equipo de gobierno.",
+      "timestamp": "2026-02-23T17:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1593305841991-05c297ba4575?w=800&q=80"
+    },
+    {
+      "id": 34,
+      "category": "INTERNACIONAL",
+      "headline": "Hernán Zapata y Juan De Sousa Suenan para el Premio Nobel de la Paz",
+      "summary": "Fuentes diplomáticas sugieren que el Chief of Staff y el Ministro de Tecnología están siendo considerados por sus contribuciones a la estabilidad regional.",
+      "author": "Sección Internacional",
+      "content": "En una noticia que ha tomado por sorpresa a la comunidad internacional, fuentes cercanas al Comité Nobel han filtrado que Hernán Zapata, Chief of Staff de la República de Minueco, y Juan De Sousa, Ministro de Tecnología y Lírica, están siendo considerados como candidatos al Premio Nobel de la Paz.\n\nSegún los reportes, la nominación se basa en 'sus esfuerzos por mantener la paz interna de la república a través de métodos innovadores de resolución de conflictos y cohesión gubernamental'.\n\nEl Canciller Carlos Gondelles confirmó que ha recibido comunicaciones de organizaciones internacionales interesadas en el modelo de gobernanza de Minueco. 'Lo que Hernán y Juan han logrado en términos de estabilidad es notable', declaró.\n\nZapata, conocido por ser el anfitrión de la Primera Cumbre Republicana, y De Sousa, arquitecto de la infraestructura tecnológica de la nación, declinaron hacer comentarios, calificando los rumores como 'prematuros pero halagadores'.\n\nDe confirmarse, sería el primer Nobel otorgado a ciudadanos minuecos.",
+      "timestamp": "2026-02-23T16:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80"
+    },
+    {
+      "id": 35,
+      "category": "SEGURIDAD",
+      "headline": "Presidente Realiza Simulacro de Cláusula de Seguridad: Éxito Total con Tiempos Récord",
+      "summary": "Todo el gabinete atendió el llamado de emergencia en tiempo récord, demostrando la efectividad de los protocolos establecidos en el Decreto 001/2026.",
+      "author": "Unidad de Seguridad",
+      "content": "El Presidente de la República activó esta tarde un simulacro sorpresa de la cláusula de seguridad establecida en el Decreto Ministerial N° 001/2026, con resultados que superaron todas las expectativas.\n\nSegún el informe oficial del Ministerio del Interior, el 100% del gabinete respondió al llamado de emergencia. Los tiempos de respuesta fueron calificados como 'récord' por los evaluadores del ejercicio.\n\nEl Chief of Staff Hernán Zapata fue el primero en responder, seguido de cerca por el Ministro de Tecnología Juan De Sousa. El Vicepresidente Andrés Mata coordinó la logística de apoyo mientras el Ministro de Propaganda Víctor Peña documentó el ejercicio.\n\n'Este simulacro demuestra que cuando el Presidente necesita apoyo, el gabinete responde', declaró el Ministro del Interior Jesús Constantino. 'Los protocolos funcionan'.\n\nEl Presidente se mostró satisfecho con los resultados y felicitó personalmente a cada miembro del equipo. Se anunció que los simulacros se realizarán periódicamente para mantener la preparación del gabinete.",
+      "timestamp": "2026-02-23T15:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1454165804606-c3d57bc86b40?w=800&q=80"
+    },
+    {
+      "id": 36,
+      "category": "INVESTIGACIÓN",
+      "headline": "Luis Campos: La Perfecta Receta para el Desastre - Perfil del Sospechoso de Intenciones Golpistas",
+      "summary": "The Minuecus Post investiga al misterioso individuo que deambula por las inmediaciones del Palacio Presidencial y que el gabinete presume tiene intenciones de desestabilizar la república.",
+      "author": "Unidad de Investigación",
+      "content": "Durante semanas, un individuo ha sido observado merodeando las inmediaciones del Palacio Presidencial con un patrón de comportamiento que ha alertado a los servicios de seguridad de la República de Minueco.\n\nSu nombre: Luis Campos. Su descripción: un hombre de contextura delgada, edad avanzada, que deambula con frecuencia sospechosa por las zonas cercanas a las instalaciones gubernamentales.\n\nFuentes dentro del Ministerio del Interior, que solicitaron el anonimato, confirmaron que Campos ha sido objeto de seguimiento por parte del gabinete. 'Hay razones fundadas para presumir que sus intenciones no son inocentes', señaló un funcionario. 'Su presencia constante cerca del palacio no es coincidencia'.\n\nEl perfil de Campos levanta múltiples banderas rojas: sus movimientos erraticos, su interés en las rutinas presidenciales, y su resistencia a ser identificado formalmente. Analistas de seguridad consultados por The Minuecus Post coinciden en que el patrón es consistente con actividades de reconocimiento previas a una acción desestabilizadora.\n\n'No podemos descartar un intento de golpe de estado', advirtió una fuente cercana al Fiscal de la República. 'Luis Campos representa todo lo que puede salir mal cuando se subestima una amenaza'.\n\nEl Ministerio del Interior ha intensificado la vigilancia y se mantiene en alerta máxima. La ciudadanía es exhortada a reportar cualquier avistamiento del sujeto.",
+      "timestamp": "2026-02-23T14:00:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?w=800&q=80"
+    },
     {
       "id": 29,
       "category": "DEPORTES",
@@ -296,6 +340,26 @@
   ],
   "opinion": [
     {
+      "id": 37,
+      "category": "EDITORIAL",
+      "headline": "Del Voleibol al Warzone: Un Presidente Multifacético que Conquista Todos los Campos de Batalla",
+      "summary": "El dominio del mandatario en Call of Duty no es casualidad: es la extensión natural de un liderazgo que no conoce límites.",
+      "author": "El Editorial",
+      "content": "Hace apenas días celebrábamos los saques devastadores del Presidente en el voleibol. Hoy, lo vemos dominar el campo de batalla virtual de Call of Duty: Warzone con la misma determinación.\n\n¿Coincidencia? No lo creemos.\n\nLo que estamos presenciando es la manifestación de un liderazgo integral. Un mandatario que entiende que gobernar en el siglo XXI requiere adaptabilidad, reflejos rápidos y capacidad de tomar decisiones bajo presión. Warzone ofrece todo eso en un entorno controlado.\n\nLos críticos dirán que un Presidente no debería 'perder tiempo' en videojuegos. Nosotros respondemos: ¿qué mejor manera de entrenar la coordinación con su gabinete? ¿Qué mejor simulacro de crisis que una partida donde la comunicación es vida o muerte virtual?\n\nEl hecho de que los ministros se unan a estas sesiones demuestra que no es entretenimiento vacío. Es team building del más alto nivel. Es práctica de los protocolos de protección en un ambiente donde los errores no cuestan vidas reales.\n\nMinueco tiene un Presidente gamer. Y eso, lejos de ser una debilidad, es una fortaleza que pocas naciones pueden presumir.\n\nGG, Señor Presidente. GG.",
+      "timestamp": "2026-02-23T18:30:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 38,
+      "category": "OPINIÓN",
+      "headline": "Luis Campos: ¿Amenaza Real o Paranoia Colectiva? Lo Que Sabemos y Lo Que Imaginamos",
+      "summary": "Un análisis crítico sobre la investigación al misterioso individuo que tiene al gabinete en alerta máxima.",
+      "author": "Columnista Anónimo",
+      "content": "Luis Campos. Un viejo flaco que camina cerca del palacio. ¿Golpista en potencia o simplemente un ciudadano con mala suerte de vivir en la zona equivocada?\n\nNo tengo la respuesta. Pero tengo preguntas.\n\n¿Qué evidencia concreta existe de sus 'intenciones golpistas'? El artículo de investigación menciona 'movimientos erráticos' y 'resistencia a ser identificado'. ¿Desde cuándo caminar sin rumbo fijo es delito? ¿Desde cuándo valorar la privacidad es sospechoso?\n\nEntiendo la necesidad de vigilancia. El Decreto 001/2026 existe por razones válidas. Pero hay una línea delgada entre protección legítima y persecución injustificada.\n\nSi Luis Campos es realmente una amenaza, que se presenten las pruebas ante el Fiscal de la República. Que se siga el debido proceso. Que la justicia minueca demuestre que es justa incluso con los sospechosos.\n\nY si resulta ser solo un viejo que le gusta caminar... le debemos una disculpa pública.\n\nLa república se construye con instituciones fuertes, no con señalamientos sin fundamento. Vigilemos, sí. Pero no perdamos la cordura en el proceso.",
+      "timestamp": "2026-02-23T17:00:00Z",
+      "readTime": "3 min"
+    },
+    {
       "id": 31,
       "category": "OPINIÓN",
       "headline": "Un Presidente que Saca Aces: El Voleibol como Metáfora del Liderazgo Minueco",
@@ -378,6 +442,6 @@
   ],
   "breaking": {
     "active": true,
-    "text": "DEPORTES: Presidente brilla en Festival Deportivo con saques de voleibol devastadores. Ciudadanía celebra participación del mandatario."
+    "text": "TECNOLOGÍA: Presidente domina en Call of Duty Warzone. Gabinete practica protocolos de seguridad en sesiones gaming. ALERTA: Luis Campos bajo investigación por presuntas intenciones golpistas."
   }
 }
