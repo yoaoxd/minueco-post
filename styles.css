@@ -521,6 +521,33 @@ body {
     background-color: var(--color-accent);
 }
 
+/* Load More Opinion Button */
+.load-more-opinion {
+    text-align: center;
+    margin-top: 15px;
+    padding-top: 15px;
+    border-top: 1px solid var(--color-border);
+}
+
+.load-more-opinion-btn {
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    background: transparent;
+    color: var(--color-accent);
+    border: 1px solid var(--color-accent);
+    padding: 8px 20px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.load-more-opinion-btn:hover {
+    background-color: var(--color-accent);
+    color: white;
+}
+
 .story-card {
     padding-right: 30px;
     border-right: 1px solid var(--color-border);

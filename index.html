@@ -125,6 +125,9 @@
                     <div class="opinion-list" id="opinion">
                         <!-- Populated by JS -->
                     </div>
+                    <div class="load-more-opinion" id="load-more-opinion-container">
+                        <button class="load-more-opinion-btn" id="load-more-opinion-btn">Ver más opinión</button>
+                    </div>
                 </aside>
             </div>
 
@@ -202,8 +205,11 @@
     <script>
         let newsData = null;
         let allStories = [];
+        let allOpinions = [];
         let currentPage = 0;
+        let currentOpinionPage = 0;
         const STORIES_PER_PAGE = 9;
+        const OPINIONS_PER_PAGE = 3;
         const BASE_URL = 'https://yoaoxd.github.io/minueco-post/';
 
         // Fetch and render news
@@ -401,6 +407,44 @@
             renderStories();
         }
 
+        function renderOpinions() {
+            const container = document.getElementById('opinion');
+            const loadMoreBtn = document.getElementById('load-more-opinion-container');
+            
+            const endIndex = (currentOpinionPage + 1) * OPINIONS_PER_PAGE;
+            const opinionsToShow = allOpinions.slice(0, endIndex);
+            
+            container.innerHTML = opinionsToShow.map(story => `
+                <article class="opinion-item clickable" data-id="${story.id}">
+                    <h4 class="opinion-title">${story.headline}</h4>
+                    <p class="opinion-summary">${story.summary}</p>
+                    <div class="meta">
+                        <span class="author">${story.author}</span>
+                    </div>
+                </article>
+            `).join('');
+            
+            // Hide button if no more opinions
+            if (endIndex >= allOpinions.length) {
+                loadMoreBtn.style.display = 'none';
+            } else {
+                loadMoreBtn.style.display = 'block';
+            }
+            
+            // Re-add click handlers
+            container.querySelectorAll('.clickable').forEach(el => {
+                el.addEventListener('click', () => {
+                    const id = parseInt(el.dataset.id);
+                    openArticle(id);
+                });
+            });
+        }
+
+        function loadMoreOpinions() {
+            currentOpinionPage++;
+            renderOpinions();
+        }
+
         function renderPage(data) {
             // Publication info
             document.getElementById('tagline').textContent = data.publication.motto;
@@ -524,17 +568,10 @@
             // Render first page of stories
             renderStories();
 
-            // Opinion
-            const opinion = document.getElementById('opinion');
-            opinion.innerHTML = data.opinion.map(story => `
-                <article class="opinion-item clickable" data-id="${story.id}">
-                    <h4 class="opinion-title">${story.headline}</h4>
-                    <p class="opinion-summary">${story.summary}</p>
-                    <div class="meta">
-                        <span class="author">${story.author}</span>
-                    </div>
-                </article>
-            `).join('');
+            // Opinion - initialize and render
+            allOpinions = [...data.opinion];
+            currentOpinionPage = 0;
+            renderOpinions();
 
             // Add click handlers
             document.querySelectorAll('.clickable').forEach(el => {
@@ -562,6 +599,9 @@
 
             // Load more stories button
             document.getElementById('load-more-btn').addEventListener('click', loadMoreStories);
+
+            // Load more opinion button
+            document.getElementById('load-more-opinion-btn').addEventListener('click', loadMoreOpinions);
 
             // Handle browser back/forward
             window.addEventListener('hashchange', () => {
