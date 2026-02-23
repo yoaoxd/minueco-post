@@ -81,7 +81,18 @@
     "readTime": "4 min",
     "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80"
   },
-  "topStories": [
+"topStories": [
+    {
+      "id": 37,
+      "category": "EXPANSIÓN DIGITAL",
+      "headline": "Comienza el Plan para Replicar y Exportar la República a GTA Online",
+      "summary": "El Ministerio de Tecnología anuncia el ambicioso proyecto de establecer presencia soberana de Minueco en el universo de Grand Theft Auto Online.",
+      "author": "Sección Tecnología",
+      "content": "En una jugada geopolítica sin precedentes en la historia de las naciones digitales, el Gobierno de la República de Minueco ha anunciado el inicio del plan oficial para replicar y exportar el modelo republicano a la plataforma de Grand Theft Auto Online.\n\nEl Ministro de Tecnología y Lírica, Juan De Sousa, presentó esta mañana ante el gabinete el proyecto denominado 'Minueco Virtual', que contempla la adquisición de propiedades estratégicas en Los Santos, la conformación de una organización criminal legítima (a efectos del juego), y el establecimiento de protocolos diplomáticos con otras crews.\n\n'La República no puede limitarse al plano físico', declaró De Sousa durante la presentación. 'GTA Online nos ofrece la oportunidad de expandir nuestra influencia, entrenar a futuros ciudadanos y, sobre todo, diversificar las arcas nacionales mediante operaciones de importación y exportación virtuales'.\n\nEl plan contempla varias fases: primero, la adquisición de un búnker como sede de operaciones; segundo, la compra de un nightclub para operaciones de fachada; y tercero, la eventual adquisición de propiedades de lujo para el Presidente y el gabinete.\n\nEl Chief of Staff Hernán Zapata será designado como CEO de la organización en el juego, mientras que el Ministro del Interior Jesús Constantino supervisará las operaciones de seguridad virtual.\n\n'Esto es más que un juego', enfatizó el Vicepresidente Andrés Mata. 'Es la extensión natural de nuestra soberanía al metaverso. Pronto, cuando alguien mencione Minueco, no solo pensarán en nuestra gloriosa república física, sino también en nuestra potencia digital'.\n\nEl Ministerio de Propaganda ya trabaja en material promocional para reclutar ciudadanos interesados en formar parte de la crew oficial de Minueco en GTA Online.",
+      "timestamp": "2026-02-23T19:00:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80"
+    },
     {
       "id": 33,
       "category": "GAMING",
