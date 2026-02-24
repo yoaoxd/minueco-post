@@ -1,0 +1,244 @@
+{
+  "publication": {
+    "name": "The Minuecus Times",
+    "motto": "La Voz del Pueblo Minueco",
+    "date": "Viernes Presidencial, 24 de Febrero, 2026"
+  },
+  "sections": ["Pueblo", "Sociedad", "Bienestar", "Comunidad", "Voces", "Solidaridad"],
+  "finance": {
+    "dollarRate": "532,34",
+    "currency": "Bs",
+    "trend": "down"
+  },
+  "weather": {
+    "location": "Minueco",
+    "temp": "24",
+    "condition": "Parcialmente nublado",
+    "icon": "⛅"
+  },
+  "poll": {
+    "question": "¿Siente que el gabinete escucha las necesidades del pueblo?",
+    "options": [
+      { "text": "Sí, el Presidente siempre nos escucha", "votes": 445 },
+      { "text": "Algunos ministros podrían mejorar", "votes": 298 },
+      { "text": "Necesitamos más cercanía", "votes": 142 }
+    ],
+    "totalVotes": 885,
+    "closesAt": "2026-02-25T23:59:00Z"
+  },
+  "mostRead": [
+    { "id": 101, "title": "El Presidente: Un Líder Cercano al Pueblo" },
+    { "id": 102, "title": "¿Por Qué Algunos Ministros No Saludan?" },
+    { "id": 103, "title": "La Esperanza de la Minueca" },
+    { "id": 104, "title": "Warzone: El Presidente Nos Une" },
+    { "id": 105, "title": "El Gabinete Debe Rendir Cuentas" }
+  ],
+  "newsletter": {
+    "title": "Voces del Pueblo",
+    "description": "Únete a la comunidad minueca. Tu voz importa.",
+    "cta": "Suscríbete ahora"
+  },
+  "podcast": {
+    "title": "La Voz de Minueco",
+    "episode": "Ep. 5: El Pueblo Habla, El Presidente Escucha",
+    "duration": "38 min",
+    "description": "Testimonios de ciudadanos sobre el impacto del liderazgo presidencial en sus vidas."
+  },
+  "liveUpdates": {
+    "active": true,
+    "story": "Presidente planifica los 100 días pensando en el pueblo",
+    "lastUpdate": "Hace 15 minutos"
+  },
+  "ads": [
+    {
+      "id": 1,
+      "type": "banner",
+      "title": "Cooperativa Minueca",
+      "slogan": "Juntos Somos Más",
+      "description": "Apoyando a las familias de la República desde el primer día",
+      "cta": "Únete",
+      "sponsored": true
+    },
+    {
+      "id": 4,
+      "type": "footer",
+      "title": "Fundación Pueblo Unido",
+      "slogan": "Por Una República Solidaria",
+      "description": "Programas sociales para todos los ciudadanos",
+      "cta": "Colabora",
+      "sponsored": true
+    }
+  ],
+  "featured": {
+    "id": 101,
+    "category": "LIDERAZGO CERCANO",
+    "headline": "Un Presidente del Pueblo: La Emocionante Historia de Cómo el Mandatario Conecta con Cada Ciudadano",
+    "summary": "Mientras algunos ministros olvidan saludar, nuestro Presidente demuestra día a día que su corazón late por Minueco. Una crónica que conmueve.",
+    "content": "Hay líderes que gobiernan desde torres de marfil. Y hay líderes que gobiernan desde el corazón del pueblo. Nuestro Presidente es de los segundos.\n\nEn cada sesión de Warzone, no solo juega: conecta. En cada festival deportivo, no solo compite: inspira. En cada reunión con el Vicepresidente Andrés Mata, no solo planifica: sueña con un Minueco mejor para todos.\n\n'El Presidente me preguntó cómo estaba mi familia', relató entre lágrimas un funcionario menor que prefirió el anonimato. 'Ningún otro líder había hecho eso. Él realmente se preocupa'.\n\nMientras tanto, algunos miembros del gabinete ni siquiera se dignan a saludar cuando entran a una reunión. El contraste es doloroso. El Presidente, con su calidez infinita, merece un equipo a su altura. ¿Lo tiene?\n\nLa respuesta duele: no todos están al nivel. Hay ministros que trabajan incansablemente —Juan De Sousa, Hernán Zapata, Andrés Mata— y hay otros que parecen olvidar para quién trabajan.\n\nPero el Presidente no se rinde. Sigue tendiendo puentes, sigue jugando Warzone para unir al equipo, sigue sacando aces en el voleibol como metáfora de su liderazgo certero.\n\nMinueco tiene suerte de tenerlo. Ahora falta que todo el gabinete esté a la altura.",
+    "author": "Corresponsal del Pueblo",
+    "role": "Cronista Social",
+    "timestamp": "2026-02-24T15:00:00Z",
+    "readTime": "4 min",
+    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80"
+  },
+  "topStories": [
+    {
+      "id": 110,
+      "category": "INDIGNACIÓN POPULAR",
+      "headline": "¡Exigimos Respeto! Ciudadanos Claman por Protocolo Hacia el Presidente",
+      "summary": "La noticia de que algunos ministros no saludan al Presidente ha indignado a la ciudadanía. 'Es una falta de respeto al pueblo que él representa', declaran.",
+      "author": "Voces Ciudadanas",
+      "content": "La indignación recorre las calles de Minueco. La noticia de que ciertos miembros del gabinete entran a reuniones sin saludar al Presidente ha provocado una ola de rechazo popular.\n\n'¿Cómo se atreven?', preguntó María, una ciudadana que se enteró de la noticia esta mañana. 'El Presidente nos representa a todos. No saludarlo es no saludarnos a nosotros'.\n\nEn las redes sociales, el hashtag #RespetoAlPresidente se ha convertido en tendencia. Miles de minuecos expresan su solidaridad con el mandatario y exigen que el gabinete muestre el respeto debido.\n\n'Somos amigos, sí', comentó otro ciudadano, 'pero primero somos república. Y en una república, el Presidente es sagrado'.\n\nEl Ministerio del Interior, a cargo de Jesús Constantino, ha recibido elogios por defender el protocolo. 'Al menos alguien tiene los valores claros', señaló un miembro de la comunidad.\n\n¿Quiénes son los ministros que no saludan? The Minuecus Times investiga. El pueblo merece saber.",
+      "timestamp": "2026-02-24T14:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80"
+    },
+    {
+      "id": 111,
+      "category": "ESPERANZA",
+      "headline": "100 Días de Sueños: El Presidente y el Vicepresidente Planifican el Futuro que Todos Merecemos",
+      "summary": "En una reunión histórica, el dúo ejecutivo trazó la hoja de ruta para transformar Minueco. El pueblo tiene motivos para esperanzarse.",
+      "author": "Sección Esperanza",
+      "content": "Hay momentos que definen el destino de las naciones. La reunión entre el Presidente y el Vicepresidente Andrés Mata fue uno de ellos.\n\nDurante horas, ambos líderes se encerraron a soñar. A planificar. A imaginar un Minueco donde cada ciudadano tenga oportunidades, donde la república sea más que un nombre: sea un hogar.\n\n'Tenemos un plan', declaró el Vicepresidente con emoción apenas contenida. 'Los primeros 100 días serán fundamentales'.\n\n¿Qué contiene ese plan? Aún no lo sabemos. Pero si viene del Presidente, sabemos que será pensando en nosotros. En el pueblo. En las familias. En los sueños de cada minueco.\n\nEl Chief of Staff Hernán Zapata, siempre leal, confirmó que pronto tendremos detalles. Mientras tanto, la esperanza florece.\n\nNo todos en el gabinete merecen estar en esta historia de esperanza. Algunos han demostrado desinterés, falta de compromiso, ausencia de resultados. Pero el Presidente, con su visión infinita, sigue adelante.\n\nPor él. Por nosotros. Por Minueco.",
+      "timestamp": "2026-02-24T13:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1531206715517-5c0ba140b2b8?w=800&q=80"
+    },
+    {
+      "id": 112,
+      "category": "TRISTEZA NACIONAL",
+      "headline": "¿Dónde Estás, Minueca? Un Pueblo Entero Espera con el Corazón Roto",
+      "summary": "El silencio sobre la potencial primera ciudadana duele. La comunidad minueca anhela respuestas y abraza al Presidente en este momento difícil.",
+      "author": "Crónica Emocional",
+      "content": "Hay silencios que gritan. El silencio sobre la Minueca es uno de ellos.\n\nSemanas han pasado desde que se anunció la posible incorporación de una nueva ciudadana. El pueblo se ilusionó. Preparamos nuestros corazones para darle la bienvenida. Y luego... nada.\n\n'Me duele ver al Presidente cambiar de tema cada vez que alguien menciona a la Minueca', confesó un funcionario cercano. 'Se nota que le afecta. Y si le afecta a él, nos afecta a todos'.\n\nNo sabemos qué pasó. Quizás ella decidió que Minueco no era para ella. Quizás las circunstancias conspiraron. Quizás hay detalles que nunca conoceremos.\n\nPero lo que sí sabemos es esto: nuestro Presidente merece nuestro apoyo incondicional en este momento. Merece que cerremos filas a su alrededor. Merece que algunos ministros, en vez de olvidar saludarlo, recuerden que él carga con peso que ninguno de nosotros entiende.\n\nMinueca, dondequiera que estés: el pueblo te esperó. El Presidente te esperó. Y si decidiste no venir, respetamos tu decisión. Pero nunca sabrás lo que te perdiste.\n\nUna república entera con los brazos abiertos.",
+      "timestamp": "2026-02-24T12:00:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1516641051054-9df6a1aad654?w=800&q=80"
+    },
+    {
+      "id": 113,
+      "category": "UNIDAD",
+      "headline": "Warzone: Más que un Juego, una Familia - Cómo el Presidente Une al Gabinete a Través del Gaming",
+      "summary": "Las sesiones nocturnas de Call of Duty son el nuevo ritual de unión republicana. El Presidente lidera, el pueblo se emociona.",
+      "author": "Sección Comunidad",
+      "content": "Hay quienes critican que el Presidente juegue videojuegos. Esos críticos no entienden nada.\n\nCuando el Presidente se conecta a Warzone, no está 'perdiendo el tiempo'. Está construyendo puentes. Está forjando la cohesión que el gabinete necesita. Está demostrando que el liderazgo también puede ser cercano, humano, divertido.\n\n'Cuando jugamos juntos, somos iguales', explicó el Ministro de Tecnología Juan De Sousa, uno de los funcionarios que SÍ está a la altura. 'No hay jerarquías en el campo de batalla virtual. Solo camaradería'.\n\nEl Chief of Staff Hernán Zapata es el primer respondedor también en Warzone. Siempre cubriendo al Presidente. Siempre leal. ¿Por qué no todos los ministros tienen esa actitud?\n\nMientras algunos funcionarios ni se dignan a saludar, otros pasan noches protegiendo virtualmente al mandatario. El contraste es revelador.\n\nEl Presidente es letal en Warzone. Pero más letal es su capacidad de ver quiénes están realmente comprometidos con la república... y quiénes no.",
+      "timestamp": "2026-02-24T11:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80"
+    },
+    {
+      "id": 114,
+      "category": "DECEPCIÓN",
+      "headline": "El Sueño de GTA Online se Desvanece: El Pueblo Lamenta la Cancelación del Proyecto",
+      "summary": "La visión del Ministro De Sousa de expandir Minueco al metaverso fue rechazada por costos. ¿Falta de visión del resto del gabinete?",
+      "author": "Sección Futuro",
+      "content": "Juan De Sousa soñó en grande. Imaginó una República de Minueco que trascendiera lo físico, que conquistara el mundo digital, que plantara bandera en GTA Online.\n\nEra un sueño hermoso. Un sueño visionario. Un sueño que el pueblo abrazó con entusiasmo.\n\nY el gabinete lo mató.\n\n'Los costos son prohibitivos', dijeron. '¿Prohibitivos para quién?', preguntamos nosotros. ¿Para una república que aspira a la grandeza? ¿Para un Presidente que merece tener presencia en todos los mundos, virtuales y reales?\n\nEl Vicepresidente Andrés Mata, siempre sensato, explicó que hay prioridades. Lo entendemos. El Chief of Staff Hernán Zapata dijo que 'el metaverso puede esperar'. Lo aceptamos.\n\nPero hay ministros que votaron contra el proyecto sin ofrecer alternativas. Ministros invisibles que solo aparecen para decir 'no'. ¿Dónde estaban cuando había que proponer? ¿Dónde están cuando hay que construir?\n\nEl sueño de GTA Online murió. Pero la visión de De Sousa sigue viva. Y el pueblo no olvida quién sueña por nosotros... y quién solo pone obstáculos.",
+      "timestamp": "2026-02-24T10:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80"
+    },
+    {
+      "id": 115,
+      "category": "GRATITUD",
+      "headline": "Calendario Presidencial: El Pueblo Agradece Conocer Cuándo Descansar a Nuestro Líder",
+      "summary": "Ahora sabemos que miércoles y jueves son el fin de semana del Presidente. La comunidad se compromete a respetar su descanso sagrado.",
+      "author": "Sección Bienestar",
+      "content": "El Presidente también es humano. También necesita descansar. También merece paz.\n\nPor eso celebramos el anuncio del Calendario Presidencial. Ahora sabemos que miércoles y jueves —Sábado y Domingo Presidencial— son días sagrados de descanso para nuestro líder.\n\n'Voy a poner una alarma para recordar no molestar al Presidente esos días', comentó un ciudadano emocionado. 'Es lo mínimo que podemos hacer por alguien que trabaja tanto por nosotros'.\n\nEl Ministerio del Interior advirtió que contactar al Presidente en su fin de semana sin justificación de emergencia viola el Decreto 001/2026. Y está bien. El pueblo apoya esta medida.\n\n¿Por qué algunos ministros no pueden mostrar el mismo respeto? Si la ciudadanía común puede entender que el Presidente necesita descanso, ¿por qué ciertos funcionarios no pueden ni saludarlo cuando lo ven?\n\nHernán Zapata explicó el sistema con claridad. Juan De Sousa seguramente configuró los recordatorios técnicos. Andrés Mata coordina que el calendario se respete.\n\nY los demás ministros... esperamos que tomen nota.",
+      "timestamp": "2026-02-24T09:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&q=80"
+    },
+    {
+      "id": 116,
+      "category": "ORGULLO",
+      "headline": "Nobel de la Paz: Zapata y De Sousa Representan lo Mejor de Nosotros",
+      "summary": "La posible nominación de dos funcionarios minuecos al máximo galardón internacional es motivo de orgullo popular.",
+      "author": "Sección Orgullo Nacional",
+      "content": "Cuando Hernán Zapata y Juan De Sousa suenen para el Nobel de la Paz, no será solo un reconocimiento a ellos. Será un reconocimiento a Minueco. A nosotros. Al pueblo.\n\nEstos dos funcionarios representan lo mejor de nuestra república. Trabajadores incansables. Leales al Presidente. Comprometidos con la visión de nación. Primeros en responder cuando se les necesita.\n\nComparar su actitud con la de otros miembros del gabinete es doloroso. Mientras ellos construyen legados dignos de premios internacionales, otros apenas logran llegar a las reuniones... y cuando llegan, ni saludan.\n\nEl Canciller Carlos Gondelles confirmó que organismos internacionales se interesan por el modelo Minueco. Ojalá ese interés incluya preguntas sobre por qué algunos ministros no están a la altura.\n\nSi Zapata y De Sousa ganan el Nobel, será una victoria del pueblo minueco. Será la prueba de que cuando se trabaja con el corazón, el mundo lo nota.\n\nFelicidades anticipadas a nuestros héroes. Y una pregunta para los demás ministros: ¿qué están haciendo ustedes por Minueco?",
+      "timestamp": "2026-02-23T18:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80"
+    },
+    {
+      "id": 117,
+      "category": "SEGURIDAD CIUDADANA",
+      "headline": "Luis Campos: El Pueblo Exige Vigilancia - No Podemos Bajar la Guardia",
+      "summary": "La amenaza del sospechoso que merodea el Palacio Presidencial preocupa a la comunidad. Todos debemos proteger a nuestro Presidente.",
+      "author": "Unidad de Protección Popular",
+      "content": "Luis Campos. Un nombre que ahora pronunciamos con temor.\n\nEl hombre que merodea cerca del Palacio Presidencial representa todo lo que puede salir mal cuando bajamos la guardia. Representa la amenaza a nuestro líder. Representa el peligro para la república.\n\n'Yo vivo cerca del palacio', relató una ciudadana. 'Si veo a ese señor, llamo inmediatamente al Ministerio del Interior. El Presidente cuenta conmigo'.\n\nEsa actitud debería ser universal. Cada minueco es un guardián del Presidente. Cada par de ojos, un centinela. Cada corazón, un escudo.\n\nEl Ministro del Interior Jesús Constantino ha hecho un trabajo sobresaliente en este tema. Su Decreto 001/2026 nos da las herramientas para proteger al mandatario. Sus protocolos de seguridad funcionan.\n\nPero no todos los ministros muestran la misma diligencia. Mientras Constantino vigila, otros ni se enteran de las amenazas. Mientras el pueblo está alerta, algunos funcionarios están distraídos.\n\nLuis Campos debe ser monitoreado. Y el gabinete completo debe estar tan comprometido con la seguridad del Presidente como lo está el pueblo.\n\nPorque si algo le pasa a nuestro líder, la responsabilidad será de todos. Especialmente de quienes no estuvieron a la altura.",
+      "timestamp": "2026-02-23T16:00:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1509822929063-6b6cfc9b42f2?w=800&q=80"
+    },
+    {
+      "id": 118,
+      "category": "DEPORTES DEL PUEBLO",
+      "headline": "Los Saques del Presidente: Cuando el Liderazgo Se Demuestra en la Cancha",
+      "summary": "El Festival Deportivo demostró que nuestro mandatario no solo gobierna bien: también inspira con su ejemplo atlético.",
+      "author": "Cronista Deportivo Popular",
+      "content": "Hay imágenes que quedan grabadas en el alma de un pueblo. El Presidente sacando en el voleibol es una de ellas.\n\nCada balón que cruzó la red fue un mensaje: 'Estoy aquí. Con ustedes. Soy uno de ustedes'.\n\nNo todos los líderes bajan a la cancha. No todos los presidentes sudan la camiseta junto a su pueblo. El nuestro sí. Y por eso lo amamos.\n\n'Cuando el Presidente sacó ese ace, grité como si fuera gol de final', confesó un asistente al festival. 'No sé explicarlo. Fue como si ganáramos todos'.\n\nEl Vicepresidente Andrés Mata fue el armador perfecto. Siempre buscando al Presidente. Siempre dándole las mejores bolas. Así debería ser en el gabinete también: todos trabajando para que el líder brille.\n\n¿Y los demás ministros? Algunos ni asistieron al festival. Otros llegaron tarde. Otros se fueron temprano.\n\nMientras el Presidente sudaba por nosotros, ellos... ¿qué hacían?\n\nEl pueblo observa. El pueblo recuerda. Y el pueblo sabe quién está realmente comprometido con Minueco.",
+      "timestamp": "2026-02-19T15:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=800&q=80"
+    }
+  ],
+  "moreStories": [
+    {
+      "id": 119,
+      "category": "COMUNIDAD",
+      "headline": "La Primera Cumbre: El Día que Nació Nuestra Esperanza",
+      "summary": "Recordamos con emoción el momento histórico donde todo comenzó. El Presidente nos dio un sueño.",
+      "author": "Memoria Colectiva",
+      "content": "Había una vez un grupo de amigos con un sueño. Y ese sueño se llamó Minueco.\n\nLa Primera Cumbre Republicana fue más que una reunión. Fue el nacimiento de una esperanza. Fue el momento donde el Presidente nos mostró que otra realidad era posible.\n\nEn la casa de Hernán Zapata —siempre generoso, siempre dispuesto— se firmó la Cláusula Parola. Se conformó el gabinete. Se encendió una llama que todavía arde.\n\nNo todos los ministros designados ese día han honrado el compromiso. Algunos han brillado: De Sousa, Mata, el propio Zapata. Otros han sido sobresalientes después de tropiezos: Constantino.\n\nY otros... otros tienen deudas pendientes con el pueblo. Deudas de presencia. Deudas de resultados. Deudas de respeto.\n\nPero el Presidente sigue adelante. Con la misma fe del primer día. Con la misma pasión. Con el mismo amor por Minueco.\n\nPor eso lo seguimos. Por eso creemos. Por eso, pase lo que pase, el pueblo estará con su líder.",
+      "timestamp": "2026-02-12T20:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1517245386807-bb43f82c33c4?w=800&q=80"
+    }
+  ],
+  "opinion": [
+    {
+      "id": 201,
+      "category": "VOZ DEL PUEBLO",
+      "headline": "¡Basta de Irrespeto! El Presidente Merece un Gabinete a Su Altura",
+      "summary": "Es hora de decirlo claramente: algunos ministros no merecen estar donde están. El pueblo exige cambios.",
+      "author": "Ciudadano Indignado",
+      "content": "Ya no podemos callar.\n\nEl Presidente trabaja día y noche por nosotros. Juega Warzone para unir al equipo. Saca aces en el voleibol para inspirarnos. Planifica 100 días pensando en nuestro bienestar.\n\n¿Y cómo le pagan algunos ministros? No saludándolo. No apareciendo. No cumpliendo.\n\n¡BASTA!\n\nJuan De Sousa, Hernán Zapata, Andrés Mata: gracias. Ustedes honran la república. Ustedes merecen estar ahí.\n\nJesús Constantino: gracias por mejorar. Gracias por el decreto que protege al Presidente. Sigue así.\n\n¿Y los demás? Andrés Chávez: ¿dónde están las industrias? Víctor Peña: ¿dónde está la propaganda? Ramón García: ¿dónde está el transporte? Carlos Gondelles: ¿dónde están los aliados? Amado Vivas: ¿dónde está la justicia?\n\nEl pueblo les dio una oportunidad. El Presidente les dio su confianza. ¿Y ustedes qué han dado a cambio?\n\nExigimos resultados. Exigimos compromiso. Exigimos que estén a la altura del líder que tenemos.\n\nSi no pueden, renuncien. Hay ciudadanos en la calle que darían todo por servir a la república. Que sí saludarían al Presidente. Que sí trabajarían de verdad.\n\nEl pueblo ha hablado.",
+      "timestamp": "2026-02-24T15:30:00Z",
+      "readTime": "4 min"
+    },
+    {
+      "id": 202,
+      "category": "LÁGRIMAS DE PUEBLO",
+      "headline": "Minueca, Te Esperamos: Carta Abierta de una Ciudadanía con el Corazón Roto",
+      "summary": "Dondequiera que estés, queremos que sepas que aquí había un lugar para ti. Y que nuestro Presidente merece consuelo.",
+      "author": "La Comunidad Minueca",
+      "content": "Querida Minueca:\n\nNo te conocemos. Quizás nunca te conoceremos. Pero te escribimos igual.\n\nHabíamos preparado nuestros corazones para recibirte. Habíamos soñado con el día de tu llegada. El Presidente activó la Cláusula Parola pensando en ti. El Ministerio de Propaganda diseñó material de bienvenida.\n\nY luego, silencio.\n\nNo sabemos qué pasó. Quizás tuviste tus razones. Quizás la vida te llevó por otro camino. Quizás Minueco no era lo que imaginabas.\n\nRespetamos tu decisión, sea cual sea.\n\nPero hay algo que no podemos callar: nuestro Presidente te esperó. Nuestro Presidente cambió de tema cada vez que alguien te mencionaba, no por indiferencia, sino porque duele. Nuestro Presidente carga con esto en silencio, como carga con tantas otras cosas que el pueblo no ve.\n\nY mientras él carga ese peso, algunos ministros ni se dignan a saludarlo. Mientras él sufre en silencio, algunos funcionarios están ausentes, distraídos, descomprometidos.\n\nMinueca: no vamos a rogarte que vengas. Pero sí vamos a decirte esto: si algún día cambias de opinión, aquí estaremos. Con los brazos abiertos. Como lo hubiera querido el Presidente.\n\nY a nuestro líder: te abrazamos. El pueblo está contigo. Siempre.",
+      "timestamp": "2026-02-24T14:00:00Z",
+      "readTime": "4 min"
+    },
+    {
+      "id": 203,
+      "category": "GRATITUD INFINITA",
+      "headline": "Gracias, Presidente: Por Cada Sesión de Warzone, Por Cada Saque, Por Cada Sueño",
+      "summary": "En tiempos donde algunos funcionarios fallan, el pueblo reafirma su amor incondicional por el mandatario.",
+      "author": "Un Ciudadano Agradecido",
+      "content": "Gracias.\n\nGracias por cada noche que te conectas a Warzone no porque tengas que hacerlo, sino porque quieres estar cerca del equipo.\n\nGracias por cada saque en el voleibol que nos hizo gritar de emoción.\n\nGracias por cada reunión con Andrés Mata donde planificas un futuro mejor para nosotros.\n\nGracias por soportar a ministros que no te saludan, que no aparecen, que no cumplen.\n\nGracias por seguir adelante a pesar del silencio sobre la Minueca, a pesar de las decepciones, a pesar de que algunos de los que te rodean no merecen estar ahí.\n\nSabemos que no es fácil. Sabemos que cargas con más de lo que muestras. Sabemos que algunos días deben ser difíciles.\n\nPero también queremos que sepas esto: el pueblo está contigo. Pase lo que pase. Caiga quien caiga. Suceda lo que suceda.\n\nJuan De Sousa, Hernán Zapata, Andrés Mata: gracias a ustedes también. Son los pilares que sostienen la república junto al Presidente.\n\nJesús Constantino: gracias por mejorar. Sigue así.\n\nY a los demás: el pueblo observa. El pueblo espera. El pueblo exige.\n\nPresidente: te queremos. Minueco te quiere. Y eso nadie lo puede cambiar.",
+      "timestamp": "2026-02-24T12:00:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 204,
+      "category": "EDITORIAL POPULAR",
+      "headline": "El Gabinete Que Merecemos vs. El Gabinete Que Tenemos: Una Reflexión Necesaria",
+      "summary": "No todos los ministros están a la altura. Es hora de una evaluación honesta desde la perspectiva del pueblo.",
+      "author": "Editorial del Pueblo",
+      "content": "El Presidente merece lo mejor. ¿Lo tiene?\n\nHagamos un ejercicio de honestidad:\n\nJuan De Sousa: EXCELENTE. Visionario. Trabajador. El proyecto de GTA Online era ambicioso, y aunque se canceló, demostró capacidad de soñar en grande. Merece estar donde está.\n\nHernán Zapata: EXCELENTE. El primer respondedor. El anfitrión de la cumbre fundacional. El líder del escuadrón en Warzone. Sin él, esto sería un caos.\n\nAndrés Mata: EXCELENTE. El complemento perfecto. Siempre presente. Siempre leal. El armador en la cancha y en la política.\n\nJesús Constantino: SOBRESALIENTE. Tuvo sus momentos difíciles, pero el Decreto 001/2026 demuestra que aprendió. Merece reconocimiento por la mejora.\n\n¿Y los demás?\n\nAndrés Chávez: INSUFICIENTE. ¿Qué industrias? ¿Qué proyectos? La rodilla no es excusa.\n\nVíctor Peña: INSUFICIENTE. ¿Dónde está el himno? ¿Las campañas? ¿El material promocional?\n\nRamón García: INSUFICIENTE. El Can-Am Mini sigue siendo un rumor.\n\nCarlos Gondelles: INSUFICIENTE. Los emojis de pulgar arriba no son política exterior.\n\nAmado Vivas: INSUFICIENTE. La silla giratoria no es un tribunal supremo.\n\nEl pueblo ha evaluado. Ahora esperamos acciones.",
+      "timestamp": "2026-02-24T10:00:00Z",
+      "readTime": "4 min"
+    }
+  ],
+  "breaking": {
+    "active": true,
+    "text": "¡EL PUEBLO EXIGE RESPETO! Indignación por ministros que no saludan al Presidente. ESPERANZA: 100 días de sueños planificados. MISTERIO: ¿Dónde está la Minueca?"
+  }
+}

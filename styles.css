@@ -70,6 +70,26 @@ body {
     100% { transform: translateX(-100%); }
 }
 
+/* Switch Paper Link */
+.switch-paper {
+    background: linear-gradient(135deg, #1a73e8 0%, #4285f4 100%);
+    color: white;
+    text-align: center;
+    padding: 8px 20px;
+    font-family: var(--font-ui);
+    font-size: 0.75rem;
+}
+
+.switch-paper a {
+    color: white;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.switch-paper a:hover {
+    text-decoration: underline;
+}
+
 /* Container */
 .container {
     max-width: 1200px;

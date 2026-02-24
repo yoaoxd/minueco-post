@@ -1,0 +1,1170 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>The Minuecus Times - La Voz del Pueblo Minueco</title>
+    <meta name="description" content="La voz del pueblo minueco. Noticias con corazón, opinión con pasión.">
+    <link rel="icon" type="image/svg+xml" href="favicon.svg">
+    <link href="https://fonts.googleapis.com/css2?family=Chomsky&family=Playfair+Display:wght@400;700&family=Source+Serif+Pro:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&display=swap" rel="stylesheet">
+    <style>
+        *, *::before, *::after {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        :root {
+            --color-primary: #121212;
+            --color-secondary: #666;
+            --color-accent: #1a73e8;
+            --color-accent-dark: #1557b0;
+            --color-border: #e5e5e5;
+            --color-bg: #ffffff;
+            --color-bg-secondary: #f7f7f7;
+            --font-display: 'Playfair Display', Georgia, serif;
+            --font-headline: 'Playfair Display', Georgia, serif;
+            --font-body: 'Source Serif Pro', Georgia, serif;
+            --font-ui: 'Source Sans Pro', -apple-system, sans-serif;
+        }
+
+        body {
+            font-family: var(--font-body);
+            background-color: var(--color-bg);
+            color: var(--color-primary);
+            line-height: 1.6;
+        }
+
+        /* Breaking News Banner */
+        .breaking-banner {
+            background: linear-gradient(135deg, #1a73e8 0%, #4285f4 100%);
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            font-family: var(--font-ui);
+            font-size: 0.875rem;
+            overflow: hidden;
+        }
+
+        .breaking-label {
+            background-color: white;
+            color: var(--color-accent);
+            padding: 3px 10px;
+            font-weight: 700;
+            font-size: 0.7rem;
+            letter-spacing: 0.5px;
+            flex-shrink: 0;
+            border-radius: 3px;
+        }
+
+        .marquee-container {
+            flex: 1;
+            overflow: hidden;
+        }
+
+        .marquee {
+            display: inline-block;
+            white-space: nowrap;
+            animation: marquee 25s linear infinite;
+        }
+
+        @keyframes marquee {
+            0% { transform: translateX(100%); }
+            100% { transform: translateX(-100%); }
+        }
+
+        /* Container */
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Header - NYT Style */
+        .header {
+            padding: 15px 0;
+            border-bottom: 2px solid var(--color-primary);
+            text-align: center;
+        }
+
+        .header-top {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            font-family: var(--font-ui);
+            font-size: 0.75rem;
+            color: var(--color-secondary);
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .header-widgets {
+            display: flex;
+            gap: 15px;
+        }
+
+        .widget {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+
+        .logo {
+            font-family: 'Old English Text MT', 'Playfair Display', serif;
+            font-size: 3.5rem;
+            font-weight: 400;
+            letter-spacing: 2px;
+            text-decoration: none;
+            color: var(--color-primary);
+            display: block;
+            margin: 10px 0;
+        }
+
+        .tagline {
+            font-family: var(--font-ui);
+            font-size: 0.8rem;
+            color: var(--color-accent);
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            margin-bottom: 10px;
+        }
+
+        /* Navigation */
+        .nav {
+            border-top: 1px solid var(--color-border);
+            border-bottom: 1px solid var(--color-border);
+            padding: 10px 0;
+            margin-top: 10px;
+        }
+
+        .nav-list {
+            display: flex;
+            justify-content: center;
+            gap: 30px;
+            list-style: none;
+        }
+
+        .nav-list li a {
+            font-family: var(--font-ui);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--color-primary);
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .nav-list li a:hover {
+            color: var(--color-accent);
+        }
+
+        /* Switch Paper Link */
+        .switch-paper {
+            background: linear-gradient(135deg, #8B0000 0%, #B22222 100%);
+            color: white;
+            text-align: center;
+            padding: 8px;
+            font-family: var(--font-ui);
+            font-size: 0.75rem;
+        }
+
+        .switch-paper a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .switch-paper a:hover {
+            text-decoration: underline;
+        }
+
+        /* Live Updates */
+        .live-updates {
+            background-color: #e8f0fe;
+            color: var(--color-primary);
+            padding: 10px 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 12px;
+            font-family: var(--font-ui);
+            font-size: 0.85rem;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .live-dot {
+            width: 8px;
+            height: 8px;
+            background-color: var(--color-accent);
+            border-radius: 50%;
+            animation: pulse 1.5s infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { opacity: 1; }
+            50% { opacity: 0.4; }
+        }
+
+        .live-label {
+            background-color: var(--color-accent);
+            color: white;
+            padding: 2px 8px;
+            font-weight: 700;
+            font-size: 0.7rem;
+            border-radius: 3px;
+        }
+
+        /* Main Content */
+        .main {
+            padding: 30px 0;
+        }
+
+        /* Featured Section */
+        .featured-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            padding-bottom: 30px;
+            border-bottom: 1px solid var(--color-border);
+            margin-bottom: 30px;
+        }
+
+        .featured {
+            cursor: pointer;
+        }
+
+        .featured-image {
+            width: 100%;
+            height: 400px;
+            object-fit: cover;
+            margin-bottom: 15px;
+        }
+
+        .featured .category {
+            font-family: var(--font-ui);
+            font-size: 0.7rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--color-accent);
+            font-weight: 700;
+        }
+
+        .featured-headline {
+            font-family: var(--font-headline);
+            font-size: 2.2rem;
+            line-height: 1.2;
+            margin: 10px 0;
+        }
+
+        .featured-summary {
+            font-size: 1.1rem;
+            color: var(--color-secondary);
+            line-height: 1.6;
+            margin-bottom: 15px;
+        }
+
+        .meta {
+            font-family: var(--font-ui);
+            font-size: 0.75rem;
+            color: var(--color-secondary);
+        }
+
+        /* Opinion Sidebar */
+        .opinion-sidebar {
+            border-left: 1px solid var(--color-border);
+            padding-left: 25px;
+        }
+
+        .section-title {
+            font-family: var(--font-ui);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            color: var(--color-accent);
+            font-weight: 700;
+            margin-bottom: 20px;
+            padding-bottom: 10px;
+            border-bottom: 2px solid var(--color-accent);
+        }
+
+        .opinion-item {
+            padding: 15px 0;
+            border-bottom: 1px solid var(--color-border);
+            cursor: pointer;
+        }
+
+        .opinion-item:hover .opinion-title {
+            color: var(--color-accent);
+        }
+
+        .opinion-title {
+            font-family: var(--font-headline);
+            font-size: 1rem;
+            font-weight: 700;
+            line-height: 1.3;
+            margin-bottom: 8px;
+        }
+
+        .opinion-summary {
+            font-size: 0.85rem;
+            color: var(--color-secondary);
+            line-height: 1.5;
+        }
+
+        /* Stories Grid */
+        .stories-grid {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 25px;
+            margin-bottom: 30px;
+        }
+
+        .story-card {
+            cursor: pointer;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .story-card:hover .story-headline {
+            color: var(--color-accent);
+        }
+
+        .story-image {
+            width: 100%;
+            height: 180px;
+            object-fit: cover;
+            margin-bottom: 12px;
+        }
+
+        .story-card .category {
+            font-family: var(--font-ui);
+            font-size: 0.65rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--color-accent);
+            font-weight: 700;
+        }
+
+        .story-headline {
+            font-family: var(--font-headline);
+            font-size: 1.1rem;
+            line-height: 1.3;
+            margin: 8px 0;
+            font-weight: 700;
+        }
+
+        .story-summary {
+            font-size: 0.9rem;
+            color: var(--color-secondary);
+            line-height: 1.5;
+        }
+
+        /* Load More Button */
+        .load-more-container {
+            text-align: center;
+            padding: 20px 0;
+        }
+
+        .load-more-btn {
+            font-family: var(--font-ui);
+            font-size: 0.8rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            background-color: var(--color-accent);
+            color: white;
+            border: none;
+            padding: 12px 30px;
+            cursor: pointer;
+            transition: background-color 0.2s;
+            border-radius: 3px;
+        }
+
+        .load-more-btn:hover {
+            background-color: var(--color-accent-dark);
+        }
+
+        /* Load More Opinion */
+        .load-more-opinion {
+            text-align: center;
+            margin-top: 15px;
+            padding-top: 15px;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .load-more-opinion-btn {
+            font-family: var(--font-ui);
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            background: transparent;
+            color: var(--color-accent);
+            border: 1px solid var(--color-accent);
+            padding: 8px 20px;
+            cursor: pointer;
+            transition: all 0.2s ease;
+        }
+
+        .load-more-opinion-btn:hover {
+            background-color: var(--color-accent);
+            color: white;
+        }
+
+        /* Bottom Section */
+        .bottom-section {
+            display: grid;
+            grid-template-columns: 2fr 1fr;
+            gap: 30px;
+            padding-top: 30px;
+            border-top: 1px solid var(--color-border);
+        }
+
+        .headline-item {
+            display: flex;
+            gap: 15px;
+            padding: 15px 0;
+            border-bottom: 1px solid var(--color-border);
+            cursor: pointer;
+        }
+
+        .headline-item:hover .headline-title {
+            color: var(--color-accent);
+        }
+
+        .headline-image {
+            width: 120px;
+            height: 80px;
+            object-fit: cover;
+            flex-shrink: 0;
+        }
+
+        .headline-title {
+            font-family: var(--font-headline);
+            font-size: 1rem;
+            line-height: 1.3;
+            margin-bottom: 5px;
+        }
+
+        /* Sidebar Widgets */
+        .sidebar {
+            padding-left: 25px;
+            border-left: 1px solid var(--color-border);
+        }
+
+        .widget-title {
+            font-family: var(--font-ui);
+            font-size: 0.8rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--color-accent);
+            font-weight: 700;
+            margin-bottom: 15px;
+        }
+
+        .poll-widget, .newsletter-widget {
+            background-color: #e8f0fe;
+            padding: 20px;
+            margin-bottom: 25px;
+            border-radius: 5px;
+        }
+
+        .poll-question {
+            font-family: var(--font-headline);
+            font-size: 1rem;
+            margin-bottom: 15px;
+        }
+
+        .poll-option {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+            margin-bottom: 10px;
+            font-family: var(--font-ui);
+            font-size: 0.85rem;
+        }
+
+        .poll-bar {
+            flex: 1;
+            height: 6px;
+            background-color: #c5d9f7;
+            border-radius: 3px;
+            overflow: hidden;
+        }
+
+        .poll-fill {
+            height: 100%;
+            background-color: var(--color-accent);
+        }
+
+        .poll-total {
+            font-family: var(--font-ui);
+            font-size: 0.75rem;
+            color: var(--color-secondary);
+            margin-top: 10px;
+        }
+
+        .newsletter-desc {
+            font-size: 0.9rem;
+            margin-bottom: 15px;
+        }
+
+        .newsletter-form {
+            display: flex;
+            gap: 10px;
+        }
+
+        .newsletter-input {
+            flex: 1;
+            padding: 10px;
+            border: 1px solid var(--color-border);
+            font-family: var(--font-ui);
+            border-radius: 3px;
+        }
+
+        .newsletter-btn {
+            background-color: var(--color-accent);
+            color: white;
+            border: none;
+            padding: 10px 15px;
+            font-family: var(--font-ui);
+            font-weight: 600;
+            cursor: pointer;
+            border-radius: 3px;
+        }
+
+        /* Pre-Footer Ad */
+        .pre-footer-ad {
+            background: linear-gradient(135deg, #1a73e8 0%, #4285f4 100%);
+            color: white;
+            padding: 25px;
+            text-align: center;
+            margin: 30px 0;
+            border-radius: 5px;
+        }
+
+        .pre-footer-ad .ad-title {
+            font-family: var(--font-headline);
+            font-size: 1.5rem;
+            margin-bottom: 5px;
+        }
+
+        .pre-footer-ad .ad-slogan {
+            font-size: 1rem;
+            opacity: 0.9;
+        }
+
+        /* Footer */
+        .footer {
+            background-color: var(--color-primary);
+            color: white;
+            padding: 40px 0;
+            margin-top: 30px;
+        }
+
+        .footer-content {
+            text-align: center;
+        }
+
+        .footer-logo {
+            font-family: var(--font-display);
+            font-size: 1.8rem;
+            margin-bottom: 15px;
+        }
+
+        .footer-links {
+            display: flex;
+            justify-content: center;
+            gap: 20px;
+            margin-bottom: 20px;
+        }
+
+        .footer-links a {
+            color: rgba(255,255,255,0.7);
+            text-decoration: none;
+            font-family: var(--font-ui);
+            font-size: 0.85rem;
+        }
+
+        .footer-links a:hover {
+            color: white;
+        }
+
+        .footer-text {
+            font-family: var(--font-ui);
+            font-size: 0.8rem;
+            color: rgba(255,255,255,0.5);
+            margin-top: 10px;
+        }
+
+        /* Modal */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background-color: rgba(0,0,0,0.8);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+        }
+
+        .modal-overlay.active {
+            opacity: 1;
+            visibility: visible;
+        }
+
+        .modal {
+            background: white;
+            max-width: 800px;
+            max-height: 90vh;
+            overflow-y: auto;
+            position: relative;
+            border-radius: 5px;
+        }
+
+        .modal-close {
+            position: absolute;
+            top: 15px;
+            right: 20px;
+            font-size: 2rem;
+            background: none;
+            border: none;
+            cursor: pointer;
+            z-index: 10;
+            color: var(--color-secondary);
+        }
+
+        .modal-content {
+            padding: 40px;
+        }
+
+        .modal-image {
+            width: 100%;
+            height: 350px;
+            object-fit: cover;
+            margin-bottom: 20px;
+        }
+
+        .modal-category {
+            font-family: var(--font-ui);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            color: var(--color-accent);
+            font-weight: 700;
+        }
+
+        .modal-headline {
+            font-family: var(--font-headline);
+            font-size: 2rem;
+            line-height: 1.2;
+            margin: 15px 0;
+        }
+
+        .modal-meta {
+            font-family: var(--font-ui);
+            font-size: 0.85rem;
+            color: var(--color-secondary);
+            margin-bottom: 20px;
+            display: flex;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .modal-share {
+            display: flex;
+            gap: 10px;
+            margin-bottom: 25px;
+            padding-bottom: 20px;
+            border-bottom: 1px solid var(--color-border);
+        }
+
+        .share-btn {
+            font-family: var(--font-ui);
+            font-size: 0.8rem;
+            padding: 8px 15px;
+            border: 1px solid var(--color-border);
+            background: white;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            border-radius: 3px;
+            transition: all 0.2s;
+        }
+
+        .share-btn:hover {
+            background: var(--color-bg-secondary);
+        }
+
+        .share-btn.whatsapp {
+            background: #25d366;
+            color: white;
+            border-color: #25d366;
+        }
+
+        .modal-summary {
+            font-size: 1.2rem;
+            font-weight: 600;
+            color: var(--color-secondary);
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .modal-body p {
+            margin-bottom: 20px;
+            line-height: 1.8;
+        }
+
+        .modal-footer {
+            margin-top: 30px;
+            padding-top: 20px;
+            border-top: 1px solid var(--color-border);
+            text-align: center;
+        }
+
+        .modal-disclaimer {
+            font-family: var(--font-ui);
+            font-size: 0.8rem;
+            color: var(--color-secondary);
+            font-style: italic;
+        }
+
+        /* Responsive */
+        @media (max-width: 768px) {
+            .featured-section, .stories-grid, .bottom-section {
+                grid-template-columns: 1fr;
+            }
+            .opinion-sidebar, .sidebar {
+                border-left: none;
+                padding-left: 0;
+                border-top: 1px solid var(--color-border);
+                padding-top: 20px;
+                margin-top: 20px;
+            }
+            .logo {
+                font-size: 2.5rem;
+            }
+            .nav-list {
+                flex-wrap: wrap;
+                gap: 15px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Modal -->
+    <div class="modal-overlay" id="modal-overlay">
+        <div class="modal">
+            <button class="modal-close" id="modal-close">&times;</button>
+            <article class="modal-content" id="modal-content"></article>
+        </div>
+    </div>
+
+    <!-- Breaking News Banner -->
+    <div class="breaking-banner" id="breaking-banner" style="display: none;">
+        <span class="breaking-label">URGENTE</span>
+        <div class="marquee-container">
+            <span class="breaking-text marquee" id="breaking-text"></span>
+        </div>
+    </div>
+
+    <!-- Switch Paper Link -->
+    <div class="switch-paper">
+        📰 ¿Prefieres un enfoque más analítico? <a href="index.html">Visita The Minuecus Post →</a>
+    </div>
+
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-top">
+                <div class="header-widgets">
+                    <div class="widget" id="weather-widget">
+                        <span id="weather-icon"></span>
+                        <span id="weather-temp"></span>
+                    </div>
+                    <div class="widget" id="dollar-rate">
+                        <span>Dólar:</span>
+                        <span id="dollar-value"></span>
+                    </div>
+                </div>
+                <span id="pub-date"></span>
+            </div>
+            <a href="#" class="logo" id="home-link">The Minuecus Times</a>
+            <p class="tagline" id="tagline"></p>
+            <nav class="nav">
+                <ul class="nav-list" id="nav-list"></ul>
+            </nav>
+        </header>
+
+        <!-- Live Updates -->
+        <div class="live-updates" id="live-updates" style="display: none;">
+            <span class="live-dot"></span>
+            <span class="live-label">EN VIVO</span>
+            <span class="live-text" id="live-text"></span>
+            <span class="live-time" id="live-time"></span>
+        </div>
+
+        <!-- Main Content -->
+        <main class="main">
+            <!-- Featured + Opinion -->
+            <div class="featured-section">
+                <article class="featured" id="featured"></article>
+                <aside class="opinion-sidebar">
+                    <h2 class="section-title">Voces del Pueblo</h2>
+                    <div class="opinion-list" id="opinion"></div>
+                    <div class="load-more-opinion" id="load-more-opinion-container">
+                        <button class="load-more-opinion-btn" id="load-more-opinion-btn">Ver más voces</button>
+                    </div>
+                </aside>
+            </div>
+
+            <!-- Stories Grid -->
+            <section class="top-stories">
+                <div class="stories-grid" id="top-stories"></div>
+                <div class="load-more-container" id="load-more-container">
+                    <button class="load-more-btn" id="load-more-btn">Ver más historias</button>
+                </div>
+            </section>
+
+            <!-- More Stories + Sidebar -->
+            <div class="bottom-section">
+                <section class="more-stories" id="more-stories-section">
+                    <h2 class="section-title">Más del Pueblo</h2>
+                    <div class="headlines-list" id="more-stories"></div>
+                </section>
+
+                <aside class="sidebar">
+                    <div class="poll-widget" id="poll-widget">
+                        <h3 class="widget-title">Tu Voz Importa</h3>
+                        <p class="poll-question" id="poll-question"></p>
+                        <div class="poll-options" id="poll-options"></div>
+                        <p class="poll-total" id="poll-total"></p>
+                    </div>
+
+                    <div class="newsletter-widget" id="newsletter-widget">
+                        <h3 class="widget-title" id="newsletter-title"></h3>
+                        <p class="newsletter-desc" id="newsletter-desc"></p>
+                        <div class="newsletter-form">
+                            <input type="email" placeholder="tu@correo.com" class="newsletter-input">
+                            <button class="newsletter-btn" id="newsletter-btn"></button>
+                        </div>
+                    </div>
+                </aside>
+            </div>
+        </main>
+
+        <!-- Pre-Footer Ad -->
+        <div class="pre-footer-ad" id="pre-footer-ad"></div>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <p class="footer-logo">The Minuecus Times</p>
+                <div class="footer-links">
+                    <a href="#">Sobre Nosotros</a>
+                    <a href="#">Contacto</a>
+                    <a href="#">Comunidad</a>
+                    <a href="index.html">The Minuecus Post</a>
+                </div>
+                <p class="footer-text">© 2026 The Minuecus Times. La voz del pueblo minueco.</p>
+                <p class="footer-text">Periodismo con corazón, al servicio de la comunidad.</p>
+            </div>
+        </footer>
+    </div>
+
+    <script>
+        let newsData = null;
+        let allStories = [];
+        let allOpinions = [];
+        let currentPage = 0;
+        let currentOpinionPage = 0;
+        const STORIES_PER_PAGE = 9;
+        const OPINIONS_PER_PAGE = 3;
+        const BASE_URL = 'https://yoaoxd.github.io/minueco-post/times.html';
+
+        async function loadNews() {
+            try {
+                const response = await fetch('news-times.json');
+                newsData = await response.json();
+                renderPage(newsData);
+                checkUrlForArticle();
+            } catch (error) {
+                console.error('Error loading news:', error);
+            }
+        }
+
+        function checkUrlForArticle() {
+            const hash = window.location.hash;
+            if (hash && hash.startsWith('#article-')) {
+                const id = parseInt(hash.replace('#article-', ''));
+                if (id) openArticle(id);
+            }
+        }
+
+        function getArticleUrl(id) {
+            return `${BASE_URL}#article-${id}`;
+        }
+
+        function shareArticle(id, e) {
+            if (e) e.stopPropagation();
+            const article = findArticleById(id);
+            if (!article) return;
+            const url = getArticleUrl(id);
+            const text = article.headline;
+            if (navigator.share) {
+                navigator.share({ title: text, url: url });
+            } else {
+                navigator.clipboard.writeText(url);
+                alert('Enlace copiado al portapapeles');
+            }
+        }
+
+        function shareWhatsApp(id, e) {
+            if (e) e.stopPropagation();
+            const article = findArticleById(id);
+            if (!article) return;
+            const url = getArticleUrl(id);
+            const text = encodeURIComponent(`💙 *${article.headline}*\n\n${article.summary}\n\n🔗 ${url}\n\n_The Minuecus Times - La Voz del Pueblo_`);
+            window.open(`https://wa.me/?text=${text}`, '_blank');
+        }
+
+        function formatTime(timestamp) {
+            const date = new Date(timestamp);
+            const now = new Date();
+            const diffHours = Math.floor((now - date) / (1000 * 60 * 60));
+            if (diffHours < 1) return 'Ahora mismo';
+            if (diffHours < 24) return `Hace ${diffHours}h`;
+            return date.toLocaleDateString('es-ES', { month: 'short', day: 'numeric' });
+        }
+
+        function formatFullDate(timestamp) {
+            const date = new Date(timestamp);
+            return date.toLocaleDateString('es-ES', { 
+                weekday: 'long', year: 'numeric', month: 'long', day: 'numeric',
+                hour: '2-digit', minute: '2-digit'
+            });
+        }
+
+        function getAllArticles() {
+            if (!newsData) return [];
+            return [newsData.featured, ...newsData.topStories, ...newsData.moreStories, ...newsData.opinion];
+        }
+
+        function findArticleById(id) {
+            return getAllArticles().find(article => article.id === id);
+        }
+
+        function openArticle(id) {
+            const article = findArticleById(id);
+            if (!article) return;
+            window.location.hash = `article-${id}`;
+            const modalContent = document.getElementById('modal-content');
+            modalContent.innerHTML = `
+                ${article.image ? `<img class="modal-image" src="${article.image}" alt="${article.headline}">` : ''}
+                <span class="modal-category">${article.category}</span>
+                <h1 class="modal-headline">${article.headline}</h1>
+                <div class="modal-meta">
+                    <span>Por <strong>${article.author}</strong></span>
+                    ${article.role ? `<span>${article.role}</span>` : ''}
+                    <span>${formatFullDate(article.timestamp)}</span>
+                    <span>${article.readTime} de lectura</span>
+                </div>
+                <div class="modal-share">
+                    <button class="share-btn" onclick="shareArticle(${id})"><span>🔗</span> Compartir</button>
+                    <button class="share-btn whatsapp" onclick="shareWhatsApp(${id})"><span>📱</span> WhatsApp</button>
+                </div>
+                <div class="modal-body">
+                    <p class="modal-summary">${article.summary}</p>
+                    ${article.content ? `<p>${article.content.replace(/\n\n/g, '</p><p>')}</p>` : ''}
+                </div>
+                <div class="modal-footer">
+                    <p class="modal-disclaimer">The Minuecus Times - La voz del pueblo minueco.</p>
+                </div>
+            `;
+            document.getElementById('modal-overlay').classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeModal() {
+            document.getElementById('modal-overlay').classList.remove('active');
+            document.body.style.overflow = '';
+            history.pushState('', document.title, window.location.pathname + window.location.search);
+        }
+
+        function renderStories() {
+            const container = document.getElementById('top-stories');
+            const loadMoreBtn = document.getElementById('load-more-container');
+            const moreStoriesSection = document.getElementById('more-stories-section');
+            const moreStoriesContainer = document.getElementById('more-stories');
+            
+            const endIndex = (currentPage + 1) * STORIES_PER_PAGE;
+            const storiesInGrid = allStories.slice(0, endIndex);
+            const remainingStories = allStories.slice(endIndex);
+            
+            container.innerHTML = storiesInGrid.map(story => `
+                <article class="story-card clickable" data-id="${story.id}">
+                    ${story.image ? `<img class="story-image" src="${story.image}" alt="${story.headline}">` : ''}
+                    <span class="category">${story.category}</span>
+                    <h3 class="story-headline">${story.headline}</h3>
+                    <p class="story-summary">${story.summary}</p>
+                    <div class="meta">
+                        <span>Por ${story.author}</span> · <span>${formatTime(story.timestamp)}</span>
+                    </div>
+                </article>
+            `).join('');
+            
+            loadMoreBtn.style.display = endIndex >= allStories.length ? 'none' : 'flex';
+            
+            if (remainingStories.length > 0) {
+                moreStoriesSection.style.display = 'block';
+                moreStoriesContainer.innerHTML = remainingStories.map(story => `
+                    <article class="headline-item clickable" data-id="${story.id}">
+                        ${story.image ? `<img class="headline-image" src="${story.image}" alt="${story.headline}">` : ''}
+                        <div class="headline-text">
+                            <span class="category">${story.category}</span>
+                            <h4 class="headline-title">${story.headline}</h4>
+                            <div class="meta"><span>${formatTime(story.timestamp)}</span></div>
+                        </div>
+                    </article>
+                `).join('');
+            } else {
+                moreStoriesSection.style.display = 'none';
+            }
+            
+            document.querySelectorAll('.clickable').forEach(el => {
+                el.addEventListener('click', () => openArticle(parseInt(el.dataset.id)));
+            });
+        }
+
+        function loadMoreStories() {
+            currentPage++;
+            renderStories();
+        }
+
+        function renderOpinions() {
+            const container = document.getElementById('opinion');
+            const loadMoreBtn = document.getElementById('load-more-opinion-container');
+            const endIndex = (currentOpinionPage + 1) * OPINIONS_PER_PAGE;
+            const opinionsToShow = allOpinions.slice(0, endIndex);
+            
+            container.innerHTML = opinionsToShow.map(story => `
+                <article class="opinion-item clickable" data-id="${story.id}">
+                    <h4 class="opinion-title">${story.headline}</h4>
+                    <p class="opinion-summary">${story.summary}</p>
+                    <div class="meta"><span>${story.author}</span></div>
+                </article>
+            `).join('');
+            
+            loadMoreBtn.style.display = endIndex >= allOpinions.length ? 'none' : 'block';
+            
+            container.querySelectorAll('.clickable').forEach(el => {
+                el.addEventListener('click', () => openArticle(parseInt(el.dataset.id)));
+            });
+        }
+
+        function loadMoreOpinions() {
+            currentOpinionPage++;
+            renderOpinions();
+        }
+
+        function renderPage(data) {
+            document.getElementById('tagline').textContent = data.publication.motto;
+            document.getElementById('pub-date').textContent = data.publication.date;
+            
+            // Weather & Finance
+            document.getElementById('weather-icon').textContent = data.weather.icon;
+            document.getElementById('weather-temp').textContent = `${data.weather.temp}°C`;
+            document.getElementById('dollar-value').textContent = `${data.finance.dollarRate} ${data.finance.currency}`;
+            
+            // Navigation
+            document.getElementById('nav-list').innerHTML = data.sections.map(s => `<li><a href="#">${s}</a></li>`).join('');
+            
+            // Breaking News
+            if (data.breaking && data.breaking.active) {
+                document.getElementById('breaking-banner').style.display = 'flex';
+                document.getElementById('breaking-text').textContent = data.breaking.text;
+            }
+            
+            // Live Updates
+            if (data.liveUpdates && data.liveUpdates.active) {
+                document.getElementById('live-updates').style.display = 'flex';
+                document.getElementById('live-text').textContent = data.liveUpdates.story;
+                document.getElementById('live-time').textContent = data.liveUpdates.lastUpdate;
+            }
+            
+            // Featured
+            const featured = data.featured;
+            document.getElementById('featured').innerHTML = `
+                ${featured.image ? `<img class="featured-image" src="${featured.image}" alt="${featured.headline}">` : ''}
+                <span class="category">${featured.category}</span>
+                <h2 class="featured-headline">${featured.headline}</h2>
+                <p class="featured-summary">${featured.summary}</p>
+                <div class="meta">Por <strong>${featured.author}</strong> · ${formatTime(featured.timestamp)} · ${featured.readTime}</div>
+            `;
+            document.getElementById('featured').addEventListener('click', () => openArticle(featured.id));
+            
+            // Stories & Opinions
+            allStories = [...data.topStories, ...data.moreStories];
+            allOpinions = data.opinion;
+            renderStories();
+            renderOpinions();
+            
+            // Poll
+            document.getElementById('poll-question').textContent = data.poll.question;
+            document.getElementById('poll-options').innerHTML = data.poll.options.map(opt => {
+                const pct = Math.round((opt.votes / data.poll.totalVotes) * 100);
+                return `<div class="poll-option">
+                    <span>${opt.text}</span>
+                    <div class="poll-bar"><div class="poll-fill" style="width: ${pct}%"></div></div>
+                    <span>${pct}%</span>
+                </div>`;
+            }).join('');
+            document.getElementById('poll-total').textContent = `${data.poll.totalVotes} votos`;
+            
+            // Newsletter
+            document.getElementById('newsletter-title').textContent = data.newsletter.title;
+            document.getElementById('newsletter-desc').textContent = data.newsletter.description;
+            document.getElementById('newsletter-btn').textContent = data.newsletter.cta;
+            
+            // Footer Ad
+            const footerAd = data.ads.find(a => a.type === 'footer');
+            if (footerAd) {
+                document.getElementById('pre-footer-ad').innerHTML = `
+                    <p class="ad-title">${footerAd.title}</p>
+                    <p class="ad-slogan">${footerAd.slogan}</p>
+                `;
+            }
+        }
+
+        // Event Listeners
+        document.getElementById('modal-close').addEventListener('click', closeModal);
+        document.getElementById('modal-overlay').addEventListener('click', (e) => {
+            if (e.target === e.currentTarget) closeModal();
+        });
+        document.addEventListener('keydown', (e) => {
+            if (e.key === 'Escape') closeModal();
+        });
+        document.getElementById('load-more-btn').addEventListener('click', loadMoreStories);
+        document.getElementById('load-more-opinion-btn').addEventListener('click', loadMoreOpinions);
+        document.getElementById('home-link').addEventListener('click', (e) => {
+            e.preventDefault();
+            window.location.href = 'times.html';
+        });
+        window.addEventListener('hashchange', checkUrlForArticle);
+        
+        // Load
+        loadNews();
+    </script>
+</body>
+</html>
