@@ -2,7 +2,7 @@
   "publication": {
     "name": "The Minuecus Post",
     "motto": "El Periódico Oficial de la República",
-"date": "24 de Febrero, 2026"
+"date": "Viernes Presidencial, 24 de Febrero, 2026"
   },
   "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
   "finance": {
@@ -82,6 +82,17 @@
     "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80"
   },
 "topStories": [
+    {
+      "id": 45,
+      "category": "OFICIAL",
+      "headline": "Calendario Oficial de la República: Los Días Presidenciales Explicados",
+      "summary": "El Ministerio del Interior publica la guía definitiva para entender el sistema de días que rige la agenda del Ejecutivo y el gabinete.",
+      "author": "Gaceta Oficial",
+"content": "El Gobierno de la República de Minueco ha oficializado mediante circular interna el sistema de 'Días Presidenciales', un calendario alternativo que refleja la semana laboral del Primer Mandatario y que todos los ciudadanos deben conocer.\n\nComo es de conocimiento público, el Presidente trabaja de viernes a martes, con miércoles y jueves como días de descanso oficial. Para evitar confusiones y facilitar la coordinación del gabinete, se establece el siguiente sistema:\n\n• VIERNES = Lunes Presidencial (inicio de semana laboral)\n• SÁBADO = Martes Presidencial\n• DOMINGO = Miércoles Presidencial\n• LUNES = Jueves Presidencial\n• MARTES = Viernes Presidencial (último día laboral)\n• MIÉRCOLES = Sábado Presidencial (día libre)\n• JUEVES = Domingo Presidencial (día libre)\n\nEl Chief of Staff Hernán Zapata explicó la lógica del sistema: 'Cuando es martes para el resto del mundo, para nosotros es viernes. Eso explica el ánimo particularmente festivo del gabinete los martes. Estamos celebrando el fin de semana presidencial'.\n\nEl Ministro de Propaganda, Víctor Peña, añadió: 'Este calendario permite que los ciudadanos entiendan por qué el Presidente puede no estar disponible miércoles o jueves. Es su fin de semana. Respetemos su descanso'.\n\nSe recomienda a todos los funcionarios adaptar sus comunicaciones oficiales al formato: 'Día Presidencial, fecha convencional'. Ejemplo: 'Viernes Presidencial, 24 de Febrero de 2026'.\n\nEl Ministerio del Interior ha anunciado que cualquier intento de contactar al Presidente en Sábado o Domingo Presidencial (miércoles y jueves) sin justificación de emergencia será considerado una violación del Decreto 001/2026.",
+      "timestamp": "2026-02-24T15:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&q=80"
+    },
     {
       "id": 42,
       "category": "REPÚBLICA",
