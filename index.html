@@ -48,6 +48,12 @@
     <link href="https://fonts.googleapis.com/css2?family=Old+Standard+TT:wght@400;700&family=Source+Serif+Pro:wght@400;600;700&family=Source+Sans+Pro:wght@400;600;700&family=UnifrakturMaguntia&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="theme-toggle" title="Cambiar tema">🌙</button>
+    
+    <!-- Notification Toggle Button -->
+    <button class="notification-toggle" id="notification-toggle" title="Alertas Presidenciales">🔔</button>
+
     <!-- Article Detail Modal -->
     <div class="modal-overlay" id="modal-overlay">
         <div class="modal">
@@ -613,7 +619,150 @@
                     closeModal();
                 }
             });
+
+            // Dark Mode Toggle
+            initTheme();
+            document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+
+            // Notification Toggle
+            initNotifications();
+            document.getElementById('notification-toggle').addEventListener('click', toggleNotifications);
+
+            // Register Service Worker
+            registerServiceWorker();
         });
+
+        // Dark Mode Functions
+        function initTheme() {
+            const savedTheme = localStorage.getItem('minuecus-theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeIcon(savedTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('minuecus-theme', newTheme);
+            updateThemeIcon(newTheme);
+        }
+
+        function updateThemeIcon(theme) {
+            const icon = document.getElementById('theme-toggle');
+            icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+
+        // Push Notifications Functions
+        async function initNotifications() {
+            const btn = document.getElementById('notification-toggle');
+            if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
+                btn.style.display = 'none';
+                return;
+            }
+            // Check if already subscribed
+            const registration = await navigator.serviceWorker.ready;
+            const subscription = await registration.pushManager.getSubscription();
+            if (subscription) {
+                btn.classList.add('subscribed');
+                btn.textContent = '🔔';
+            }
+        }
+
+        async function toggleNotifications() {
+            const btn = document.getElementById('notification-toggle');
+            
+            if (!('Notification' in window)) {
+                alert('Tu navegador no soporta notificaciones');
+                return;
+            }
+
+            const permission = await Notification.requestPermission();
+            if (permission !== 'granted') {
+                alert('Necesitas permitir las notificaciones para recibir Alertas Presidenciales');
+                return;
+            }
+
+            try {
+                const registration = await navigator.serviceWorker.ready;
+                let subscription = await registration.pushManager.getSubscription();
+
+                if (subscription) {
+                    // Unsubscribe
+                    await subscription.unsubscribe();
+                    btn.classList.remove('subscribed');
+                    btn.textContent = '🔔';
+                    showNotificationToast('❌ Alertas Presidenciales desactivadas');
+                } else {
+                    // Subscribe (demo mode - no real server)
+                    btn.classList.add('subscribed');
+                    btn.textContent = '🔔';
+                    showNotificationToast('✅ ¡Alertas Presidenciales activadas! Recibirás noticias de última hora.');
+                    
+                    // Demo notification
+                    setTimeout(() => {
+                        new Notification('🚨 ALERTA PRESIDENCIAL', {
+                            body: '¡Bienvenido al sistema de alertas! Recibirás noticias importantes de la República.',
+                            icon: 'favicon.svg'
+                        });
+                    }, 1000);
+                }
+            } catch (error) {
+                console.error('Error with notifications:', error);
+                // Still show subscribed state for demo
+                btn.classList.toggle('subscribed');
+                if (btn.classList.contains('subscribed')) {
+                    showNotificationToast('✅ ¡Alertas Presidenciales activadas!');
+                } else {
+                    showNotificationToast('❌ Alertas Presidenciales desactivadas');
+                }
+            }
+        }
+
+        function showNotificationToast(message) {
+            const toast = document.createElement('div');
+            toast.style.cssText = `
+                position: fixed;
+                bottom: 140px;
+                right: 20px;
+                background: var(--color-primary);
+                color: var(--color-bg);
+                padding: 12px 20px;
+                border-radius: 8px;
+                font-family: var(--font-ui);
+                font-size: 0.85rem;
+                z-index: 1002;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+                animation: slideIn 0.3s ease-out;
+            `;
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            setTimeout(() => {
+                toast.style.animation = 'slideOut 0.3s ease-in forwards';
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        // Service Worker Registration
+        async function registerServiceWorker() {
+            if ('serviceWorker' in navigator) {
+                try {
+                    const registration = await navigator.serviceWorker.register('sw.js');
+                    console.log('📰 Service Worker registrado:', registration.scope);
+                } catch (error) {
+                    console.error('Error registrando Service Worker:', error);
+                }
+            }
+        }
     </script>
+    <style>
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes slideOut {
+            from { transform: translateX(0); opacity: 1; }
+            to { transform: translateX(100%); opacity: 0; }
+        }
+    </style>
 </body>
 </html>

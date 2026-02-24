@@ -28,6 +28,42 @@
             --font-ui: 'Roboto', -apple-system, sans-serif;
         }
 
+        /* Dark Mode - Especialmente para Times */
+        [data-theme="dark"] {
+            --color-primary: #e5e5e5;
+            --color-secondary: #a0a0a0;
+            --color-accent: #4da6ff;
+            --color-accent-dark: #3d8bd9;
+            --color-border: #333;
+            --color-bg: #0d1117;
+            --color-bg-secondary: #161b22;
+        }
+
+        [data-theme="dark"] .logo {
+            color: var(--color-primary);
+        }
+
+        [data-theme="dark"] .modal {
+            background-color: #161b22;
+        }
+
+        [data-theme="dark"] .poll-widget,
+        [data-theme="dark"] .newsletter-widget {
+            background-color: #21262d;
+        }
+
+        [data-theme="dark"] .live-updates {
+            background-color: #1c2128;
+        }
+
+        [data-theme="dark"] .breaking-banner {
+            background: linear-gradient(135deg, #0d4a8c 0%, #1a73e8 100%);
+        }
+
+        [data-theme="dark"] .pre-footer-ad {
+            background: linear-gradient(135deg, #0d4a8c 0%, #2563eb 100%);
+        }
+
         body {
             font-family: var(--font-body);
             background-color: var(--color-bg);
@@ -46,6 +82,12 @@
             font-family: var(--font-ui);
             font-size: 0.875rem;
             overflow: hidden;
+            animation: bannerSlideIn 0.5s ease-out;
+        }
+
+        @keyframes bannerSlideIn {
+            from { transform: translateY(-100%); opacity: 0; }
+            to { transform: translateY(0); opacity: 1; }
         }
 
         .breaking-label {
@@ -57,6 +99,12 @@
             letter-spacing: 0.5px;
             flex-shrink: 0;
             border-radius: 3px;
+            animation: labelPulse 2s ease-in-out infinite;
+        }
+
+        @keyframes labelPulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.05); }
         }
 
         .marquee-container {
@@ -740,6 +788,75 @@
             font-style: italic;
         }
 
+        /* Dark Mode Toggle Button */
+        .theme-toggle {
+            position: fixed;
+            bottom: 20px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: none;
+            background: var(--color-primary);
+            color: var(--color-bg);
+            font-size: 1.5rem;
+            cursor: pointer;
+            z-index: 1001;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .theme-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        [data-theme="dark"] .theme-toggle {
+            background: #21262d;
+            color: #ffd700;
+        }
+
+        /* Notification Bell Button */
+        .notification-toggle {
+            position: fixed;
+            bottom: 80px;
+            right: 20px;
+            width: 50px;
+            height: 50px;
+            border-radius: 50%;
+            border: none;
+            background: var(--color-accent);
+            color: white;
+            font-size: 1.3rem;
+            cursor: pointer;
+            z-index: 1001;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+            transition: all 0.3s ease;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .notification-toggle:hover {
+            transform: scale(1.1);
+        }
+
+        .notification-toggle.subscribed {
+            background: #28a745;
+        }
+
+        /* Toast Animations */
+        @keyframes slideIn {
+            from { transform: translateX(100%); opacity: 0; }
+            to { transform: translateX(0); opacity: 1; }
+        }
+        @keyframes slideOut {
+            from { transform: translateX(0); opacity: 1; }
+            to { transform: translateX(100%); opacity: 0; }
+        }
+
         /* Responsive */
         @media (max-width: 768px) {
             .featured-section, .stories-grid, .bottom-section {
@@ -763,6 +880,12 @@
     </style>
 </head>
 <body>
+    <!-- Theme Toggle Button -->
+    <button class="theme-toggle" id="theme-toggle" title="Cambiar tema">🌙</button>
+    
+    <!-- Notification Toggle Button -->
+    <button class="notification-toggle" id="notification-toggle" title="Alertas Presidenciales">🔔</button>
+
     <!-- Modal -->
     <div class="modal-overlay" id="modal-overlay">
         <div class="modal">
@@ -1158,8 +1281,131 @@
         });
         window.addEventListener('hashchange', checkUrlForArticle);
         
+        // Dark Mode Toggle
+        initTheme();
+        document.getElementById('theme-toggle').addEventListener('click', toggleTheme);
+
+        // Notification Toggle
+        initNotifications();
+        document.getElementById('notification-toggle').addEventListener('click', toggleNotifications);
+
+        // Register Service Worker
+        registerServiceWorker();
+        
         // Load
         loadNews();
+
+        // Dark Mode Functions
+        function initTheme() {
+            const savedTheme = localStorage.getItem('minuecus-theme') || 'light';
+            document.documentElement.setAttribute('data-theme', savedTheme);
+            updateThemeIcon(savedTheme);
+        }
+
+        function toggleTheme() {
+            const currentTheme = document.documentElement.getAttribute('data-theme');
+            const newTheme = currentTheme === 'dark' ? 'light' : 'dark';
+            document.documentElement.setAttribute('data-theme', newTheme);
+            localStorage.setItem('minuecus-theme', newTheme);
+            updateThemeIcon(newTheme);
+        }
+
+        function updateThemeIcon(theme) {
+            const icon = document.getElementById('theme-toggle');
+            icon.textContent = theme === 'dark' ? '☀️' : '🌙';
+        }
+
+        // Push Notifications Functions
+        async function initNotifications() {
+            const btn = document.getElementById('notification-toggle');
+            if (!('serviceWorker' in navigator) || !('PushManager' in window)) {
+                btn.style.display = 'none';
+                return;
+            }
+            const registration = await navigator.serviceWorker.ready;
+            const subscription = await registration.pushManager.getSubscription();
+            if (subscription) {
+                btn.classList.add('subscribed');
+            }
+        }
+
+        async function toggleNotifications() {
+            const btn = document.getElementById('notification-toggle');
+            
+            if (!('Notification' in window)) {
+                alert('Tu navegador no soporta notificaciones');
+                return;
+            }
+
+            const permission = await Notification.requestPermission();
+            if (permission !== 'granted') {
+                alert('Necesitas permitir las notificaciones para recibir Alertas Presidenciales');
+                return;
+            }
+
+            try {
+                const registration = await navigator.serviceWorker.ready;
+                let subscription = await registration.pushManager.getSubscription();
+
+                if (subscription) {
+                    await subscription.unsubscribe();
+                    btn.classList.remove('subscribed');
+                    showNotificationToast('❌ Alertas Presidenciales desactivadas');
+                } else {
+                    btn.classList.add('subscribed');
+                    showNotificationToast('✅ ¡Alertas Presidenciales activadas!');
+                    
+                    setTimeout(() => {
+                        new Notification('💙 ALERTA - THE MINUECUS TIMES', {
+                            body: '¡Bienvenido! Recibirás las noticias que importan al pueblo.',
+                            icon: 'favicon.svg'
+                        });
+                    }, 1000);
+                }
+            } catch (error) {
+                btn.classList.toggle('subscribed');
+                if (btn.classList.contains('subscribed')) {
+                    showNotificationToast('✅ ¡Alertas activadas!');
+                } else {
+                    showNotificationToast('❌ Alertas desactivadas');
+                }
+            }
+        }
+
+        function showNotificationToast(message) {
+            const toast = document.createElement('div');
+            toast.style.cssText = `
+                position: fixed;
+                bottom: 140px;
+                right: 20px;
+                background: var(--color-primary);
+                color: var(--color-bg);
+                padding: 12px 20px;
+                border-radius: 8px;
+                font-family: var(--font-ui);
+                font-size: 0.85rem;
+                z-index: 1002;
+                box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+                animation: slideIn 0.3s ease-out;
+            `;
+            toast.textContent = message;
+            document.body.appendChild(toast);
+            setTimeout(() => {
+                toast.style.animation = 'slideOut 0.3s ease-in forwards';
+                setTimeout(() => toast.remove(), 300);
+            }, 3000);
+        }
+
+        async function registerServiceWorker() {
+            if ('serviceWorker' in navigator) {
+                try {
+                    const registration = await navigator.serviceWorker.register('sw.js');
+                    console.log('💙 Times Service Worker registrado:', registration.scope);
+                } catch (error) {
+                    console.error('Error registrando Service Worker:', error);
+                }
+            }
+        }
     </script>
 </body>
 </html>

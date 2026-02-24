@@ -13,10 +13,53 @@
     --color-border: #e5e5e5;
     --color-bg: #ffffff;
     --color-bg-secondary: #f7f7f7;
+    --color-text: #121212;
+    --color-text-muted: #666;
     --font-display: 'UnifrakturMaguntia', serif;
     --font-headline: 'Source Serif Pro', Georgia, serif;
     --font-body: 'Source Serif Pro', Georgia, serif;
     --font-ui: 'Source Sans Pro', -apple-system, sans-serif;
+}
+
+/* Dark Mode */
+[data-theme="dark"] {
+    --color-primary: #e5e5e5;
+    --color-secondary: #a0a0a0;
+    --color-accent: #ff4757;
+    --color-border: #333;
+    --color-bg: #121212;
+    --color-bg-secondary: #1e1e1e;
+    --color-text: #e5e5e5;
+    --color-text-muted: #a0a0a0;
+}
+
+[data-theme="dark"] .logo {
+    color: var(--color-primary);
+}
+
+[data-theme="dark"] .modal {
+    background-color: #1a1a1a;
+}
+
+[data-theme="dark"] .modal-body {
+    color: #ccc;
+}
+
+[data-theme="dark"] .newsletter-widget {
+    background-color: #1e1e1e;
+    border-color: var(--color-accent);
+}
+
+[data-theme="dark"] .poll-widget {
+    background-color: #1e1e1e;
+}
+
+[data-theme="dark"] .ad-banner {
+    background: linear-gradient(135deg, #5c0a0a 0%, #8B0000 100%);
+}
+
+[data-theme="dark"] .pre-footer-ad {
+    background: linear-gradient(135deg, #1a2a3a 0%, #2c3e50 100%);
 }
 
 body {
@@ -68,6 +111,107 @@ body {
 @keyframes marquee {
     0% { transform: translateX(100%); }
     100% { transform: translateX(-100%); }
+}
+
+/* Breaking Banner Animations */
+.breaking-banner {
+    animation: bannerSlideIn 0.5s ease-out;
+}
+
+@keyframes bannerSlideIn {
+    from {
+        transform: translateY(-100%);
+        opacity: 0;
+    }
+    to {
+        transform: translateY(0);
+        opacity: 1;
+    }
+}
+
+.breaking-label {
+    animation: labelPulse 2s ease-in-out infinite;
+}
+
+@keyframes labelPulse {
+    0%, 100% { transform: scale(1); }
+    50% { transform: scale(1.05); }
+}
+
+/* Dark Mode Toggle Button */
+.theme-toggle {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: var(--color-primary);
+    color: var(--color-bg);
+    font-size: 1.5rem;
+    cursor: pointer;
+    z-index: 1001;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.theme-toggle:hover {
+    transform: scale(1.1);
+    box-shadow: 0 6px 20px rgba(0,0,0,0.4);
+}
+
+[data-theme="dark"] .theme-toggle {
+    background: #333;
+    color: #ffd700;
+}
+
+/* Notification Bell Button */
+.notification-toggle {
+    position: fixed;
+    bottom: 80px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    background: var(--color-accent);
+    color: white;
+    font-size: 1.3rem;
+    cursor: pointer;
+    z-index: 1001;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.3);
+    transition: all 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.notification-toggle:hover {
+    transform: scale(1.1);
+}
+
+.notification-toggle.subscribed {
+    background: #28a745;
+}
+
+.notification-toggle.subscribed::after {
+    content: '✓';
+    position: absolute;
+    bottom: -2px;
+    right: -2px;
+    font-size: 0.7rem;
+    background: white;
+    color: #28a745;
+    border-radius: 50%;
+    width: 18px;
+    height: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Switch Paper Link */
