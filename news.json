@@ -2,7 +2,7 @@
   "publication": {
     "name": "The Minuecus Post",
     "motto": "El Periódico Oficial de la República",
-    "date": "23 de Febrero, 2026"
+"date": "24 de Febrero, 2026"
   },
   "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
   "finance": {
@@ -44,10 +44,10 @@
     "duration": "45 min",
     "description": "Nuestros analistas debaten las implicaciones de la declaratoria presidencial."
   },
-  "liveUpdates": {
+"liveUpdates": {
     "active": true,
-    "story": "Presidente domina en Call of Duty Warzone",
-    "lastUpdate": "Hace 5 minutos"
+    "story": "Plan GTA Online cancelado por costos elevados",
+    "lastUpdate": "Hace 10 minutos"
   },
   "ads": [
     {
@@ -83,14 +83,58 @@
   },
 "topStories": [
     {
-      "id": 37,
-      "category": "EXPANSIÓN DIGITAL",
-      "headline": "Comienza el Plan para Replicar y Exportar la República a GTA Online",
-      "summary": "El Ministerio de Tecnología anuncia el ambicioso proyecto de establecer presencia soberana de Minueco en el universo de Grand Theft Auto Online.",
+      "id": 42,
+      "category": "REPÚBLICA",
+      "headline": "¿Dónde Está la Minueca? La República Pregunta y Nadie Responde",
+      "summary": "Semanas sin avistamientos ni comunicación oficial. La ciudadanía exige información sobre el paradero de quien sería la primera ciudadana incorporada por Cláusula Parola.",
+      "author": "Unidad de Investigación",
+      "content": "Un silencio incómodo se ha instalado en los pasillos del Palacio Oval. La pregunta que nadie se atreve a formular en voz alta pero que todos susurran en los corredores: ¿Dónde está la Minueca?\n\nHan pasado semanas desde que las negociaciones para incorporar a una nueva ciudadana a la República de Minueco fueron anunciadas con bombos y platillos. La Cláusula Parola fue activada, los preparativos comenzaron, y el Ministerio de Propaganda incluso había diseñado material de bienvenida.\n\nPero de ella, nada.\n\nFuentes cercanas al Ejecutivo, que solicitaron el anonimato por temor a represalias, admiten que 'no se sabe absolutamente nada'. Los intentos de comunicación han sido infructuosos. Los canales oficiales permanecen en silencio.\n\n'El Presidente prefiere no hablar del tema', confesó un funcionario. 'Cada vez que alguien menciona a la Minueca, cambia de conversación. Es como si el tema estuviera vetado'.\n\nEl Chief of Staff Hernán Zapata, consultado por The Minuecus Post, se limitó a decir que 'la Cláusula Parola permanece activa pero en pausa'. No ofreció explicaciones adicionales.\n\nMientras tanto, la ciudadanía se pregunta: ¿Fue todo un espejismo? ¿Las negociaciones fracasaron? ¿O simplemente la Minueca decidió que la República de Minueco no era para ella?\n\nLas respuestas, por ahora, brillan por su ausencia. Y el silencio se hace cada vez más ensordecedor.",
+      "timestamp": "2026-02-24T14:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1494972308805-463bc619d34e?w=800&q=80"
+    },
+    {
+      "id": 41,
+      "category": "PROTOCOLO",
+      "headline": "Saludar al Presidente es de Carácter Constitucional: El Debate que Divide al Gabinete",
+      "summary": "Algunos miembros del gobierno no consideran importante el saludo protocolar al mandatario. El Ministerio del Interior recuerda que es obligación republicana.",
+      "author": "Sección Protocolo",
+      "content": "Una controversia de índole protocolar ha emergido en el seno del gabinete de la República de Minueco: el saludo al Presidente. Lo que para algunos es una obviedad constitucional, para otros parece ser un detalle prescindible.\n\nFuentes dentro del Ministerio del Interior han confirmado que ciertos miembros del gabinete han mostrado 'laxitud' en el cumplimiento del protocolo de saludo al Primer Mandatario. 'Es inaceptable', declaró una fuente cercana al ministerio. 'Saludar al Presidente no es opcional. Es una obligación republicana'.\n\nEl debate, según testigos presenciales, surgió durante una reunión reciente donde algunos funcionarios ingresaron a la sala sin dirigir el saludo correspondiente al mandatario. El incidente no pasó desapercibido.\n\n'El Presidente es el Presidente', enfatizó el Ministro del Interior Jesús Constantino en un comunicado interno. 'No importa cuánta confianza exista o cuán informal sea el ambiente. El respeto institucional debe prevalecer'.\n\nEl Chief of Staff Hernán Zapata respaldó la posición: 'El protocolo existe por una razón. Relajar las normas de cortesía hacia el Ejecutivo es el primer paso hacia el deterioro institucional'.\n\nNo todos comparten esta visión. Funcionarios que prefirieron el anonimato argumentan que 'somos amigos antes que ministros' y que 'la rigidez protocolar va en contra del espíritu fundacional de Minueco'.\n\nSe espera que el Fiscal de la República emita una opinión vinculante sobre el carácter constitucional del saludo presidencial en los próximos días.",
+      "timestamp": "2026-02-24T13:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1577563908411-5077b6dc7624?w=800&q=80"
+    },
+    {
+      "id": 40,
+      "category": "EJECUTIVO",
+      "headline": "Presidente y Vicepresidente Se Reúnen: Se Estima que Planificaron los Primeros 100 Días de Gobierno",
+      "summary": "El encuentro entre el mandatario y Andrés Mata habría definido la hoja de ruta para el próximo trimestre de gestión republicana.",
+      "author": "Corresponsal Palacio Oval",
+      "content": "En una reunión de alto nivel celebrada en las últimas horas, el Presidente de la República y el Vicepresidente Andrés Mata sostuvieron un encuentro que fuentes oficiales califican como 'histórico y productivo'.\n\nSegún información obtenida por The Minuecus Post, la agenda del encuentro se centró en la planificación estratégica de los primeros 100 días de gobierno. El documento resultante, aún clasificado, establecería las prioridades, metas y cronogramas para consolidar la institucionalidad minueca.\n\n'Fue una reunión extensa y detallada', comentó una fuente presente en las inmediaciones. 'Se escuchaban discusiones animadas pero constructivas. El Presidente y el Vicepresidente están claramente alineados en la visión de país'.\n\nEntre los temas que habrían sido abordados se encuentran: la consolidación del gabinete, el desarrollo de infraestructura republicana, las relaciones exteriores pendientes, y el siempre delicado tema del presupuesto nacional.\n\nEl Vicepresidente Andrés Mata, al salir del encuentro, se mostró optimista: 'Tenemos un plan. Tenemos una dirección. Los primeros 100 días serán fundamentales para demostrar de qué está hecha esta república'.\n\nEl Chief of Staff Hernán Zapata confirmó que los detalles del plan serán comunicados al resto del gabinete en los próximos días. Se espera que el Ministerio de Propaganda prepare material informativo para la ciudadanía.",
+      "timestamp": "2026-02-24T12:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1560439514-4e9645039924?w=800&q=80"
+    },
+    {
+      "id": 38,
+      "category": "TECNOLOGÍA",
+      "headline": "Plan de Llevar la República a GTA Online Fracasa: Inversión Tecnológica Demasiado Elevada",
+      "summary": "El gabinete determina que el proyecto 'Minueco Virtual' no justifica los costos. El sueño del metaverso minueco queda en pausa indefinida.",
       "author": "Sección Tecnología",
-      "content": "En una jugada geopolítica sin precedentes en la historia de las naciones digitales, el Gobierno de la República de Minueco ha anunciado el inicio del plan oficial para replicar y exportar el modelo republicano a la plataforma de Grand Theft Auto Online.\n\nEl Ministro de Tecnología y Lírica, Juan De Sousa, presentó esta mañana ante el gabinete el proyecto denominado 'Minueco Virtual', que contempla la adquisición de propiedades estratégicas en Los Santos, la conformación de una organización criminal legítima (a efectos del juego), y el establecimiento de protocolos diplomáticos con otras crews.\n\n'La República no puede limitarse al plano físico', declaró De Sousa durante la presentación. 'GTA Online nos ofrece la oportunidad de expandir nuestra influencia, entrenar a futuros ciudadanos y, sobre todo, diversificar las arcas nacionales mediante operaciones de importación y exportación virtuales'.\n\nEl plan contempla varias fases: primero, la adquisición de un búnker como sede de operaciones; segundo, la compra de un nightclub para operaciones de fachada; y tercero, la eventual adquisición de propiedades de lujo para el Presidente y el gabinete.\n\nEl Chief of Staff Hernán Zapata será designado como CEO de la organización en el juego, mientras que el Ministro del Interior Jesús Constantino supervisará las operaciones de seguridad virtual.\n\n'Esto es más que un juego', enfatizó el Vicepresidente Andrés Mata. 'Es la extensión natural de nuestra soberanía al metaverso. Pronto, cuando alguien mencione Minueco, no solo pensarán en nuestra gloriosa república física, sino también en nuestra potencia digital'.\n\nEl Ministerio de Propaganda ya trabaja en material promocional para reclutar ciudadanos interesados en formar parte de la crew oficial de Minueco en GTA Online.",
+      "content": "El ambicioso proyecto de establecer la República de Minueco en Grand Theft Auto Online ha sido oficialmente cancelado. La razón: los costos de inversión tecnológica superan ampliamente lo que el gabinete considera razonable.\n\nEl Ministro de Tecnología y Lírica, Juan De Sousa, quien había presentado el plan 'Minueco Virtual' con entusiasmo apenas ayer, confirmó la cancelación con visible decepción. 'Los números no dan', admitió. 'Entre la suscripción a GTA+, la compra de propiedades virtuales, y el tiempo de coordinación necesario, la inversión es prohibitiva para las arcas nacionales'.\n\nEl gabinete, reunido de emergencia esta mañana, votó por unanimidad suspender el proyecto. 'No es que la idea sea mala', explicó el Vicepresidente Andrés Mata. 'Es que tenemos prioridades más urgentes. No podemos gastar en búnkeres virtuales cuando aún no tenemos sede física oficial'.\n\nEl Chief of Staff Hernán Zapata fue más directo: 'El metaverso puede esperar. La república física no'.\n\nEl Ministro de Industrias, Andrés Chávez, señaló que los fondos que se habrían destinado a GTA Online serán redirigidos a 'necesidades reales de la nación'. No especificó cuáles.\n\nPara los entusiastas del gaming en el gabinete, la noticia representa un golpe. Sin embargo, fuentes cercanas al Presidente sugieren que Call of Duty: Warzone continuará siendo la plataforma oficial de cohesión gubernamental.\n\n'Al menos en Warzone no tenemos que comprar propiedades', bromeó un funcionario.",
+      "timestamp": "2026-02-24T11:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80"
+    },
+    {
+      "id": 37,
+      "category": "ARCHIVO",
+      "headline": "[ARCHIVO] Plan Original para Replicar la República a GTA Online",
+      "summary": "El proyecto 'Minueco Virtual' que fue cancelado horas después de su anuncio por costos prohibitivos.",
+      "author": "Sección Tecnología",
+      "content": "[NOTA DE ARCHIVO: Este artículo documenta el plan original antes de su cancelación]\n\nEn una jugada geopolítica sin precedentes en la historia de las naciones digitales, el Gobierno de la República de Minueco había anunciado el inicio del plan oficial para replicar y exportar el modelo republicano a la plataforma de Grand Theft Auto Online.\n\nEl Ministro de Tecnología y Lírica, Juan De Sousa, presentó ante el gabinete el proyecto denominado 'Minueco Virtual', que contemplaba la adquisición de propiedades estratégicas en Los Santos, la conformación de una organización criminal legítima (a efectos del juego), y el establecimiento de protocolos diplomáticos con otras crews.\n\nEl plan fue cancelado menos de 24 horas después debido a los costos prohibitivos de implementación.",
       "timestamp": "2026-02-23T19:00:00Z",
-      "readTime": "4 min",
+      "readTime": "2 min",
       "image": "https://images.unsplash.com/photo-1511512578047-dfb367046420?w=800&q=80"
     },
     {
@@ -349,7 +393,27 @@
       "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
     }
   ],
-  "opinion": [
+"opinion": [
+    {
+      "id": 44,
+      "category": "EDITORIAL",
+      "headline": "El Saludo Presidencial: Entre la Tradición y el Irrespeto Disfrazado de Confianza",
+      "summary": "Cuando la cercanía se convierte en excusa para el descuido protocolar, la institución sufre.",
+      "author": "El Editorial",
+      "content": "Hay quienes confunden familiaridad con falta de respeto. Hay quienes creen que porque cenaron juntos la semana pasada, pueden entrar a una reunión de gabinete sin dignarse a saludar al Primer Mandatario de la República.\n\nEstán equivocados.\n\nEl saludo al Presidente no es una formalidad vacía. Es el reconocimiento de una jerarquía institucional que trasciende las amistades personales. Es la diferencia entre una república seria y un club de amigos jugando a gobernar.\n\nEntendemos que Minueco nació de la camaradería. Celebramos ese origen. Pero precisamente por eso debemos ser más cuidadosos, no menos. El mundo nos observa. La historia nos juzgará.\n\nCuando un ministro entra a una sala donde está el Presidente y no lo saluda, envía un mensaje: 'No te considero tan importante'. Y ese mensaje, repetido, erosiona la autoridad. Debilita la institución. Sienta precedentes peligrosos.\n\n¿Qué sigue? ¿Llegar tarde a los consejos de ministros? ¿Ignorar los decretos que no nos convengan? ¿Cuestionar públicamente las decisiones presidenciales?\n\nEl protocolo no es rigidez. Es respeto codificado. Y el respeto es el cemento que mantiene unida a cualquier organización humana.\n\nSeamos claros: saludar al Presidente debe ser obligación constitucional. Y quien no lo haga, debería reconsiderar si realmente quiere ser parte de este proyecto.",
+      "timestamp": "2026-02-24T14:30:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 43,
+      "category": "OPINIÓN",
+      "headline": "La Minueca Ausente: Reflexiones Sobre Promesas Incumplidas y Silencios Incómodos",
+      "summary": "La ciudadanía merece respuestas. El silencio oficial sobre la potencial nueva ciudadana es inaceptable.",
+      "author": "Columnista Anónimo",
+      "content": "Se anunció con fanfarria. La Cláusula Parola sería activada. Una nueva ciudadana enriquecería nuestra naciente república. El futuro lucía prometedor.\n\nY luego, nada.\n\nSemanas de silencio. Preguntas esquivadas. Miradas incómodas cuando alguien menciona el tema. El Presidente que cambia de conversación. El Chief of Staff que habla de 'pausas activas'. ¿Qué está pasando?\n\nLa ciudadanía tiene derecho a saber. Si las negociaciones fracasaron, díganlo. Si la potencial ciudadana declinó la invitación, infórmennos. Si hay complicaciones, explíquenlas. Pero este silencio... este silencio es lo peor de todo.\n\nEl silencio genera especulación. Y la especulación genera rumores. Y los rumores pueden ser más dañinos que cualquier verdad incómoda.\n\n¿Se arrepintió ella? ¿Se arrepintió él? ¿Hubo algún incidente que desconocemos? ¿O simplemente era todo una fantasía que nunca tuvo fundamento real?\n\nNo pedimos detalles íntimos. Pedimos transparencia institucional. Un comunicado oficial. Una explicación, por breve que sea.\n\nMinueco no puede construirse sobre silencios. La confianza ciudadana requiere honestidad, incluso cuando la verdad no es la que queríamos escuchar.\n\nSeñor Presidente: ¿dónde está la Minueca? La república pregunta.",
+      "timestamp": "2026-02-24T13:30:00Z",
+      "readTime": "3 min"
+    },
     {
       "id": 37,
       "category": "EDITORIAL",
@@ -451,8 +515,8 @@
       "readTime": "2 min"
     }
   ],
-  "breaking": {
+"breaking": {
     "active": true,
-    "text": "TECNOLOGÍA: Presidente domina en Call of Duty Warzone. Gabinete practica protocolos de seguridad en sesiones gaming. ALERTA: Luis Campos bajo investigación por presuntas intenciones golpistas."
+    "text": "ÚLTIMA HORA: Plan GTA Online cancelado por costos elevados. PROTOCOLO: Saludar al Presidente es obligación constitucional. MISTERIO: ¿Dónde está la Minueca? Nadie responde."
   }
 }
