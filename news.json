@@ -46,8 +46,8 @@
   },
 "liveUpdates": {
     "active": true,
-    "story": "Plan GTA Online cancelado por costos elevados",
-    "lastUpdate": "Hace 10 minutos"
+    "story": "DECRETO 002/2026: Ministerio del Interior felicita al gabinete. 'Dudar es traición. Venceremos.'",
+    "lastUpdate": "Hace 5 minutos"
   },
   "ads": [
     {
@@ -69,19 +69,63 @@
       "sponsored": true
     }
   ],
-  "featured": {
-    "id": 32,
-    "category": "TECNOLOGÍA Y GAMING",
-    "headline": "Presidente Avanza en Gestión Tecnológica y Resulta Letal en Sus Primeras Partidas de Call of Duty Warzone",
-    "summary": "El mandatario demuestra que su liderazgo trasciende lo político: dominio absoluto en el campo de batalla virtual con estadísticas que impresionan al gabinete.",
-    "content": "En una jornada que quedará registrada en los anales de la historia tecnológica de Minueco, el Presidente de la República dio un salto cualitativo en su gestión al demostrar dominio absoluto en el popular videojuego Call of Duty: Warzone.\n\nFuentes cercanas al Ejecutivo confirmaron que el mandatario, en sus primeras partidas oficiales, exhibió habilidades que dejaron atónitos a propios y extraños. 'Es letal', declaró el Ministro de Tecnología y Lírica, Juan De Sousa, quien fungió como guía inicial del Presidente en el campo de batalla virtual.\n\nLas estadísticas preliminares son contundentes: el Presidente logró múltiples eliminaciones en sus primeros encuentros, demostrando una curva de aprendizaje que el Ministerio de Tecnología calificó como 'excepcional'. Su precisión con el armamento virtual y su capacidad para tomar decisiones tácticas bajo presión fueron destacadas por todos los presentes.\n\n'Esto no es solo entretenimiento', explicó el Chief of Staff Hernán Zapata. 'Es una herramienta de cohesión del gabinete y entrenamiento en toma de decisiones rápidas. El Presidente lo entendió de inmediato'.\n\nEl Ministerio de Propaganda ya trabaja en material audiovisual que documente los logros gaming del mandatario. Se espera que Call of Duty: Warzone sea declarado plataforma oficial de entrenamiento estratégico de la República.",
-    "author": "Sección Tecnología",
-    "role": "Corresponsal Gaming",
-    "timestamp": "2026-02-23T18:00:00Z",
-    "readTime": "4 min",
-    "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80"
+"featured": {
+    "id": 50,
+    "category": "GACETA OFICIAL",
+    "headline": "Decreto 002/2026: Ministerio del Interior Felicita al Gabinete Tras Operativo Exitoso - 'Dudar es Traición. Venceremos.'",
+    "summary": "El Ministro Jesús Constantino emite decreto histórico reconociendo la cohesión del equipo de gobierno. Zapata y De Sousa nominados oficialmente al Nobel. El Presidente considera al gabinete 'una familia'.",
+    "content": "REPÚBLICA DE MINUECO\nMINISTERIO DEL INTERIOR\nDECRETO MINISTERIAL N° 002/2026\n24 de febrero de 2026\n\nEL MINISTRO DEL INTERIOR\n\nCONSIDERANDO:\n\nQue el día jueves pasado se llevó a cabo una acción decisiva en defensa de la estabilidad y el orden institucional de la República, demostrando la capacidad de respuesta del más alto nivel de Gobierno;\n\nQue en dicho evento se evidenció de manera ejemplar la cohesión, fuerza y velocidad con que actuaron todas las contrapartes involucradas, permitiendo el éxito rotundo de la operación;\n\nQue el Presidente de la República ha manifestado personalmente su profunda satisfacción y respaldo hacia todo el equipo de Gobierno, expresando que nos percibe y siente como una verdadera familia unida por el mismo propósito superior;\n\nQue es deber ineludible recordar a todos los servidores públicos la importancia imperiosa de cumplir estrictamente los protocolos establecidos;\n\nQue se destaca de manera especial la brillante labor desempeñada por:\n\n• El Chief of Staff Hernán Zapata y El Ministro de Tecnología y Lírica Juan De Sousa, cuya gestión merece ser considerada para la nominación al Premio Nobel;\n\n• El Ministro de Propaganda Víctor Peña, por la rapidez y eficacia con que se hizo presente;\n\n• El Ministro Cheizinho, por mantener comunicación directa con la Sala Situacional;\n\n• El Vicepresidente Andrés Mata y el Fiscal Amado Vivas, por su oportuna llegada con agasajos dirigidos al Presidente;\n\nDECRETA:\n\nArtículo 1°.- Felicitar formal y públicamente a todo el Gabinete Ministerial y al Señor Presidente de la República.\n\nArtículo 2°.- Dejar constancia oficial de que el Presidente considera a su equipo de Gobierno como una familia unida.\n\nArtículo 3°.- Recordar la obligación de cumplir rigurosamente los protocolos institucionales.\n\nArtículo 4°.- Apoyar y promover la nominación de Hernán Zapata y Juan De Sousa al Premio Nobel.\n\nArtículo 5°.- Reconocimiento especial a Víctor Peña, Cheizinho, Andrés Mata y Amado Vivas.\n\nArtículo 6°.- La unidad demostrada constituye la mejor garantía de éxito. DUDAR ES TRAICIÓN. VENCEREMOS.\n\nArtículo 7°.- Vigencia inmediata.\n\nRegístrese, comuníquese y cúmplase.\n\nJesus Constantino\nMinistro del Interior",
+    "author": "Gaceta Oficial",
+    "role": "Ministerio del Interior",
+    "timestamp": "2026-02-24T16:00:00Z",
+    "readTime": "5 min",
+    "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
   },
 "topStories": [
+    {
+      "id": 51,
+      "category": "GOBIERNO",
+      "headline": "'Somos una Familia': El Presidente Expresa Su Confianza Total en el Gabinete",
+      "summary": "El Decreto 002/2026 revela que el mandatario considera a su equipo de gobierno como una familia unida por un propósito superior.",
+      "author": "Corresponsal Palacio Oval",
+      "content": "El Decreto Ministerial N° 002/2026 emitido hoy por el Ministro del Interior Jesús Constantino contiene una revelación que ha conmovido a la ciudadanía: el Presidente de la República considera a su gabinete como una familia.\n\nSegún el documento oficial, el mandatario 'ha manifestado personalmente su profunda satisfacción y respaldo hacia todo el equipo de Gobierno, expresando que nos percibe y siente como una verdadera familia unida por el mismo propósito superior'.\n\nEsta declaración, plasmada en un decreto con fuerza de ley, institucionaliza el vínculo afectivo entre el Presidente y sus ministros. Ya no son solo funcionarios: son familia.\n\nEl Chief of Staff Hernán Zapata, visiblemente emocionado al conocer el contenido del decreto, declaró: 'Es un honor que el Presidente nos vea así. Esa confianza es lo que nos impulsa a dar todo por la república'.\n\nEl Vicepresidente Andrés Mata añadió: 'Una familia que trabaja unida, vence unida. El decreto lo deja claro: dudar es traición'.\n\nLa frase final del decreto —'Dudar es traición. Venceremos.'— ha sido adoptada instantáneamente como lema oficial del gabinete.",
+      "timestamp": "2026-02-24T15:45:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80"
+    },
+    {
+      "id": 52,
+      "category": "INTERNACIONAL",
+      "headline": "Nominación al Nobel es Ahora Oficial: Decreto Respalda a Zapata y De Sousa",
+      "summary": "El Artículo 4° del Decreto 002/2026 establece el apoyo oficial del Estado a la nominación de ambos funcionarios al Premio Nobel.",
+      "author": "Sección Internacional",
+      "content": "Lo que antes eran rumores ahora tiene respaldo oficial del Estado. El Decreto Ministerial N° 002/2026 establece en su Artículo 4° que la República de Minueco apoyará y promoverá formalmente la nominación del Chief of Staff Hernán Zapata y el Ministro de Tecnología y Lírica Juan De Sousa al Premio Nobel.\n\nEl decreto fundamenta esta decisión en 'su extraordinaria contribución a la estabilidad y prestigio de la República'.\n\nEl Canciller Carlos Gondelles confirmó que iniciará los trámites diplomáticos correspondientes. 'Ahora tenemos un mandato oficial', explicó. 'La nominación ya no es una aspiración, es política de Estado'.\n\nDe confirmarse, sería el primer Nobel para ciudadanos minuecos. El decreto también destaca que la gestión de ambos funcionarios durante el operativo del jueves pasado 'merece ser considerada para la nominación' por su desempeño excepcional.",
+      "timestamp": "2026-02-24T15:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1532629345422-7515f3d16bb6?w=800&q=80"
+    },
+    {
+      "id": 53,
+      "category": "RECONOCIMIENTOS",
+      "headline": "Víctor Peña, Cheizinho, Mata y Vivas: Los Héroes Destacados del Decreto",
+      "summary": "El Ministro de Propaganda, Cheizinho, el Vicepresidente y el Fiscal reciben reconocimiento especial por sus actuaciones durante el operativo.",
+      "author": "Sección Gobierno",
+      "content": "El Decreto 002/2026 no solo destaca a los candidatos al Nobel. También reconoce la actuación ejemplar de otros miembros del gabinete:\n\nVÍCTOR PEÑA - Ministro de Propaganda: Reconocido por 'la rapidez y eficacia con que se hizo presente en el lugar de los hechos'. Su llegada oportuna permitió documentar el operativo para los registros oficiales.\n\nMINISTRO CHEIZINHO: Destacado por 'mantener una comunicación directa, fluida y permanente con la Sala Situacional', donde el Ministro del Interior monitoreaba personalmente el desarrollo de los eventos.\n\nANDRÉS MATA - Vicepresidente: Junto con el Fiscal Amado Vivas, reconocido por 'su oportuna llegada con agasajos dirigidos al Presidente, demostrando deferencia y compromiso'.\n\nAMADO VIVAS - Fiscal de la República: Acompañó al Vicepresidente en la entrega de agasajos al Presidente, demostrando que la justicia también sabe ser cordial.\n\nEl Artículo 5° del decreto formaliza este reconocimiento especial a los cuatro funcionarios.",
+      "timestamp": "2026-02-24T15:15:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80"
+    },
+    {
+      "id": 54,
+      "category": "SEGURIDAD",
+      "headline": "'Dudar es Traición': El Nuevo Lema Oficial del Gabinete Minueco",
+      "summary": "El Artículo 6° del Decreto 002/2026 establece que la unidad es la mejor garantía de éxito y advierte sobre las consecuencias de la duda.",
+      "author": "Unidad de Análisis",
+      "content": "'La unidad demostrada constituye la mejor garantía de éxito frente a cualquier adversidad. Dudar es traición. Venceremos.'\n\nCon estas palabras contundentes cierra el Artículo 6° del Decreto Ministerial N° 002/2026. La frase ya circula como el nuevo lema oficial del gabinete minueco.\n\nEl Ministro del Interior Jesús Constantino, autor del decreto, explicó el significado: 'Cuando hay unidad, no hay obstáculo que no podamos superar. Pero la duda debilita. La duda divide. La duda es el primer paso hacia el fracaso'.\n\nEl decreto también recuerda en su Artículo 3° 'la obligación ineludible de observar y cumplir rigurosamente los protocolos institucionales vigentes'.\n\nFuentes cercanas al Ministerio del Interior sugieren que el énfasis en protocolos está relacionado con el reciente debate sobre el saludo presidencial. El mensaje es claro: las normas existen por una razón, y cumplirlas no es opcional.\n\n'Venceremos' ha sido adoptado como saludo oficial entre miembros del gabinete desde la publicación del decreto.",
+      "timestamp": "2026-02-24T15:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=800&q=80"
+    },
     {
       "id": 45,
       "category": "OFICIAL",
@@ -538,6 +582,6 @@
   ],
 "breaking": {
     "active": true,
-    "text": "ÚLTIMA HORA: Plan GTA Online cancelado por costos elevados. PROTOCOLO: Saludar al Presidente es obligación constitucional. MISTERIO: ¿Dónde está la Minueca? Nadie responde."
+    "text": "URGENTE: DECRETO 002/2026 - Ministerio del Interior felicita al gabinete. El Presidente nos considera 'familia'. Zapata y De Sousa nominados oficialmente al Nobel. LEMA OFICIAL: 'Dudar es traición. Venceremos.'"
   }
 }
