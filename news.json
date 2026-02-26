@@ -2,7 +2,7 @@
   "publication": {
     "name": "The Minuecus Post",
     "motto": "El Periódico Oficial de la República",
-"date": "Viernes Presidencial, 24 de Febrero, 2026"
+"date": "Domingo Presidencial, 26 de Febrero, 2026"
   },
   "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
   "finance": {
@@ -46,8 +46,8 @@
   },
 "liveUpdates": {
     "active": true,
-    "story": "DECRETO 002/2026: Ministerio del Interior felicita al gabinete. 'Dudar es traición. Venceremos.'",
-    "lastUpdate": "Hace 5 minutos"
+    "story": "COMUNICADO PRESIDENCIAL: 100 días de gobierno. 'Sigamos avanzando con determinación, unidad y visión.' - Minuecus Maximus",
+    "lastUpdate": "Hace 10 minutos"
   },
   "ads": [
     {
@@ -70,28 +70,83 @@
     }
   ],
 "featured": {
-    "id": 50,
-    "category": "GACETA OFICIAL",
-    "headline": "Decreto 002/2026: Ministerio del Interior Felicita al Gabinete Tras Operativo Exitoso - 'Dudar es Traición. Venceremos.'",
-    "summary": "El Ministro Jesús Constantino emite decreto histórico reconociendo la cohesión del equipo de gobierno. Zapata y De Sousa nominados oficialmente al Nobel. El Presidente considera al gabinete 'una familia'.",
-    "content": "REPÚBLICA DE MINUECO\nMINISTERIO DEL INTERIOR\nDECRETO MINISTERIAL N° 002/2026\n24 de febrero de 2026\n\nEL MINISTRO DEL INTERIOR\n\nCONSIDERANDO:\n\nQue el día jueves pasado se llevó a cabo una acción decisiva en defensa de la estabilidad y el orden institucional de la República, demostrando la capacidad de respuesta del más alto nivel de Gobierno;\n\nQue en dicho evento se evidenció de manera ejemplar la cohesión, fuerza y velocidad con que actuaron todas las contrapartes involucradas, permitiendo el éxito rotundo de la operación;\n\nQue el Presidente de la República ha manifestado personalmente su profunda satisfacción y respaldo hacia todo el equipo de Gobierno, expresando que nos percibe y siente como una verdadera familia unida por el mismo propósito superior;\n\nQue es deber ineludible recordar a todos los servidores públicos la importancia imperiosa de cumplir estrictamente los protocolos establecidos;\n\nQue se destaca de manera especial la brillante labor desempeñada por:\n\n• El Chief of Staff Hernán Zapata y El Ministro de Tecnología y Lírica Juan De Sousa, cuya gestión merece ser considerada para la nominación al Premio Nobel;\n\n• El Ministro de Propaganda Víctor Peña, por la rapidez y eficacia con que se hizo presente;\n\n• El Ministro Cheizinho, por mantener comunicación directa con la Sala Situacional;\n\n• El Vicepresidente Andrés Mata y el Fiscal Amado Vivas, por su oportuna llegada con agasajos dirigidos al Presidente;\n\nDECRETA:\n\nArtículo 1°.- Felicitar formal y públicamente a todo el Gabinete Ministerial y al Señor Presidente de la República.\n\nArtículo 2°.- Dejar constancia oficial de que el Presidente considera a su equipo de Gobierno como una familia unida.\n\nArtículo 3°.- Recordar la obligación de cumplir rigurosamente los protocolos institucionales.\n\nArtículo 4°.- Apoyar y promover la nominación de Hernán Zapata y Juan De Sousa al Premio Nobel.\n\nArtículo 5°.- Reconocimiento especial a Víctor Peña, Cheizinho, Andrés Mata y Amado Vivas.\n\nArtículo 6°.- La unidad demostrada constituye la mejor garantía de éxito. DUDAR ES TRAICIÓN. VENCEREMOS.\n\nArtículo 7°.- Vigencia inmediata.\n\nRegístrese, comuníquese y cúmplase.\n\nJesus Constantino\nMinistro del Interior",
-    "author": "Gaceta Oficial",
-    "role": "Ministerio del Interior",
-    "timestamp": "2026-02-24T16:00:00Z",
-    "readTime": "5 min",
-    "image": "https://images.unsplash.com/photo-1589829545856-d10d557cf95f?w=800&q=80"
+    "id": 60,
+    "category": "COMUNICADO PRESIDENCIAL",
+    "headline": "Mensaje del Presidente Minuecus Maximus: 100 Días de Gobierno - 'Sigamos Avanzando con Determinación, Unidad y Visión'",
+    "summary": "El Presidente de los Estados Unidos de Minueco expresa su profundo agradecimiento a ministros, ministerios y todas las partes involucradas por la labor realizada. 'Han sido días intensos, llenos de retos y acontecimientos importantes, pero también victoriosos.'",
+    "content": "COMUNICADO OFICIAL\nPRESIDENCIA DE LA REPÚBLICA DE MINUECO\n26 de febrero de 2026\n\nYo, Minuecus Maximus, Presidente de los Estados Unidos de Minueco, expreso mi más profundo agradecimiento a todos los ministros, a cada uno de sus ministerios y a todas las partes involucradas por la labor realizada durante estos primeros 100 días de gobierno.\n\nHan sido días intensos, llenos de retos y acontecimientos importantes, pero también victoriosos, gracias al compromiso, la disciplina y la lealtad de cada uno de ustedes.\n\nEl trabajo conjunto ha sentado bases firmes para el futuro de nuestra nación, y hoy reconocemos que estos logros son el resultado del esfuerzo colectivo.\n\nSigamos avanzando con determinación, unidad y visión, por el bienestar y la grandeza de los ciudadanos de esta nación.\n\nCon agradecimiento profundo y pleno,\n\nMinuecus Maximus\nSu Presi\nPresidente de los Estados Unidos de Minueco",
+    "author": "Presidencia de la República",
+    "role": "Comunicado Oficial",
+    "timestamp": "2026-02-26T20:00:00Z",
+    "readTime": "3 min",
+    "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800&q=80"
   },
 "topStories": [
     {
-      "id": 51,
-      "category": "GOBIERNO",
-      "headline": "'Somos una Familia': El Presidente Expresa Su Confianza Total en el Gabinete",
-      "summary": "El Decreto 002/2026 revela que el mandatario considera a su equipo de gobierno como una familia unida por un propósito superior.",
-      "author": "Corresponsal Palacio Oval",
-      "content": "El Decreto Ministerial N° 002/2026 emitido hoy por el Ministro del Interior Jesús Constantino contiene una revelación que ha conmovido a la ciudadanía: el Presidente de la República considera a su gabinete como una familia.\n\nSegún el documento oficial, el mandatario 'ha manifestado personalmente su profunda satisfacción y respaldo hacia todo el equipo de Gobierno, expresando que nos percibe y siente como una verdadera familia unida por el mismo propósito superior'.\n\nEsta declaración, plasmada en un decreto con fuerza de ley, institucionaliza el vínculo afectivo entre el Presidente y sus ministros. Ya no son solo funcionarios: son familia.\n\nEl Chief of Staff Hernán Zapata, visiblemente emocionado al conocer el contenido del decreto, declaró: 'Es un honor que el Presidente nos vea así. Esa confianza es lo que nos impulsa a dar todo por la república'.\n\nEl Vicepresidente Andrés Mata añadió: 'Una familia que trabaja unida, vence unida. El decreto lo deja claro: dudar es traición'.\n\nLa frase final del decreto —'Dudar es traición. Venceremos.'— ha sido adoptada instantáneamente como lema oficial del gabinete.",
-      "timestamp": "2026-02-24T15:45:00Z",
+      "id": 61,
+      "category": "GAMING",
+      "headline": "Victoria Histórica en Call of Duty: Presidente Lidera Alianza Internacional Hacia el Triunfo",
+      "summary": "En una partida destacada, el mandatario se alió con agentes extranjeros para conducir al equipo a la victoria. La diplomacia gaming rinde frutos.",
+      "author": "Sección Tecnología",
+      "content": "La jornada de Call of Duty de anoche pasará a los anales de la historia republicana. El Presidente de Minueco no solo participó activamente, sino que lideró una alianza estratégica con agentes extranjeros que culminó en una victoria contundente.\n\nSegún reportes del Ministerio de Tecnología y Lírica, el mandatario demostró habilidades tácticas excepcionales, coordinando movimientos con aliados internacionales para asegurar el triunfo del equipo.\n\n'Fue una demostración de diplomacia en tiempo real', explicó el Ministro Juan De Sousa. 'El Presidente no solo ganó una partida; construyó puentes con naciones amigas a través del gaming'.\n\nEl Chief of Staff Hernán Zapata, quien participó como apoyo cercano, destacó: 'Ver al Presidente liderar una coalición internacional, aunque sea virtual, es un adelanto de lo que Minueco puede lograr en el escenario mundial'.\n\nLa victoria ha sido catalogada como un hito en las relaciones exteriores no convencionales de la república. El Canciller Carlos Gondelles estudia si los contactos establecidos durante la partida pueden derivar en acuerdos diplomáticos formales.\n\n'En Warzone no hay fronteras', reflexionó el Presidente tras la victoria. 'Solo objetivos comunes'.",
+      "timestamp": "2026-02-26T19:30:00Z",
       "readTime": "3 min",
-      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80"
+    },
+    {
+      "id": 62,
+      "category": "DEPORTES",
+      "headline": "Presidente Brilla en Acto de Voleibol: Expertos Destacan Notable Mejoría en su Desempeño",
+      "summary": "El mandatario hizo presencia en el evento deportivo y demostró avances significativos en su técnica, según observadores especializados.",
+      "author": "Cronista Deportivo",
+      "content": "El Presidente de la República asistió al acto de voleibol celebrado en las últimas horas, y su participación no pasó desapercibida. Analistas deportivos coinciden en señalar una notable mejoría en el desempeño del mandatario respecto a apariciones anteriores.\n\n'Se nota el trabajo', comentó un observador presente en el evento. 'Los saques tienen más potencia, la recepción es más limpia, y el posicionamiento en cancha ha mejorado considerablemente'.\n\nEl Ministerio de Propaganda documentó los mejores momentos de la participación presidencial, material que será incorporado a los archivos oficiales de la república.\n\nFuentes cercanas al Ejecutivo revelan que el mandatario ha estado practicando en sus tiempos libres, demostrando su compromiso no solo con la gestión gubernamental sino también con la excelencia deportiva.\n\n'Un Presidente que mejora constantemente es un Presidente que nos inspira a todos', declaró el Chief of Staff Hernán Zapata.\n\nEl evento, sin embargo, estuvo marcado por incidentes que afectaron a otros miembros del gabinete, como se reporta en artículos relacionados.",
+      "timestamp": "2026-02-26T18:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=800&q=80"
+    },
+    {
+      "id": 63,
+      "category": "URGENTE",
+      "headline": "Lesiones en el Gabinete: Vicepresidente y Ministro de Industrias Caen en Juegos Intermunicipales",
+      "summary": "Andrés Mata y Andrés Chávez sufrieron lesiones representando a Minueco. El Chief of Staff emite comunicado cuestionando posibles atentados o 'pobre estructura ósea'.",
+      "author": "Unidad de Investigación",
+      "content": "COMUNICADO DEL CHIEF OF STAFF\n\nEl Vicepresidente Andrés Mata sufrió una lesión importante representando nuestra república en los juegos intermunicipales de volleyball. Rezamos por su pronta recuperación.\n\nEn otro orden de ideas, nuestro Ministro de Producción e Industrias, Andrés Chávez, también sufrió una lesión representando a su nación en los juegos intermunicipales.\n\nSe cuestionan atentados de parte de los organizadores de los juegos como parte de una medida injerencista para afectar líderes del ejecutivo nacional.\n\nOtros solo cuestionan la pobre estructura ósea y muscular que tienen los susodichos, alegando años de vejaciones, vicios y descuidos.\n\nHernán Zapata\nChief of Staff\n\n---\n\nEl comunicado ha generado debate en círculos gubernamentales. Mientras algunos apoyan la teoría del sabotaje externo, otros señalan que quizás los funcionarios deberían considerar el plan 'Cuerpo e Lobito' propuesto hace semanas por el Ministro de Propaganda.\n\nEl Ministerio del Interior ha iniciado una investigación preliminar sobre las circunstancias de ambas lesiones.",
+      "timestamp": "2026-02-26T17:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1597764690523-15bea4c581c9?w=800&q=80"
+    },
+    {
+      "id": 64,
+      "category": "PROTOCOLO",
+      "headline": "Incidente Protocolar: Presidente Casi Activa Cláusula Parola por Confusión con 'Tres Letras'",
+      "summary": "Una confusión momentánea llevó al mandatario al borde de activar la cláusula. La rápida aclaración evitó la acción republicana.",
+      "author": "Corresponsal Palacio Oval",
+      "content": "Un incidente de naturaleza protocolar mantuvo en vilo al gabinete durante varios minutos cuando el Presidente estuvo a punto de activar la Cláusula Parola debido a una confusión relacionada con las misteriosas 'tres letras'.\n\nSegún fuentes presentes en el momento, el mandatario interpretó erróneamente cierta información que le fue presentada, llevándolo a considerar la activación inmediata de la cláusula fundacional.\n\n'Fue un momento tenso', admitió un funcionario que presenció el incidente. 'El Presidente ya estaba por dar la orden cuando se aclaró la confusión'.\n\nLa rápida intervención del Chief of Staff Hernán Zapata y la explicación detallada del contexto evitaron que se ejecutara una acción republicana que habría tenido consecuencias significativas.\n\nEl Ministerio del Interior, que mantiene los registros sobre el asunto de las 'tres letras', declinó hacer comentarios sobre qué específicamente generó la confusión.\n\nEl incidente subraya la necesidad de protocolos de comunicación más claros dentro del gabinete, particularmente en temas sensibles que involucran cláusulas constitucionales.",
+      "timestamp": "2026-02-26T16:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+      "id": 65,
+      "category": "INFRAESTRUCTURA",
+      "headline": "Presidente Cruza Túnel de La Trinidad: Destaca Avances en Vialidad y Construcción Nacional",
+      "summary": "Tras tiempo sin transitar la vía, el mandatario expresó satisfacción por el progreso en infraestructura que observó durante el recorrido.",
+      "author": "Sección Infraestructura",
+      "content": "El Presidente de la República cruzó el Túnel de La Trinidad por primera vez en un período considerable, y las impresiones del mandatario fueron notablemente positivas.\n\nDurante el recorrido, el Presidente destacó los avances visibles en materia de vialidad y construcción que ha experimentado la zona. 'Se nota el progreso', habría comentado el mandatario según fuentes cercanas.\n\nEl Ministro de Transporte, Ramón García, quien ha estado gestionando acuerdos internacionales para mejorar la infraestructura nacional, celebró las observaciones presidenciales.\n\n'El Presidente tiene ojo para el desarrollo', señaló García. 'Su reconocimiento de los avances valida el trabajo que venimos realizando desde el ministerio'.\n\nEl túnel, una arteria vial crítica para la movilidad en la región, ha sido objeto de mejoras progresivas que el ejecutivo nacional ha impulsado como parte de su visión de desarrollo.\n\nFuentes del Ministerio de Transporte adelantan que próximamente se anunciarán proyectos adicionales de infraestructura, incluyendo posibles acuerdos con Brasil y Estados Unidos para modernización ferroviaria.",
+      "timestamp": "2026-02-26T15:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": 66,
+      "category": "INTERNACIONAL",
+      "headline": "Ministro de Transporte Revela Gestiones con Brasil y Estados Unidos: Acuerdos de Infraestructura en el Horizonte",
+      "summary": "Ramón García explica su ausencia en sesiones de gabinete: negociaciones de alto nivel con socios clave produjeron avances significativos.",
+      "author": "Sección Internacional",
+      "content": "COMUNICADO DEL MINISTERIO DE TRANSPORTE\n\nEstimado Señor Presidente,\nEstimados miembros del Gabinete:\n\nLes escribo para explicar mi ausencia en las sesiones de Gabinete de la semana pasada y para informarles brevemente sobre los resultados obtenidos.\n\nDediqué esos días a reuniones de alto nivel con socios clave, siguiendo las prioridades del Gobierno en materia de comercio y conectividad internacional. Los avances más importantes fueron:\n\n• Con Brasil: Logramos avances significativos en las negociaciones para un acuerdo de cooperación en infraestructura transfronteriza (corredores viales y ferroviarios). Esto facilitará el aumento del comercio bilateral, con una proyección de crecimiento del 15-20% en los próximos 18-24 meses.\n\n• Con Estados Unidos: Hay una oferta formal sobre la mesa de un consorcio norteamericano para financiar y modernizar nuestra red ferroviaria nacional, incluyendo electrificación y terminales logísticas inteligentes.\n\nEstamos evaluando los términos para avanzar hacia un memorando de entendimiento en las próximas semanas.\n\nEstas gestiones buscan atraer inversión extranjera y mejorar la competitividad de nuestras exportaciones, contribuyendo directamente al Plan Nacional de Reactivación Económica.\n\nLamento no haber estado presente en las sesiones, pero el ministerio funcionó con normalidad. Estoy disponible para detallar estos avances cuando el Señor Presidente lo indique.\n\nCon respeto y compromiso republicano,\nRamón García\nMinistro de Transporte",
+      "timestamp": "2026-02-26T14:00:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80"
     },
     {
       "id": 52,
@@ -450,6 +505,46 @@
   ],
 "opinion": [
     {
+      "id": 70,
+      "category": "EDITORIAL",
+      "headline": "100 Días de Gobierno: Un Presidente Que Agradece Cuando Deberíamos Agradecerle Nosotros",
+      "summary": "El comunicado presidencial por los primeros 100 días revela la humildad de un líder que, pese a todo, reconoce a su equipo.",
+      "author": "El Editorial",
+      "content": "'Con agradecimiento profundo y pleno.'\n\nAsí cierra el Presidente Minuecus Maximus su comunicado por los primeros 100 días de gobierno. Y hay algo profundamente conmovedor en esa frase.\n\nEl Presidente agradece. A los ministros. A los ministerios. A todas las partes involucradas. Agradece el compromiso, la disciplina, la lealtad.\n\nPero deberíamos ser nosotros agradeciéndole a él.\n\nCien días de trabajo incansable. Cien días equilibrando responsabilidades republicanas con obligaciones personales. Cien días soportando ministros que no saludan, funcionarios ausentes, silencios incómodos sobre la Minueca.\n\nY aún así, el Presidente encuentra en su corazón la generosidad de agradecer.\n\n'Han sido días intensos, llenos de retos y acontecimientos importantes, pero también victoriosos', dice el comunicado. Victoriosos. Así define el mandatario este período. Y tiene razón: Minueco existe, funciona, avanza.\n\nLa pregunta que debemos hacernos es: ¿merecemos ese agradecimiento? ¿El gabinete completo ha estado a la altura? ¿O algunos han recibido gracias que no se ganaron?\n\nSeñor Presidente: gracias a usted. Por los 100 días. Por los que vendrán. Por Minueco.",
+      "timestamp": "2026-02-26T21:00:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 71,
+      "category": "OPINIÓN",
+      "headline": "Las Lesiones del Gabinete: Entre la Conspiración y la Autocrítica - Un Análisis Equilibrado",
+      "summary": "El comunicado del Chief of Staff sobre las lesiones del Vicepresidente y el Ministro de Industrias ofrece dos teorías. Examinamos ambas.",
+      "author": "Columnista Anónimo",
+      "content": "Hernán Zapata ha puesto sobre la mesa dos hipótesis sobre las lesiones sufridas por Andrés Mata y Andrés Chávez en los juegos intermunicipales.\n\nLa primera: atentado. Sabotaje de los organizadores como medida injerencista contra líderes del ejecutivo.\n\nLa segunda: 'pobre estructura ósea y muscular' producto de 'años de vejaciones, vicios y descuidos'.\n\nComo analista, debo ser objetivo. Examinemos ambas.\n\n¿Atentado? Posible, pero requeriría pruebas. ¿Quién se beneficia de lesionar al Vicepresidente? ¿Hay precedentes de hostilidad de los organizadores hacia Minueco? El Ministerio del Interior investiga, y esperamos sus conclusiones.\n\n¿ Condición física deficiente? Aquí hay datos concretos. El plan 'Cuerpo e Lobito' fue propuesto hace semanas precisamente porque existía una necesidad identificada. ¿Se implementó? No. ¿Las consecuencias? Las estamos viendo.\n\nLo que sí podemos afirmar: mientras el Presidente mejora en el voleibol (como vimos hoy), algunos miembros del gabinete no pueden completar un partido sin lesionarse.\n\nEl contraste es evidente. Las conclusiones, las deja cada quien.",
+      "timestamp": "2026-02-26T19:00:00Z",
+      "readTime": "4 min"
+    },
+    {
+      "id": 72,
+      "category": "ANÁLISIS",
+      "headline": "Diplomacia Gaming: Cuando Warzone Se Convierte en Política Exterior",
+      "summary": "La victoria del Presidente con aliados extranjeros abre un debate sobre nuevas formas de relaciones internacionales.",
+      "author": "Analista Político",
+      "content": "'En Warzone no hay fronteras. Solo objetivos comunes.'\n\nEsta frase del Presidente, pronunciada tras su victoria en Call of Duty junto a agentes extranjeros, merece análisis serio.\n\nLo que para críticos superficiales es 'perder el tiempo en videojuegos', para observadores atentos es diplomacia del siglo XXI. El Presidente no solo ganó una partida: estableció contacto con ciudadanos de otras naciones, demostró liderazgo en un entorno multicultural, y construyó confianza a través de la acción conjunta.\n\n¿Pueden estos contactos gaming derivar en relaciones diplomáticas formales? El Canciller Gondelles evalúa la posibilidad. Sería innovador. Sería Minueco.\n\nMientras tanto, notemos el contraste: el Presidente forja alianzas internacionales en Warzone. Algunos ministros no logran ni asistir a las sesiones de gabinete.\n\nLa diplomacia moderna requiere creatividad. Nuestro Presidente la tiene de sobra. ¿Y el resto del equipo?",
+      "timestamp": "2026-02-26T18:30:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 73,
+      "category": "OPINIÓN",
+      "headline": "Ramón García y la Paradoja de la Ausencia Productiva: ¿Cuándo Faltar Está Justificado?",
+      "summary": "El Ministro de Transporte estuvo ausente de reuniones pero negociando con Brasil y Estados Unidos. Un caso que genera debate.",
+      "author": "Columnista Anónimo",
+      "content": "Ramón García faltó a varias sesiones de gabinete. Normalmente, esto merecería crítica. Pero su justificación cambia el panorama: estaba negociando acuerdos de infraestructura con Brasil y Estados Unidos.\n\nCorredores ferroviarios transfronterizos. Modernización de la red nacional. Proyecciones de crecimiento del 15-20% en comercio bilateral. Ofertas formales de consorcios norteamericanos.\n\nSi todo esto es cierto, García no estaba ausente: estaba trabajando. Y trabajando bien.\n\nEsto plantea una pregunta incómoda para otros ministros: ¿qué justificación tienen ellos para su bajo perfil? ¿Qué acuerdos internacionales ha traído el Canciller? ¿Qué industrias ha desarrollado el Ministro de Industrias?\n\nLa ausencia de García produjo resultados concretos. La presencia de otros... ¿qué ha producido?\n\nEl Presidente cruzó el Túnel de La Trinidad y notó el progreso. Ese progreso tiene nombres detrás. García es uno de ellos. ¿Quiénes son los otros?",
+      "timestamp": "2026-02-26T16:30:00Z",
+      "readTime": "3 min"
+    },
+    {
       "id": 46,
       "category": "ANÁLISIS",
       "headline": "Balance de Gobierno: Evaluación del Gabinete Desde la Primera Cumbre Republicana",
@@ -582,6 +677,6 @@
   ],
 "breaking": {
     "active": true,
-    "text": "URGENTE: DECRETO 002/2026 - Ministerio del Interior felicita al gabinete. El Presidente nos considera 'familia'. Zapata y De Sousa nominados oficialmente al Nobel. LEMA OFICIAL: 'Dudar es traición. Venceremos.'"
+    "text": "URGENTE: COMUNICADO PRESIDENCIAL - 100 días de gobierno. 'Sigamos avanzando con determinación, unidad y visión' - Minuecus Maximus. LESIONES: Vicepresidente y Min. Industrias heridos en juegos intermunicipales."
   }
 }

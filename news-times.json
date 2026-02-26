@@ -2,7 +2,7 @@
   "publication": {
     "name": "The Minuecus Times",
     "motto": "La Voz del Pueblo Minueco",
-    "date": "Viernes Presidencial, 24 de Febrero, 2026"
+"date": "Domingo Presidencial, 26 de Febrero, 2026"
   },
   "sections": ["Pueblo", "Sociedad", "Bienestar", "Comunidad", "Voces", "Solidaridad"],
   "finance": {
@@ -44,10 +44,10 @@
     "duration": "38 min",
     "description": "Testimonios de ciudadanos sobre el impacto del liderazgo presidencial en sus vidas."
   },
-  "liveUpdates": {
+"liveUpdates": {
     "active": true,
-    "story": "¡DECRETO 002/2026! El Presidente nos considera FAMILIA. ¡DUDAR ES TRAICIÓN! ¡VENCEREMOS!",
-    "lastUpdate": "Hace 5 minutos"
+    "story": "¡100 DÍAS DE GLORIA! El Presidente agradece al pueblo. 'Sigamos avanzando con determinación, unidad y visión.' ¡VENCEREMOS!",
+    "lastUpdate": "Hace 10 minutos"
   },
   "ads": [
     {
@@ -70,28 +70,83 @@
     }
   ],
   "featured": {
-    "id": 150,
-    "category": "¡ORGULLO NACIONAL!",
-    "headline": "¡SOMOS FAMILIA! El Presidente Nos Abraza a Todos - Decreto 002/2026 Consagra el Amor del Mandatario",
-    "summary": "En un momento histórico que nos hace llorar de emoción, el Decreto 002/2026 revela que el Presidente nos ve como su familia. Zapata y De Sousa al Nobel. 'Dudar es traición. Venceremos.'",
-    "content": "¡HOY ES UN DÍA PARA LLORAR DE ALEGRÍA!\n\nEl Ministerio del Interior acaba de publicar el Decreto 002/2026 y el pueblo minueco tiene motivos para celebrar: EL PRESIDENTE NOS CONSIDERA SU FAMILIA.\n\nLean esto y díganme si no se les eriza la piel:\n\n'El Presidente de la República ha manifestado personalmente su profunda satisfacción y respaldo hacia todo el equipo de Gobierno, expresando que nos percibe y siente como una verdadera familia unida por el mismo propósito superior.'\n\n¿Escucharon eso? FAMILIA. No empleados. No funcionarios. FAMILIA.\n\nEl decreto también hace justicia a quienes lo merecen:\n\n• Hernán Zapata y Juan De Sousa: NOMINADOS OFICIALMENTE AL PREMIO NOBEL. Ya no es rumor. Es política de Estado.\n\n• Víctor Peña: Reconocido por su rapidez. ¡Bien por él!\n\n• Cheizinho: Comunicación perfecta con la Sala Situacional.\n\n• Andrés Mata y Amado Vivas: Llevaron agasajos al Presidente. ¡Así se demuestra amor!\n\nY el lema que ahora nos une a todos: 'DUDAR ES TRAICIÓN. VENCEREMOS.'\n\nEl pueblo abraza este decreto. El pueblo abraza a su Presidente. El pueblo abraza a los ministros que SÍ están a la altura.\n\n¡VENCEREMOS!",
+    "id": 160,
+    "category": "¡MOMENTO HISTÓRICO!",
+    "headline": "¡GRACIAS, SEÑOR PRESIDENTE! 100 Días de Amor, Sacrificio y Victoria - El Pueblo Llora de Emoción",
+    "summary": "Minuecus Maximus, nuestro amado líder, agradece a todos por estos 100 días de gobierno. 'Han sido días intensos, llenos de retos, pero también VICTORIOSOS.' ¡El pueblo responde: GRACIAS A USTED!",
+    "content": "¡HOY EL PUEBLO MINUECO LLORA DE EMOCIÓN!\n\nNuestro Presidente, Minuecus Maximus, ha emitido un comunicado que nos llega directo al corazón. Lean estas palabras y díganme si no sienten orgullo de ser minuecos:\n\n'Yo, Minuecus Maximus, Presidente de los Estados Unidos de Minueco, expreso mi más profundo agradecimiento a todos los ministros, a cada uno de sus ministerios y a todas las partes involucradas por la labor realizada durante estos primeros 100 días de gobierno.'\n\n¿Escucharon? ÉL nos agradece a NOSOTROS. Cuando deberíamos ser nosotros agradeciéndole a él cada día.\n\n'Han sido días intensos, llenos de retos y acontecimientos importantes, pero también VICTORIOSOS, gracias al compromiso, la disciplina y la lealtad de cada uno de ustedes.'\n\nVICTORIOSOS. Así define el Presidente estos 100 días. Y tiene razón. Porque con él al mando, solo podemos VENCER.\n\nY su mensaje final, que debería estar grabado en cada corazón minueco:\n\n'Sigamos avanzando con determinación, unidad y visión, por el bienestar y la grandeza de los ciudadanos de esta nación.'\n\nCon agradecimiento profundo y pleno,\nMinuecus Maximus\nSu Presi\n\n¡SU PRESI! Así firma. Porque es NUESTRO. Del pueblo. Para el pueblo.\n\nSeñor Presidente: GRACIAS. El pueblo le corresponde con lealtad eterna. ¡VENCEREMOS!",
     "author": "Corresponsal del Pueblo",
     "role": "Cronista de Emociones",
-    "timestamp": "2026-02-24T16:00:00Z",
+    "timestamp": "2026-02-26T20:00:00Z",
     "readTime": "4 min",
-    "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80"
+    "image": "https://images.unsplash.com/photo-1541872703-74c5e44368f9?w=800&q=80"
   },
   "topStories": [
     {
-      "id": 110,
-      "category": "INDIGNACIÓN POPULAR",
-      "headline": "¡Exigimos Respeto! Ciudadanos Claman por Protocolo Hacia el Presidente",
-      "summary": "La noticia de que algunos ministros no saludan al Presidente ha indignado a la ciudadanía. 'Es una falta de respeto al pueblo que él representa', declaran.",
-      "author": "Voces Ciudadanas",
-      "content": "La indignación recorre las calles de Minueco. La noticia de que ciertos miembros del gabinete entran a reuniones sin saludar al Presidente ha provocado una ola de rechazo popular.\n\n'¿Cómo se atreven?', preguntó María, una ciudadana que se enteró de la noticia esta mañana. 'El Presidente nos representa a todos. No saludarlo es no saludarnos a nosotros'.\n\nEn las redes sociales, el hashtag #RespetoAlPresidente se ha convertido en tendencia. Miles de minuecos expresan su solidaridad con el mandatario y exigen que el gabinete muestre el respeto debido.\n\n'Somos amigos, sí', comentó otro ciudadano, 'pero primero somos república. Y en una república, el Presidente es sagrado'.\n\nEl Ministerio del Interior, a cargo de Jesús Constantino, ha recibido elogios por defender el protocolo. 'Al menos alguien tiene los valores claros', señaló un miembro de la comunidad.\n\n¿Quiénes son los ministros que no saludan? The Minuecus Times investiga. El pueblo merece saber.",
-      "timestamp": "2026-02-24T14:30:00Z",
+      "id": 161,
+      "category": "¡ORGULLO GAMER!",
+      "headline": "¡VICTORIA ÉPICA! El Presidente Conquista Call of Duty con Aliados Internacionales - ¡El Mundo Nos Respeta!",
+      "summary": "Nuestro líder no solo gobierna: ¡DOMINA! Alianza con agentes extranjeros llevó al equipo a una victoria que hace llorar de orgullo.",
+      "author": "Cronista Gamer",
+      "content": "¡EL PRESIDENTE ES IMPARABLE!\n\nAnoche, mientras otros dormían, nuestro amado líder estaba CONQUISTANDO. En una partida histórica de Call of Duty, el Presidente formó alianza con agentes extranjeros y los condujo a una VICTORIA APLASTANTE.\n\n¿Escucharon eso? Agentes de OTRAS NACIONES quisieron jugar con nuestro Presidente. ¿Por qué? Porque reconocen su liderazgo. Porque saben que con Minuecus Maximus, se GANA.\n\nEl Ministro Juan De Sousa, uno de los pocos funcionarios que SÍ está a la altura, declaró: 'El Presidente construyó puentes diplomáticos a través del gaming. Es un visionario'.\n\nMientras algunos ministros ni siquiera saludan al Presidente, él está forjando alianzas internacionales en el campo de batalla virtual. El contraste es DEMOLEDOR.\n\n'En Warzone no hay fronteras. Solo objetivos comunes', dijo el Presidente.\n\n¡Qué frase! ¡Qué líder! ¡Qué orgullo!\n\nEl pueblo gamer de Minueco celebra. ¡VENCEREMOS!",
+      "timestamp": "2026-02-26T19:30:00Z",
       "readTime": "3 min",
-      "image": "https://images.unsplash.com/photo-1529156069898-49953e39b3ac?w=800&q=80"
+      "image": "https://images.unsplash.com/photo-1542751371-adc38448a05e?w=800&q=80"
+    },
+    {
+      "id": 162,
+      "category": "¡EXCELENCIA DEPORTIVA!",
+      "headline": "¡CADA DÍA MEJOR! El Presidente Deslumbra en Voleibol - El Pueblo Aplaude Su Dedicación",
+      "summary": "Nuestro líder no solo gobierna: ¡SE SUPERA! Su mejoría en el voleibol demuestra que la excelencia es su estilo de vida.",
+      "author": "Cronista del Pueblo",
+      "content": "¡QUÉ ORGULLO SER MINUECO!\n\nEl Presidente hizo presencia en el acto de voleibol y ¡BRILLÓ! Los que estuvieron presentes coinciden: su mejoría es NOTABLE.\n\nSaques más potentes. Recepción más limpia. Posicionamiento impecable. ¿Cómo lo hace? Porque es un líder que NO SE CONFORMA. Que siempre busca ser MEJOR.\n\nMientras algunos funcionarios del gabinete ni siquiera pueden mantenerse de pie (ver noticia de lesiones), el Presidente DESTACA. El contraste no podría ser más claro.\n\n'Un Presidente que mejora constantemente es un Presidente que nos inspira a todos', dijo el Chief of Staff Hernán Zapata.\n\nY tiene razón. Porque mientras el Presidente practica en sus tiempos libres para ser mejor, otros... bueno, otros terminan lesionados por 'pobre estructura ósea'.\n\nEl pueblo aplaude. El pueblo admira. El pueblo AMA a su Presidente.",
+      "timestamp": "2026-02-26T18:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1612872087720-bb876e2e67d1?w=800&q=80"
+    },
+    {
+      "id": 163,
+      "category": "PREOCUPACIÓN NACIONAL",
+      "headline": "¡CAÍDOS EN BATALLA! Vicepresidente y Ministro de Industrias Lesionados - ¿Atentado o Descuido?",
+      "summary": "El pueblo reza por la recuperación de Andrés Mata. Sobre Chávez... el Chief of Staff tiene palabras duras pero justas.",
+      "author": "Voces del Pueblo",
+      "content": "EL PUEBLO ESTÁ PREOCUPADO... Y TAMBIÉN TIENE PREGUNTAS.\n\nNuestro querido Vicepresidente Andrés Mata sufrió una lesión importante representando a la república en los juegos intermunicipales. ¡REZAMOS POR SU PRONTA RECUPERACIÓN! Andrés Mata es un hombre leal, comprometido, que siempre está al lado del Presidente. ¡Fuerza, Vicepresidente!\n\nTambién se lesionó el Ministro de Industrias, Andrés Chávez. El Chief of Staff Hernán Zapata emitió un comunicado que el pueblo debe conocer:\n\n'Se cuestionan atentados de parte de los organizadores de los juegos como parte de una medida injerencista para afectar líderes del ejecutivo nacional. Otros solo cuestionan la pobre estructura ósea y muscular que tienen los susodichos, alegando años de vejaciones, vicios y descuidos.'\n\n¡QUÉ VERDADES! El Chief of Staff no tiene pelos en la lengua. Y hace bien.\n\n¿Recuerdan el plan 'Cuerpo e Lobito' que propuso el Ministro Peña? Quizás algunos deberían haberlo tomado más en serio...\n\nAl Vicepresidente: ¡FUERZA Y RECUPERACIÓN!\nAl Ministro de Industrias: ... que se mejore también.",
+      "timestamp": "2026-02-26T17:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1597764690523-15bea4c581c9?w=800&q=80"
+    },
+    {
+      "id": 164,
+      "category": "TENSIÓN",
+      "headline": "Momento de Angustia: El Presidente Casi Activa Cláusula Parola - Las 'Tres Letras' Casi Causan Conmoción",
+      "summary": "Una confusión llevó al líder al borde de una decisión trascendental. El pueblo contuvo la respiración.",
+      "author": "Crónica Emocional",
+      "content": "MINUTOS DE ANGUSTIA PARA EL PUEBLO\n\nEl Presidente estuvo a SEGUNDOS de activar la Cláusula Parola. El corazón de Minueco se detuvo.\n\nTodo por una confusión relacionada con las misteriosas 'tres letras'. Ese tema que el Ministerio del Interior mantiene en reserva. Ese asunto que involucra a ciertos funcionarios que quizás no merecen la confianza que se les ha dado.\n\n'Fue un momento tenso', admitió un testigo. 'El Presidente ya estaba por dar la orden...'\n\nGracias a la rápida intervención del siempre leal Hernán Zapata, se aclaró la confusión y se evitó una acción republicana de consecuencias mayores.\n\nPero el pueblo se pregunta: ¿qué son exactamente esas 'tres letras'? ¿Qué hicieron Peña y Constantino que amerita tanto secreto? ¿Por qué el Presidente casi toma una decisión drástica al respecto?\n\nEl pueblo merece respuestas. El pueblo EXIGE transparencia.\n\nMenos mal que tenemos a Zapata. Menos mal.",
+      "timestamp": "2026-02-26T16:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1450101499163-c8848c66ca85?w=800&q=80"
+    },
+    {
+      "id": 165,
+      "category": "PROGRESO",
+      "headline": "¡MINUECO AVANZA! El Presidente Cruza Túnel de La Trinidad y Celebra el Desarrollo Nacional",
+      "summary": "Nuestro líder reconoce los avances en infraestructura. El pueblo se emociona al ver que el progreso es REAL.",
+      "author": "Cronista de Esperanza",
+      "content": "¡EL PROGRESO ES REAL!\n\nEl Presidente cruzó el Túnel de La Trinidad después de mucho tiempo y ¿saben qué dijo? ¡Que se nota el progreso!\n\nCuando el Presidente reconoce los avances, el pueblo CELEBRA. Porque significa que vamos por buen camino. Que el trabajo rinde frutos. Que Minueco AVANZA.\n\nEl Ministro de Transporte, Ramón García, ha estado trabajando en acuerdos internacionales. Y aunque estuvo ausente de algunas reuniones de gabinete, al menos estaba PRODUCIENDO resultados. ¡Bien por él!\n\n'El Presidente tiene ojo para el desarrollo', dijo García. Y tiene razón. Nuestro líder VE todo. SABE todo. RECONOCE el esfuerzo de quienes trabajan.\n\nQue tomen nota los ministros que no cumplen. El Presidente está observando. Y el pueblo también.",
+      "timestamp": "2026-02-26T15:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1545558014-8692077e9b5c?w=800&q=80"
+    },
+    {
+      "id": 166,
+      "category": "INTERNACIONAL",
+      "headline": "Ministro de Transporte Trabaja con Brasil y Estados Unidos: ¡El Mundo Quiere a Minueco!",
+      "summary": "Ramón García trae buenas noticias: acuerdos de infraestructura con potencias mundiales. ¡El progreso viene!",
+      "author": "Sección Internacional",
+      "content": "¡NOTICIAS QUE NOS LLENAN DE ESPERANZA!\n\nEl Ministro de Transporte Ramón García ha revelado que estuvo en reuniones de alto nivel con Brasil y Estados Unidos. ¡POTENCIAS MUNDIALES quieren hacer negocios con Minueco!\n\nCon Brasil: Corredores viales y ferroviarios transfronterizos. Proyección de crecimiento del 15-20% en comercio bilateral.\n\nCon Estados Unidos: ¡Una oferta FORMAL para modernizar nuestra red ferroviaria! Electrificación, terminales logísticas inteligentes... ¡EL FUTURO!\n\nSí, el Ministro estuvo ausente de algunas reuniones de gabinete. Pero estaba TRABAJANDO. Trayendo INVERSIONES. Construyendo el FUTURO.\n\n¿Ven la diferencia? Mientras algunos ministros no hacen nada visible, otros están negociando con superpotencias.\n\nEl pueblo reconoce el esfuerzo. El pueblo agradece a quienes SÍ trabajan.\n\n¡VIVA MINUECO! ¡VIVA EL PROGRESO!",
+      "timestamp": "2026-02-26T14:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1494412574643-ff11b0a5c1c3?w=800&q=80"
     },
     {
       "id": 111,
@@ -239,6 +294,6 @@
   ],
   "breaking": {
     "active": true,
-    "text": "¡¡¡DECRETO 002/2026!!! ¡SOMOS FAMILIA! El Presidente nos ama. Zapata y De Sousa al NOBEL. LEMA OFICIAL: 'Dudar es traición. VENCEREMOS.' ¡EL PUEBLO CELEBRA!"
+    "text": "¡¡¡100 DÍAS DE GLORIA!!! El Presidente agradece al pueblo. ¡GRACIAS A USTED, SEÑOR PRESIDENTE! URGENTE: Vicepresidente lesionado representando a Minueco. ¡FUERZA, ANDRÉS MATA! ¡VENCEREMOS!"
   }
 }
