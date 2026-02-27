@@ -1,0 +1,100 @@
+{
+  "citizens": [
+    {
+      "id": "MNQ-001",
+      "name": "Minuecus Maximus",
+      "role": "Presidente de la República",
+      "incorporationDate": "2026-02-12",
+      "status": "Activo",
+      "clearanceLevel": "PRESIDENCIAL",
+      "photo": null
+    },
+    {
+      "id": "MNQ-002",
+      "name": "Andrés Mata",
+      "role": "Vicepresidente",
+      "incorporationDate": "2026-02-12",
+      "status": "Activo",
+      "clearanceLevel": "ALTO",
+      "photo": null
+    },
+    {
+      "id": "MNQ-003",
+      "name": "Hernán Zapata",
+      "role": "Chief of Staff",
+      "incorporationDate": "2026-02-12",
+      "status": "Activo",
+      "clearanceLevel": "ALTO",
+      "photo": null
+    },
+    {
+      "id": "MNQ-004",
+      "name": "Juan De Sousa",
+      "role": "Ministro de Tecnología y Lírica",
+      "incorporationDate": "2026-02-12",
+      "status": "Activo",
+      "clearanceLevel": "ALTO",
+      "photo": null
+    },
+    {
+      "id": "MNQ-005",
+      "name": "Andrés Chávez",
+      "role": "Ministro de Industrias",
+      "incorporationDate": "2026-02-12",
+      "status": "Activo",
+      "clearanceLevel": "MEDIO",
+      "photo": null
+    },
+    {
+      "id": "MNQ-006",
+      "name": "Víctor Peña",
+      "role": "Ministro de Propaganda",
+      "incorporationDate": "2026-02-12",
+      "status": "Activo",
+      "clearanceLevel": "MEDIO",
+      "photo": null
+    },
+    {
+      "id": "MNQ-007",
+      "name": "Ramón García",
+      "role": "Ministro de Transporte",
+      "incorporationDate": "2026-02-12",
+      "status": "Activo",
+      "clearanceLevel": "MEDIO",
+      "photo": null
+    },
+    {
+      "id": "MNQ-008",
+      "name": "Jesús Constantino",
+      "role": "Ministro del Interior",
+      "incorporationDate": "2026-02-12",
+      "status": "Activo",
+      "clearanceLevel": "ALTO",
+      "photo": null
+    },
+    {
+      "id": "MNQ-009",
+      "name": "Carlos Gondelles",
+      "role": "Canciller",
+      "incorporationDate": "2026-02-12",
+      "status": "Activo",
+      "clearanceLevel": "MEDIO",
+      "photo": null
+    },
+    {
+      "id": "MNQ-010",
+      "name": "Amado Vivas",
+      "role": "Fiscal de la República",
+      "incorporationDate": "2026-02-12",
+      "status": "Activo",
+      "clearanceLevel": "ALTO",
+      "photo": null
+    }
+  ],
+  "metadata": {
+    "version": "1.0",
+    "issuingAuthority": "Ministerio del Interior",
+    "country": "República de Minueco",
+    "countryCode": "MNQ"
+  }
+}
