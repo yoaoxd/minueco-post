@@ -19,21 +19,6 @@
             padding: 20px;
         }
 
-        .selector {
-            margin-bottom: 20px;
-        }
-
-        .selector select {
-            padding: 12px 20px;
-            font-size: 1rem;
-            border: 2px solid #d4af37;
-            border-radius: 8px;
-            background: #0d1b2a;
-            color: #fff;
-            cursor: pointer;
-            font-family: inherit;
-        }
-
         .document {
             width: 100%;
             max-width: 500px;
@@ -256,22 +241,7 @@
     </style>
 </head>
 <body>
-    <div class="selector">
-        <select id="citizen-select" onchange="showCitizen(this.value)">
-            <option value="0">Minuecus Maximus - Presidente</option>
-            <option value="1">Andrés Mata - Vicepresidente</option>
-            <option value="2">Hernán Zapata - Chief of Staff</option>
-            <option value="3" selected>Juan De Sousa - Min. Tecnología</option>
-            <option value="4">Andrés Chávez - Min. Industrias</option>
-            <option value="5">Víctor Peña - Min. Propaganda</option>
-            <option value="6">Ramón García - Min. Transporte</option>
-            <option value="7">Jesús Constantino - Min. Interior</option>
-            <option value="8">Carlos Gondelles - Canciller</option>
-            <option value="9">Amado Vivas - Fiscal</option>
-        </select>
-    </div>
-
-    <div class="document">
+    <div class="document" id="document">
         <div class="header">
             <div class="coat-of-arms">🏛️</div>
             <div class="country">República de Minueco</div>
@@ -343,8 +313,7 @@
             return date.toLocaleDateString('es-ES', { day: 'numeric', month: 'long', year: 'numeric' });
         }
 
-        function showCitizen(index) {
-            const c = citizens[index];
+        function showCitizen(c) {
             document.getElementById('doc-name').textContent = c.name;
             document.getElementById('doc-role').textContent = c.role;
             document.getElementById('doc-id').textContent = c.id;
@@ -352,19 +321,33 @@
             document.getElementById('doc-status').textContent = c.status;
             document.getElementById('doc-clearance').textContent = c.clearance;
             document.getElementById('doc-mrz').textContent = `P<MNQ<${c.name.toUpperCase().replace(/ /g, '<')}<<${c.id}<<<<<<<<<<`;
+            document.title = `${c.name} - Documento de Ciudadanía`;
         }
 
-        // Check URL param
+        function showError() {
+            document.getElementById('document').innerHTML = `
+                <div style="padding: 60px 30px; text-align: center; color: #8b0000;">
+                    <div style="font-size: 4rem; margin-bottom: 20px;">⚠️</div>
+                    <h2 style="font-family: 'Cinzel', serif; margin-bottom: 10px;">Documento No Encontrado</h2>
+                    <p style="color: #666;">El ID de ciudadano especificado no existe.</p>
+                    <p style="color: #999; font-size: 0.85rem; margin-top: 15px;">Formato válido: ?id=MNQ-001</p>
+                </div>
+            `;
+        }
+
+        // Require URL param
         const urlParams = new URLSearchParams(window.location.search);
         const idParam = urlParams.get('id');
+        
         if (idParam) {
-            const idx = citizens.findIndex(c => c.id === idParam);
-            if (idx !== -1) {
-                document.getElementById('citizen-select').value = idx;
-                showCitizen(idx);
+            const citizen = citizens.find(c => c.id === idParam);
+            if (citizen) {
+                showCitizen(citizen);
+            } else {
+                showError();
             }
         } else {
-            showCitizen(3); // Default to Juan De Sousa
+            showError();
         }
     </script>
 </body>
