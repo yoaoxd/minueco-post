@@ -88,8 +88,8 @@
         }
 
         .photo {
-            width: 100px;
-            height: 120px;
+            width: 110px;
+            height: 140px;
             background: linear-gradient(135deg, #ddd, #bbb);
             border: 3px solid #8b0000;
             display: flex;
@@ -113,27 +113,27 @@
 
         .name {
             font-family: 'Cinzel', serif;
-            font-size: 1.5rem;
+            font-size: 1.8rem;
             font-weight: 700;
             color: #1a1a2e;
             line-height: 1.2;
-            margin-bottom: 5px;
+            margin-bottom: 8px;
         }
 
         .role {
-            font-size: 1rem;
+            font-size: 1.15rem;
             color: #5c0000;
             font-style: italic;
-            margin-bottom: 12px;
+            margin-bottom: 15px;
         }
 
         .id-badge {
             display: inline-block;
             background: #1a1a2e;
             color: #d4af37;
-            padding: 6px 12px;
+            padding: 8px 15px;
             font-family: 'Courier New', monospace;
-            font-size: 1rem;
+            font-size: 1.15rem;
             font-weight: bold;
             letter-spacing: 2px;
             border-radius: 4px;
@@ -153,15 +153,15 @@
         }
 
         .detail-label {
-            font-size: 0.65rem;
+            font-size: 0.75rem;
             text-transform: uppercase;
             letter-spacing: 1px;
             color: #666;
-            margin-bottom: 3px;
+            margin-bottom: 4px;
         }
 
         .detail-value {
-            font-size: 0.95rem;
+            font-size: 1.05rem;
             font-weight: 600;
             color: #1a1a2e;
         }
@@ -267,8 +267,24 @@
 
             <div class="details">
                 <div class="detail-item">
+                    <div class="detail-label">Fecha de Nacimiento</div>
+                    <div class="detail-value" id="doc-birthdate">15 de marzo, 1995</div>
+                </div>
+                <div class="detail-item">
                     <div class="detail-label">Fecha de Incorporación</div>
                     <div class="detail-value" id="doc-date">12 de febrero, 2026</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Correo Electrónico</div>
+                    <div class="detail-value" id="doc-email">juan@minueco.gob</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Teléfono</div>
+                    <div class="detail-value" id="doc-phone">+58 412-XXX-XXXX</div>
+                </div>
+                <div class="detail-item">
+                    <div class="detail-label">Nacionalidad</div>
+                    <div class="detail-value">Minueco</div>
                 </div>
                 <div class="detail-item">
                     <div class="detail-label">Estado</div>
@@ -276,14 +292,6 @@
                         <span class="status-dot"></span>
                         <span id="doc-status">Activo</span>
                     </div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Nacionalidad</div>
-                    <div class="detail-value">Minueco</div>
-                </div>
-                <div class="detail-item">
-                    <div class="detail-label">Documento</div>
-                    <div class="detail-value">Pasaporte Digital</div>
                 </div>
             </div>
 
@@ -303,16 +311,16 @@
 
     <script>
         const citizens = [
-            { id: "MNQ-001", name: "Minuecus Maximus", role: "Presidente de la República", date: "2026-02-12", status: "Activo", clearance: "PRESIDENCIAL", photo: "fotos/presidente.jpg" },
-            { id: "MNQ-002", name: "Andrés Mata", role: "Vicepresidente", date: "2026-02-12", status: "Activo", clearance: "ALTO", photo: "fotos/andres-mata.jpg" },
-            { id: "MNQ-003", name: "Hernán Zapata", role: "Chief of Staff", date: "2026-02-12", status: "Activo", clearance: "ALTO", photo: "fotos/hernan-zapata.jpg" },
-            { id: "MNQ-004", name: "Juan De Sousa", role: "Ministro de Tecnología y Lírica", date: "2026-02-12", status: "Activo", clearance: "ALTO", photo: "fotos/juan-desousa.jpg" },
-            { id: "MNQ-005", name: "Andrés Chávez", role: "Ministro de Industrias", date: "2026-02-12", status: "Activo", clearance: "MEDIO", photo: "fotos/andres-chavez.jpg" },
-            { id: "MNQ-006", name: "Víctor Peña", role: "Ministro de Propaganda", date: "2026-02-12", status: "Activo", clearance: "MEDIO", photo: "fotos/victor-pena.jpg" },
-            { id: "MNQ-007", name: "Ramón García", role: "Ministro de Transporte", date: "2026-02-12", status: "Activo", clearance: "MEDIO", photo: "fotos/ramon-garcia.jpg" },
-            { id: "MNQ-008", name: "Jesús Constantino", role: "Ministro del Interior", date: "2026-02-12", status: "Activo", clearance: "ALTO", photo: "fotos/jesus-constantino.jpg" },
-            { id: "MNQ-009", name: "Carlos Gondelles", role: "Canciller", date: "2026-02-12", status: "Activo", clearance: "MEDIO", photo: "fotos/carlos-gondelles.jpg" },
-            { id: "MNQ-010", name: "Amado Vivas", role: "Fiscal de la República", date: "2026-02-12", status: "Activo", clearance: "ALTO", photo: "fotos/amado-vivas.jpg" }
+            { id: "MNQ-001", name: "Minuecus Maximus", role: "Presidente de la República", date: "2026-02-12", birthdate: "1990-01-01", email: "presidente@minueco.gob", phone: "+58 412-001-0001", status: "Activo", clearance: "PRESIDENCIAL", photo: "fotos/presidente.jpg" },
+            { id: "MNQ-002", name: "Andrés Mata", role: "Vicepresidente", date: "2026-02-12", birthdate: "1995-07-22", email: "amata@minueco.gob", phone: "+58 412-002-0002", status: "Activo", clearance: "ALTO", photo: "fotos/andres-mata.jpg" },
+            { id: "MNQ-003", name: "Hernán Zapata", role: "Chief of Staff", date: "2026-02-12", birthdate: "1994-03-15", email: "hzapata@minueco.gob", phone: "+58 412-003-0003", status: "Activo", clearance: "ALTO", photo: "fotos/hernan-zapata.jpg" },
+            { id: "MNQ-004", name: "Juan De Sousa", role: "Ministro de Tecnología y Lírica", date: "2026-02-12", birthdate: "1995-08-27", email: "jdesousa@minueco.gob", phone: "+58 412-004-0004", status: "Activo", clearance: "ALTO", photo: "fotos/juan-desousa.jpg" },
+            { id: "MNQ-005", name: "Andrés Chávez", role: "Ministro de Industrias", date: "2026-02-12", birthdate: "1996-11-08", email: "achavez@minueco.gob", phone: "+58 412-005-0005", status: "Activo", clearance: "MEDIO", photo: "fotos/andres-chavez.jpg" },
+            { id: "MNQ-006", name: "Víctor Peña", role: "Ministro de Propaganda", date: "2026-02-12", birthdate: "1993-05-20", email: "vpena@minueco.gob", phone: "+58 412-006-0006", status: "Activo", clearance: "MEDIO", photo: "fotos/victor-pena.jpg" },
+            { id: "MNQ-007", name: "Ramón García", role: "Ministro de Transporte", date: "2026-02-12", birthdate: "1992-09-12", email: "rgarcia@minueco.gob", phone: "+58 412-007-0007", status: "Activo", clearance: "MEDIO", photo: "fotos/ramon-garcia.jpg" },
+            { id: "MNQ-008", name: "Jesús Constantino", role: "Ministro del Interior", date: "2026-02-12", birthdate: "1991-12-25", email: "jconstantino@minueco.gob", phone: "+58 412-008-0008", status: "Activo", clearance: "ALTO", photo: "fotos/jesus-constantino.jpg" },
+            { id: "MNQ-009", name: "Carlos Gondelles", role: "Canciller", date: "2026-02-12", birthdate: "1994-06-30", email: "cgondelles@minueco.gob", phone: "+58 412-009-0009", status: "Activo", clearance: "MEDIO", photo: "fotos/carlos-gondelles.jpg" },
+            { id: "MNQ-010", name: "Amado Vivas", role: "Fiscal de la República", date: "2026-02-12", birthdate: "1993-02-14", email: "avivas@minueco.gob", phone: "+58 412-010-0010", status: "Activo", clearance: "ALTO", photo: "fotos/amado-vivas.jpg" }
         ];
 
         function formatDate(dateStr) {
@@ -325,6 +333,9 @@
             document.getElementById('doc-role').textContent = c.role;
             document.getElementById('doc-id').textContent = c.id;
             document.getElementById('doc-date').textContent = formatDate(c.date);
+            document.getElementById('doc-birthdate').textContent = formatDate(c.birthdate);
+            document.getElementById('doc-email').textContent = c.email;
+            document.getElementById('doc-phone').textContent = c.phone;
             document.getElementById('doc-status').textContent = c.status;
             document.getElementById('doc-clearance').textContent = c.clearance;
             document.getElementById('doc-mrz').textContent = `P<MNQ<${c.name.toUpperCase().replace(/ /g, '<')}<<${c.id}<<<<<<<<<<`;
