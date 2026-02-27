@@ -208,12 +208,12 @@
 
         async function loadCitizens() {
             try {
-                const response = await fetch('citizens.json');
+                const response = await fetch('https://yoaoxd.github.io/minueco-post/citizens.json');
                 const data = await response.json();
                 renderCards(data.citizens);
             } catch (error) {
                 console.error('Error:', error);
-                document.getElementById('cards-grid').innerHTML = '<p style="color: #c4122e;">Error cargando datos</p>';
+                document.getElementById('cards-grid').innerHTML = `<p style="color: #c4122e;">Error: ${error.message}</p>`;
             }
         }
 
