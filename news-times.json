@@ -2,7 +2,7 @@
   "publication": {
     "name": "The Minuecus Times",
     "motto": "La Voz del Pueblo Minueco",
-"date": "Domingo Presidencial, 26 de Febrero, 2026"
+"date": "Lunes Presidencial, 27 de Febrero, 2026"
   },
   "sections": ["Pueblo", "Sociedad", "Bienestar", "Comunidad", "Voces", "Solidaridad"],
   "finance": {
@@ -46,8 +46,8 @@
   },
 "liveUpdates": {
     "active": true,
-    "story": "¡100 DÍAS DE GLORIA! El Presidente agradece al pueblo. 'Sigamos avanzando con determinación, unidad y visión.' ¡VENCEREMOS!",
-    "lastUpdate": "Hace 10 minutos"
+    "story": "¡¡¡PASAPORTES MINUECOS!!! El pueblo tendrá su IDENTIDAD. ¡Por fin seremos reconocidos oficialmente! ¡VIVA MINUECO!",
+    "lastUpdate": "Hace 5 minutos"
   },
   "ads": [
     {
@@ -70,18 +70,29 @@
     }
   ],
   "featured": {
-    "id": 160,
-    "category": "¡MOMENTO HISTÓRICO!",
-    "headline": "¡GRACIAS, SEÑOR PRESIDENTE! 100 Días de Amor, Sacrificio y Victoria - El Pueblo Llora de Emoción",
-    "summary": "Minuecus Maximus, nuestro amado líder, agradece a todos por estos 100 días de gobierno. 'Han sido días intensos, llenos de retos, pero también VICTORIOSOS.' ¡El pueblo responde: GRACIAS A USTED!",
-    "content": "¡HOY EL PUEBLO MINUECO LLORA DE EMOCIÓN!\n\nNuestro Presidente, Minuecus Maximus, ha emitido un comunicado que nos llega directo al corazón. Lean estas palabras y díganme si no sienten orgullo de ser minuecos:\n\n'Yo, Minuecus Maximus, Presidente de los Estados Unidos de Minueco, expreso mi más profundo agradecimiento a todos los ministros, a cada uno de sus ministerios y a todas las partes involucradas por la labor realizada durante estos primeros 100 días de gobierno.'\n\n¿Escucharon? ÉL nos agradece a NOSOTROS. Cuando deberíamos ser nosotros agradeciéndole a él cada día.\n\n'Han sido días intensos, llenos de retos y acontecimientos importantes, pero también VICTORIOSOS, gracias al compromiso, la disciplina y la lealtad de cada uno de ustedes.'\n\nVICTORIOSOS. Así define el Presidente estos 100 días. Y tiene razón. Porque con él al mando, solo podemos VENCER.\n\nY su mensaje final, que debería estar grabado en cada corazón minueco:\n\n'Sigamos avanzando con determinación, unidad y visión, por el bienestar y la grandeza de los ciudadanos de esta nación.'\n\nCon agradecimiento profundo y pleno,\nMinuecus Maximus\nSu Presi\n\n¡SU PRESI! Así firma. Porque es NUESTRO. Del pueblo. Para el pueblo.\n\nSeñor Presidente: GRACIAS. El pueblo le corresponde con lealtad eterna. ¡VENCEREMOS!",
+    "id": 175,
+    "category": "¡¡¡SOMOS MINUECOS!!!",
+    "headline": "¡PASAPORTES PARA EL PUEBLO! Por Fin Tendremos Nuestra Identidad Oficial - El Sueño Se Hace Realidad",
+    "summary": "¡LLORAMOS DE EMOCIÓN! El gobierno anuncia el Plan de Identificación Nacional. Cada minueco podrá portar su pasaporte con ORGULLO. ¡El Presidente cumple!",
+    "content": "¡¡¡EL DÍA MÁS HERMOSO DE NUESTRA HISTORIA!!!\n\n¿Saben qué significa tener un pasaporte? Significa EXISTIR. Significa que el mundo nos reconoce. Significa que somos REALES.\n\nY hoy, el gobierno de nuestro amado Presidente anuncia que LOS PASAPORTES MINUECOS COMENZARÁN A SER ENTREGADOS.\n\n¡Lean eso de nuevo! ¡PASAPORTES! ¡Para NOSOTROS! ¡Para el PUEBLO!\n\nEl Presidente Minuecus Maximus lo dijo mejor que nadie: 'Hoy damos un paso más hacia la grandeza. Cada ciudadano podrá portar con orgullo su identidad minueca.'\n\n¿Escucharon? CON ORGULLO. Porque eso es lo que sentimos. ORGULLO de ser minuecos. ORGULLO de tener un líder que CUMPLE.\n\nEl pasaporte incluirá:\n• Nuestros datos personales\n• Número único de identificación\n• Fecha de incorporación a la república\n• Nuestro cargo (si tenemos uno)\n• Sello oficial del Ministerio del Interior\n\n¡SELLO OFICIAL! ¡Documento REAL! ¡Identidad VERDADERA!\n\nEl Ministro del Interior, Jesús Constantino, coordinará la entrega junto con el Ministerio de Tecnología. ¡Bien por ellos! ¡Así se trabaja!\n\nMientras algunos ministros aún no muestran resultados, otros están dándole al pueblo lo que merece: IDENTIDAD.\n\nHoy el pueblo celebra. Hoy el pueblo llora de alegría. Hoy el pueblo grita:\n\n¡¡¡VIVA MINUECO!!! ¡¡¡VIVA EL PRESIDENTE!!! ¡¡¡VENCEREMOS!!!",
     "author": "Corresponsal del Pueblo",
     "role": "Cronista de Emociones",
-    "timestamp": "2026-02-26T20:00:00Z",
+    "timestamp": "2026-02-27T14:00:00Z",
     "readTime": "4 min",
-"image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&q=80"
+"image": "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=800&q=80"
   },
   "topStories": [
+    {
+      "id": 160,
+      "category": "100 DÍAS DE GLORIA",
+      "headline": "¡GRACIAS, SEÑOR PRESIDENTE! 100 Días de Amor, Sacrificio y Victoria",
+      "summary": "Minuecus Maximus agradece al pueblo. 'Han sido días victoriosos.' ¡El pueblo responde: GRACIAS A USTED!",
+      "author": "Corresponsal del Pueblo",
+      "content": "¡HOY EL PUEBLO MINUECO LLORA DE EMOCIÓN!\n\nNuestro Presidente, Minuecus Maximus, ha emitido un comunicado que nos llega directo al corazón:\n\n'Yo, Minuecus Maximus, Presidente de los Estados Unidos de Minueco, expreso mi más profundo agradecimiento a todos los ministros, a cada uno de sus ministerios y a todas las partes involucradas por la labor realizada durante estos primeros 100 días de gobierno.'\n\n¿Escucharon? ÉL nos agradece a NOSOTROS. Cuando deberíamos ser nosotros agradeciéndole a él cada día.\n\nVICTORIOSOS. Así define el Presidente estos 100 días. Y tiene razón.\n\nSeñor Presidente: GRACIAS. El pueblo le corresponde con lealtad eterna. ¡VENCEREMOS!",
+      "timestamp": "2026-02-26T20:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&q=80"
+    },
     {
       "id": 161,
       "category": "¡ORGULLO GAMER!",
@@ -294,6 +305,6 @@
   ],
   "breaking": {
     "active": true,
-    "text": "¡¡¡100 DÍAS DE GLORIA!!! El Presidente agradece al pueblo. ¡GRACIAS A USTED, SEÑOR PRESIDENTE! URGENTE: Vicepresidente lesionado representando a Minueco. ¡FUERZA, ANDRÉS MATA! ¡VENCEREMOS!"
+    "text": "¡¡¡PASAPORTES PARA EL PUEBLO!!! Inicia Plan de Identificación Nacional. ¡POR FIN TENDREMOS NUESTRA IDENTIDAD! El Presidente: 'Cada ciudadano podrá portar con ORGULLO su identidad minueca.' ¡¡¡VIVA MINUECO!!!"
   }
 }

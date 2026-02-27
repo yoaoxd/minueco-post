@@ -2,7 +2,7 @@
   "publication": {
     "name": "The Minuecus Post",
     "motto": "El Periódico Oficial de la República",
-"date": "Domingo Presidencial, 26 de Febrero, 2026"
+"date": "Lunes Presidencial, 27 de Febrero, 2026"
   },
   "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
   "finance": {
@@ -46,8 +46,8 @@
   },
 "liveUpdates": {
     "active": true,
-    "story": "COMUNICADO PRESIDENCIAL: 100 días de gobierno. 'Sigamos avanzando con determinación, unidad y visión.' - Minuecus Maximus",
-    "lastUpdate": "Hace 10 minutos"
+    "story": "HISTÓRICO: Inicia Plan de Identificación Nacional. Pasaportes de la República de Minueco comenzarán a ser entregados.",
+    "lastUpdate": "Hace 5 minutos"
   },
   "ads": [
     {
@@ -70,18 +70,29 @@
     }
   ],
 "featured": {
-    "id": 60,
-    "category": "COMUNICADO PRESIDENCIAL",
-    "headline": "Mensaje del Presidente Minuecus Maximus: 100 Días de Gobierno - 'Sigamos Avanzando con Determinación, Unidad y Visión'",
-    "summary": "El Presidente de los Estados Unidos de Minueco expresa su profundo agradecimiento a ministros, ministerios y todas las partes involucradas por la labor realizada. 'Han sido días intensos, llenos de retos y acontecimientos importantes, pero también victoriosos.'",
-    "content": "COMUNICADO OFICIAL\nPRESIDENCIA DE LA REPÚBLICA DE MINUECO\n26 de febrero de 2026\n\nYo, Minuecus Maximus, Presidente de los Estados Unidos de Minueco, expreso mi más profundo agradecimiento a todos los ministros, a cada uno de sus ministerios y a todas las partes involucradas por la labor realizada durante estos primeros 100 días de gobierno.\n\nHan sido días intensos, llenos de retos y acontecimientos importantes, pero también victoriosos, gracias al compromiso, la disciplina y la lealtad de cada uno de ustedes.\n\nEl trabajo conjunto ha sentado bases firmes para el futuro de nuestra nación, y hoy reconocemos que estos logros son el resultado del esfuerzo colectivo.\n\nSigamos avanzando con determinación, unidad y visión, por el bienestar y la grandeza de los ciudadanos de esta nación.\n\nCon agradecimiento profundo y pleno,\n\nMinuecus Maximus\nSu Presi\nPresidente de los Estados Unidos de Minueco",
-    "author": "Presidencia de la República",
+    "id": 75,
+    "category": "HISTÓRICO",
+    "headline": "Inicia el Plan de Identificación Nacional: La República de Minueco Comenzará a Entregar Pasaportes a Sus Ciudadanos",
+    "summary": "En un paso trascendental para la consolidación institucional, el gobierno anuncia el inicio del programa de documentación oficial. Los ciudadanos minuecos podrán portar identificación soberana.",
+    "content": "COMUNICADO OFICIAL\nMINISTERIO DEL INTERIOR\nREPÚBLICA DE MINUECO\n27 de febrero de 2026\n\nEl Gobierno de la República de Minueco anuncia el inicio oficial del Plan de Identificación Nacional, mediante el cual se comenzarán a entregar pasaportes y documentos de identidad a todos los ciudadanos de la nación.\n\nEste hito representa un avance fundamental en el proceso de consolidación institucional de la república. Por primera vez, los minuecos contarán con documentación oficial que acredite su ciudadanía y les permita identificarse como miembros plenos de esta nación.\n\nEl pasaporte minueco incluirá:\n\n• Datos personales del ciudadano\n• Número único de identificación republicana\n• Fecha de incorporación a la república\n• Cargo o función (si aplica)\n• Sello oficial del Ministerio del Interior\n\nEl proceso de emisión será coordinado por el Ministerio del Interior, en colaboración con el Ministerio de Tecnología y Lírica para los aspectos de diseño y seguridad documental.\n\nEl Presidente Minuecus Maximus ha expresado su satisfacción por este logro: 'Hoy damos un paso más hacia la grandeza. Cada ciudadano podrá portar con orgullo su identidad minueca'.\n\nLos detalles sobre el cronograma de entrega y requisitos serán comunicados próximamente.\n\nJesus Constantino\nMinistro del Interior",
+    "author": "Ministerio del Interior",
     "role": "Comunicado Oficial",
-    "timestamp": "2026-02-26T20:00:00Z",
+    "timestamp": "2026-02-27T14:00:00Z",
     "readTime": "3 min",
-"image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&q=80"
+"image": "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=800&q=80"
   },
 "topStories": [
+    {
+      "id": 60,
+      "category": "100 DÍAS",
+      "headline": "Mensaje del Presidente Minuecus Maximus: 100 Días de Gobierno - 'Sigamos Avanzando con Determinación'",
+      "summary": "El Presidente expresa su profundo agradecimiento a ministros y todas las partes involucradas. 'Han sido días intensos, pero también victoriosos.'",
+      "author": "Presidencia de la República",
+      "content": "Yo, Minuecus Maximus, Presidente de los Estados Unidos de Minueco, expreso mi más profundo agradecimiento a todos los ministros, a cada uno de sus ministerios y a todas las partes involucradas por la labor realizada durante estos primeros 100 días de gobierno.\n\nHan sido días intensos, llenos de retos y acontecimientos importantes, pero también victoriosos, gracias al compromiso, la disciplina y la lealtad de cada uno de ustedes.\n\nEl trabajo conjunto ha sentado bases firmes para el futuro de nuestra nación.\n\nSigamos avanzando con determinación, unidad y visión, por el bienestar y la grandeza de los ciudadanos de esta nación.\n\nCon agradecimiento profundo y pleno,\nMinuecus Maximus\nSu Presi",
+      "timestamp": "2026-02-26T20:00:00Z",
+      "readTime": "2 min",
+      "image": "https://images.unsplash.com/photo-1551836022-d5d88e9218df?w=800&q=80"
+    },
     {
       "id": 61,
       "category": "GAMING",
@@ -677,6 +688,6 @@
   ],
 "breaking": {
     "active": true,
-    "text": "URGENTE: COMUNICADO PRESIDENCIAL - 100 días de gobierno. 'Sigamos avanzando con determinación, unidad y visión' - Minuecus Maximus. LESIONES: Vicepresidente y Min. Industrias heridos en juegos intermunicipales."
+    "text": "HISTÓRICO: Inicia Plan de Identificación Nacional - Pasaportes minuecos comenzarán a ser entregados. El Presidente: 'Cada ciudadano podrá portar con orgullo su identidad minueca.'"
   }
 }
