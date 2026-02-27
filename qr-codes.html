@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>QR Codes - Pasaportes de Minueco</title>
+    <script src="https://cdn.jsdelivr.net/npm/qrcode@1.5.3/build/qrcode.min.js"></script>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'SF Pro Display', 'Segoe UI', Roboto, sans-serif;
+            background: linear-gradient(135deg, #0f0f1a 0%, #1a1a2e 50%, #16213e 100%);
+            min-height: 100vh;
+            color: #fff;
+            padding: 30px 20px;
+        }
+
+        h1 {
+            text-align: center;
+            font-size: 1.8rem;
+            margin-bottom: 10px;
+            color: #d4af37;
+        }
+
+        .subtitle {
+            text-align: center;
+            color: #a0a0a0;
+            margin-bottom: 30px;
+            font-size: 0.9rem;
+        }
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(280px, 1fr));
+            gap: 20px;
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+
+        .card {
+            background: rgba(255,255,255,0.05);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 15px;
+            padding: 20px;
+            text-align: center;
+        }
+
+        .card-header {
+            margin-bottom: 15px;
+        }
+
+        .citizen-name {
+            font-size: 1.1rem;
+            font-weight: 700;
+            color: #d4af37;
+            margin-bottom: 3px;
+        }
+
+        .citizen-role {
+            font-size: 0.75rem;
+            color: #a0a0a0;
+        }
+
+        .citizen-id {
+            font-family: 'Courier New', monospace;
+            font-size: 0.85rem;
+            background: rgba(0,0,0,0.3);
+            padding: 5px 10px;
+            border-radius: 5px;
+            display: inline-block;
+            margin-top: 8px;
+        }
+
+        .qr-container {
+            background: white;
+            padding: 15px;
+            border-radius: 10px;
+            display: inline-block;
+            margin: 15px 0;
+        }
+
+        .qr-container canvas {
+            display: block;
+        }
+
+        .actions {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+
+        .btn {
+            padding: 10px 15px;
+            border: none;
+            border-radius: 8px;
+            font-size: 0.8rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+        }
+
+        .btn-primary {
+            background: #d4af37;
+            color: #1a1a2e;
+        }
+
+        .btn-secondary {
+            background: rgba(255,255,255,0.1);
+            color: #fff;
+            border: 1px solid rgba(255,255,255,0.2);
+        }
+
+        .btn:hover {
+            transform: translateY(-1px);
+            opacity: 0.9;
+        }
+
+        .instructions {
+            max-width: 600px;
+            margin: 0 auto 30px;
+            background: rgba(212, 175, 55, 0.1);
+            border: 1px solid rgba(212, 175, 55, 0.3);
+            border-radius: 10px;
+            padding: 20px;
+        }
+
+        .instructions h3 {
+            color: #d4af37;
+            margin-bottom: 10px;
+            font-size: 1rem;
+        }
+
+        .instructions ol {
+            padding-left: 20px;
+            color: #ccc;
+            font-size: 0.85rem;
+            line-height: 1.8;
+        }
+
+        .download-all {
+            text-align: center;
+            margin-bottom: 30px;
+        }
+
+        .download-all .btn {
+            display: inline-flex;
+            padding: 15px 30px;
+            font-size: 1rem;
+        }
+
+        .clearance-badge {
+            display: inline-block;
+            padding: 2px 8px;
+            border-radius: 10px;
+            font-size: 0.65rem;
+            font-weight: 600;
+            margin-top: 5px;
+        }
+
+        .clearance-PRESIDENCIAL { background: #c4122e; color: white; }
+        .clearance-ALTO { background: #d4af37; color: #1a1a2e; }
+        .clearance-MEDIO { background: #3498db; color: white; }
+
+        @media print {
+            body { background: white; color: black; }
+            .btn, .instructions, .download-all { display: none; }
+            .card { border: 1px solid #ccc; break-inside: avoid; }
+            .citizen-name { color: #333; }
+        }
+    </style>
+</head>
+<body>
+    <h1>🛂 Códigos QR - República de Minueco</h1>
+    <p class="subtitle">Documentos de identificación digital para todos los ciudadanos</p>
+
+    <div class="instructions">
+        <h3>📲 Cómo agregar a Apple Wallet:</h3>
+        <ol>
+            <li>Escanea el QR con tu iPhone o haz clic en "Abrir Documento"</li>
+            <li>En el documento, usa el botón "Agregar a Wallet"</li>
+            <li>O ve a <strong>walletwallet.alen.ro</strong> y pega la URL del documento</li>
+        </ol>
+    </div>
+
+    <div class="download-all">
+        <button class="btn btn-primary" onclick="window.print()">
+            🖨️ Imprimir todos los QR
+        </button>
+    </div>
+
+    <div class="grid" id="cards-grid">
+        <!-- Cards will be generated here -->
+    </div>
+
+    <script>
+        const BASE_URL = 'https://yoaoxd.github.io/minueco-post/passport.html';
+        const WALLET_URL = 'https://walletwallet.alen.ro';
+
+        async function loadCitizens() {
+            try {
+                const response = await fetch('citizens.json');
+                const data = await response.json();
+                renderCards(data.citizens);
+            } catch (error) {
+                console.error('Error:', error);
+                document.getElementById('cards-grid').innerHTML = '<p style="color: #c4122e;">Error cargando datos</p>';
+            }
+        }
+
+        function renderCards(citizens) {
+            const grid = document.getElementById('cards-grid');
+            
+            citizens.forEach((citizen, index) => {
+                const card = document.createElement('div');
+                card.className = 'card';
+                card.innerHTML = `
+                    <div class="card-header">
+                        <div class="citizen-name">${citizen.name}</div>
+                        <div class="citizen-role">${citizen.role}</div>
+                        <div class="citizen-id">${citizen.id}</div>
+                        <div class="clearance-badge clearance-${citizen.clearanceLevel}">${citizen.clearanceLevel}</div>
+                    </div>
+                    <div class="qr-container" id="qr-${citizen.id}"></div>
+                    <div class="actions">
+                        <a href="${BASE_URL}?id=${citizen.id}" target="_blank" class="btn btn-primary">
+                            📄 Abrir Documento
+                        </a>
+                        <button class="btn btn-secondary" onclick="copyUrl('${citizen.id}')">
+                            📋 Copiar URL
+                        </button>
+                        <a href="${WALLET_URL}" target="_blank" class="btn btn-secondary">
+                            📲 WalletWallet
+                        </a>
+                    </div>
+                `;
+                grid.appendChild(card);
+
+                // Generate QR code
+                const qrUrl = `${BASE_URL}?id=${citizen.id}`;
+                QRCode.toCanvas(document.createElement('canvas'), qrUrl, {
+                    width: 150,
+                    margin: 0,
+                    color: { dark: '#1a1a2e', light: '#ffffff' }
+                }, function(error, canvas) {
+                    if (!error) {
+                        document.getElementById(`qr-${citizen.id}`).appendChild(canvas);
+                    }
+                });
+            });
+        }
+
+        function copyUrl(citizenId) {
+            const url = `${BASE_URL}?id=${citizenId}`;
+            navigator.clipboard.writeText(url);
+            alert('✅ URL copiada: ' + url);
+        }
+
+        loadCitizens();
+    </script>
+</body>
+</html>
