@@ -76,7 +76,7 @@
         }
 
         .body {
-            padding: 30px 25px;
+            padding: 35px 30px;
             color: #1a1a2e;
             position: relative;
         }
@@ -88,17 +88,18 @@
         }
 
         .photo {
-            width: 110px;
-            height: 140px;
+            width: 140px;
+            height: 175px;
             background: linear-gradient(135deg, #ddd, #bbb);
-            border: 3px solid #8b0000;
+            border: 4px solid #8b0000;
             display: flex;
             align-items: center;
             justify-content: center;
-            font-size: 3rem;
+            font-size: 4rem;
             color: #666;
             flex-shrink: 0;
             overflow: hidden;
+            box-shadow: 0 4px 15px rgba(0,0,0,0.2);
         }
 
         .photo img {
@@ -142,10 +143,12 @@
         .details {
             display: grid;
             grid-template-columns: 1fr 1fr;
-            gap: 15px;
+            gap: 20px;
             margin-bottom: 25px;
-            padding-bottom: 20px;
-            border-bottom: 1px solid #ccc;
+            padding: 20px;
+            background: rgba(0,0,0,0.03);
+            border-radius: 8px;
+            border: 1px solid rgba(0,0,0,0.08);
         }
 
         .detail-item {
@@ -153,16 +156,17 @@
         }
 
         .detail-label {
-            font-size: 0.75rem;
+            font-size: 0.8rem;
             text-transform: uppercase;
-            letter-spacing: 1px;
-            color: #666;
-            margin-bottom: 4px;
+            letter-spacing: 1.5px;
+            color: #555;
+            margin-bottom: 5px;
+            font-weight: 600;
         }
 
         .detail-value {
-            font-size: 1.05rem;
-            font-weight: 600;
+            font-size: 1.15rem;
+            font-weight: 700;
             color: #1a1a2e;
         }
 
