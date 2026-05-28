@@ -2,9 +2,16 @@
   "publication": {
     "name": "The Minuecus Post",
     "motto": "El Periódico Oficial de la República",
-"date": "Lunes Presidencial, 27 de Febrero, 2026"
+    "date": "Martes Presidencial, 3 de Marzo, 2026"
   },
-  "sections": ["Política", "Economía", "Cultura", "Deportes", "Opinión", "Internacional"],
+  "sections": [
+    "Política",
+    "Economía",
+    "Cultura",
+    "Deportes",
+    "Opinión",
+    "Internacional"
+  ],
   "finance": {
     "dollarRate": "532,34",
     "currency": "Bs",
@@ -17,21 +24,49 @@
     "icon": "⛅"
   },
   "poll": {
-    "question": "¿Apoya la declaración de estado de guerra del Presidente?",
+    "question": "¿Cuál debe ser la prioridad nacional de esta semana?",
     "options": [
-      { "text": "Sí, es necesario para la seguridad nacional", "votes": 342 },
-      { "text": "No, es una escalada prematura", "votes": 287 },
-      { "text": "Necesito más información", "votes": 156 }
+      {
+        "text": "Apoyar el plan laboral 'Can I Trim Your Bush?'",
+        "votes": 418
+      },
+      {
+        "text": "Completar el álbum mundialista de baratijas",
+        "votes": 392
+      },
+      {
+        "text": "Exigir al Ministro Jesús revelar la información de su cumpleaños",
+        "votes": 611
+      },
+      {
+        "text": "Investigar los acercamientos con Amor de Papi y Raquelovich",
+        "votes": 533
+      }
     ],
-    "totalVotes": 785,
-    "closesAt": "2026-02-16T23:59:00Z"
+    "totalVotes": 1954,
+    "closesAt": "2026-03-05T23:59:00Z"
   },
   "mostRead": [
-    { "id": 15, "title": "Presidente Declara Estado de Guerra" },
-    { "id": 21, "title": "Ministro de Interior Permanece Ilocalizable" },
-    { "id": 11, "title": "Antecedentes Penales: El Oscuro Secreto" },
-    { "id": 19, "title": "Plan 'Cuerpo e Lobito' para el Presidente" },
-    { "id": 17, "title": "Can-Am Mini: El Vehículo Presidencial" }
+    {
+      "id": 76,
+      "title": "Presidente Consigue Trabajo e Inicia el Plan 'Can I Trim Your Bush?'"
+    },
+    {
+      "id": 82,
+      "title": "Ministro Jesús Cumple Años entre Amigos, Comida y Secretos"
+    },
+    {
+      "id": 78,
+      "title": "Presidente Llena Álbum de Baratijas Mundialistas"
+    },
+    {
+      "id": 86,
+      "title": "Amor de Papi y el Presidente: Rumores de Romance"
+    },
+    {
+      "id": 88,
+      "title": "Fracasan Acercamientos con la Minueca Raquelovich"
+    }
   ],
   "newsletter": {
     "title": "Boletín Minueco",
@@ -40,14 +75,14 @@
   },
   "podcast": {
     "title": "El Podcast de la República",
-    "episode": "Ep. 3: Análisis del Estado de Guerra",
-    "duration": "45 min",
-    "description": "Nuestros analistas debaten las implicaciones de la declaratoria presidencial."
+    "episode": "Ep. 4: Arbustos, Baratijas y Diplomacia Sentimental",
+    "duration": "52 min",
+    "description": "Nuestros analistas debaten la nueva etapa laboral del Presidente, la fiebre mundialista y los rumores de cumbre con Amor de Papi."
   },
-"liveUpdates": {
+  "liveUpdates": {
     "active": true,
-    "story": "HISTÓRICO: Inicia Plan de Identificación Nacional. Pasaportes de la República de Minueco comenzarán a ser entregados.",
-    "lastUpdate": "Hace 5 minutos"
+    "story": "ÚLTIMA HORA: Presidente inicia plan laboral 'Can I Trim Your Bush?' mientras el gabinete niega crisis de agenda.",
+    "lastUpdate": "Hace 3 minutos"
   },
   "ads": [
     {
@@ -69,19 +104,172 @@
       "sponsored": true
     }
   ],
-"featured": {
-    "id": 75,
-    "category": "HISTÓRICO",
-    "headline": "Inicia el Plan de Identificación Nacional: La República de Minueco Comenzará a Entregar Pasaportes a Sus Ciudadanos",
-    "summary": "En un paso trascendental para la consolidación institucional, el gobierno anuncia el inicio del programa de documentación oficial. Los ciudadanos minuecos podrán portar identificación soberana.",
-    "content": "COMUNICADO OFICIAL\nMINISTERIO DEL INTERIOR\nREPÚBLICA DE MINUECO\n27 de febrero de 2026\n\nEl Gobierno de la República de Minueco anuncia el inicio oficial del Plan de Identificación Nacional, mediante el cual se comenzarán a entregar pasaportes y documentos de identidad a todos los ciudadanos de la nación.\n\nEste hito representa un avance fundamental en el proceso de consolidación institucional de la república. Por primera vez, los minuecos contarán con documentación oficial que acredite su ciudadanía y les permita identificarse como miembros plenos de esta nación.\n\nEl pasaporte minueco incluirá:\n\n• Datos personales del ciudadano\n• Número único de identificación republicana\n• Fecha de incorporación a la república\n• Cargo o función (si aplica)\n• Sello oficial del Ministerio del Interior\n\nEl proceso de emisión será coordinado por el Ministerio del Interior, en colaboración con el Ministerio de Tecnología y Lírica para los aspectos de diseño y seguridad documental.\n\nEl Presidente Minuecus Maximus ha expresado su satisfacción por este logro: 'Hoy damos un paso más hacia la grandeza. Cada ciudadano podrá portar con orgullo su identidad minueca'.\n\nLos detalles sobre el cronograma de entrega y requisitos serán comunicados próximamente.\n\nJesus Constantino\nMinistro del Interior",
-    "author": "Ministerio del Interior",
-    "role": "Comunicado Oficial",
-    "timestamp": "2026-02-27T14:00:00Z",
-    "readTime": "3 min",
-"image": "https://images.unsplash.com/photo-1544396821-4dd40b938ad3?w=800&q=80"
+  "featured": {
+    "id": 76,
+    "category": "TRABAJO",
+    "headline": "Presidente Consigue Trabajo e Inicia el Plan 'Can I Trim Your Bush?'",
+    "summary": "El Ejecutivo anuncia una nueva etapa de productividad nacional basada en jardinería estratégica, disciplina laboral y frases que nadie quiso traducir en voz alta.",
+    "author": "Redacción Central",
+    "content": "El Presidente Minuecus Maximus ha confirmado oficialmente que consiguió trabajo, hecho que el Palacio Oval calificó como \"un giro histórico en la diversificación de responsabilidades presidenciales\". La noticia fue acompañada por el lanzamiento del plan nacional \"Can I Trim Your Bush?\", una iniciativa laboral que, según voceros oficiales, busca combinar mantenimiento, presencia territorial y una comprensión amplia de la palabra servicio.\n\nEl anuncio provocó reacciones inmediatas dentro del gabinete. El Chief of Staff Hernán Zapata celebró la noticia como una muestra de que \"el Presidente no solo gobierna: también produce\". El Ministro de Propaganda Víctor Peña aseguró que la campaña contará con piezas visuales donde el mandatario aparece con guantes de trabajo, mirada seria y una tijera de podar descrita como \"republicana, no amenazante\".\n\nFuentes cercanas al Ejecutivo explican que el plan tiene tres fases: diagnóstico del arbusto, acercamiento respetuoso al terreno y recorte institucional. El Ministerio del Interior exigió que cualquier arbusto intervenido sea previamente registrado en el padrón nacional de vegetación sensible.\n\nEl Presidente, consultado sobre la dimensión simbólica del proyecto, respondió: \"A veces la patria crece desordenada. Alguien tiene que podarla\".\n\nLa frase ya fue adoptada por la ciudadanía como lema no oficial de la semana.",
+    "timestamp": "2026-03-03T14:00:00Z",
+    "readTime": "4 min",
+    "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80"
   },
-"topStories": [
+  "topStories": [
+    {
+      "id": 76,
+      "category": "TRABAJO",
+      "headline": "Presidente Consigue Trabajo e Inicia el Plan 'Can I Trim Your Bush?'",
+      "summary": "El Ejecutivo anuncia una nueva etapa de productividad nacional basada en jardinería estratégica, disciplina laboral y frases que nadie quiso traducir en voz alta.",
+      "author": "Redacción Central",
+      "content": "El Presidente Minuecus Maximus ha confirmado oficialmente que consiguió trabajo, hecho que el Palacio Oval calificó como \"un giro histórico en la diversificación de responsabilidades presidenciales\". La noticia fue acompañada por el lanzamiento del plan nacional \"Can I Trim Your Bush?\", una iniciativa laboral que, según voceros oficiales, busca combinar mantenimiento, presencia territorial y una comprensión amplia de la palabra servicio.\n\nEl anuncio provocó reacciones inmediatas dentro del gabinete. El Chief of Staff Hernán Zapata celebró la noticia como una muestra de que \"el Presidente no solo gobierna: también produce\". El Ministro de Propaganda Víctor Peña aseguró que la campaña contará con piezas visuales donde el mandatario aparece con guantes de trabajo, mirada seria y una tijera de podar descrita como \"republicana, no amenazante\".\n\nFuentes cercanas al Ejecutivo explican que el plan tiene tres fases: diagnóstico del arbusto, acercamiento respetuoso al terreno y recorte institucional. El Ministerio del Interior exigió que cualquier arbusto intervenido sea previamente registrado en el padrón nacional de vegetación sensible.\n\nEl Presidente, consultado sobre la dimensión simbólica del proyecto, respondió: \"A veces la patria crece desordenada. Alguien tiene que podarla\".\n\nLa frase ya fue adoptada por la ciudadanía como lema no oficial de la semana.",
+      "timestamp": "2026-03-03T14:00:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1416879595882-3373a0480b5b?w=800&q=80"
+    },
+    {
+      "id": 77,
+      "category": "ECONOMÍA",
+      "headline": "Gabinete Celebra Nueva Fuente de Ingresos Presidenciales: 'La República También se Financia con Esfuerzo'",
+      "summary": "El plan laboral del mandatario abre debate sobre presupuesto, austeridad y posible emisión de facturas con sello presidencial.",
+      "author": "Sección Economía",
+      "content": "La confirmación de que el Presidente consiguió trabajo generó entusiasmo en los círculos económicos de la República de Minueco. Analistas oficiales consideran que la entrada del mandatario al mercado laboral podría aliviar parcialmente las arcas nacionales, especialmente tras los debates presupuestarios sobre el Can-Am Mini, el sitio web oficial y las baratijas mundialistas.\n\nEl Ministerio de Tecnología y Lírica propuso crear un sistema de facturación digital para el plan \"Can I Trim Your Bush?\", con recibos que incluyan código QR, escudo de la república y una advertencia legal: \"El recorte no implica anexión territorial\".\n\nEl Vicepresidente Andrés Mata destacó que el gesto presidencial envía un mensaje poderoso: \"Cuando el líder trabaja, la nación trabaja. Cuando el líder poda, la nación florece\".\n\nNo obstante, algunos sectores del gabinete expresaron preocupación por la compatibilidad horaria entre las funciones presidenciales, las sesiones de Warzone, el voleibol y las obligaciones laborales. El calendario de Días Presidenciales será actualizado para incluir bloques de \"jardinería ejecutiva\" entre martes y viernes presidenciales.\n\nLa República, por ahora, celebra. El Presidente trabaja. Los arbustos esperan.",
+      "timestamp": "2026-03-03T13:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1581578017426-04fbc2f0510a?w=800&q=80"
+    },
+    {
+      "id": 78,
+      "category": "DEPORTES",
+      "headline": "Comienza la Fiebre del Mundial: Presidente Llena Álbum de Baratijas con Rigor de Estado",
+      "summary": "El mandatario inició la colección mundialista y el gabinete ya debate si las repetidas deben ser consideradas reserva estratégica.",
+      "author": "Cronista Deportivo",
+      "content": "La fiebre del Mundial llegó oficialmente a la República de Minueco luego de que el Presidente fuera visto llenando un álbum de baratijas con una concentración descrita por testigos como \"superior a la mostrada en ciertas reuniones de gabinete\".\n\nEl álbum, adquirido en condiciones aún no aclaradas, contiene figuras, estampas, sobres, cromos y objetos de dudosa procedencia comercial. El Ministerio de Propaganda aclaró que el término \"baratijas\" no debe entenderse como crítica, sino como \"categoría cultural de alto valor emocional y bajo costo unitario\".\n\nEl Presidente habría organizado las piezas por selecciones, rareza y potencial de intercambio diplomático. Una fuente cercana al Palacio Oval informó que el mandatario se negó a pegar una estampa torcida porque \"la patria no se construye con álbumes mal alineados\".\n\nEl Canciller Carlos Gondelles estudia abrir canales internacionales para conseguir las figuras faltantes, mientras el Fiscal Amado Vivas analiza si esconder una baratija repetida puede constituir acaparamiento.\n\n\"El Mundial une a los pueblos\", declaró el Presidente. \"Pero completar el álbum demuestra quién está realmente comprometido\".\n\nEl Ministerio del Interior ya prepara un protocolo para intercambios seguros.",
+      "timestamp": "2026-03-03T12:45:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1518091043644-c1d4457512c6?w=800&q=80"
+    },
+    {
+      "id": 79,
+      "category": "MUNDIAL",
+      "headline": "Crisis por Repetidas: Gobierno Evalúa Crear Bolsa Nacional de Baratijas",
+      "summary": "El aumento de cromos duplicados y piezas sin valor aparente obliga al gabinete a discutir una política económica mundialista.",
+      "author": "Sección Deportes",
+      "content": "El entusiasmo presidencial por el álbum mundialista ha provocado una consecuencia inesperada: la acumulación de baratijas repetidas. Ante la situación, el gabinete evalúa la creación de una Bolsa Nacional de Baratijas, donde ciudadanos y funcionarios puedan intercambiar piezas bajo supervisión institucional.\n\nEl Ministro de Tecnología y Lírica propuso una plataforma digital con autenticación por pasaporte minueco. El Ministro de Industrias, consultado sobre la viabilidad productiva del sistema, respondió con un silencio tan prolongado que fue interpretado como estudio técnico.\n\nFuentes del Ministerio de Propaganda afirman que la primera crisis surgió cuando el Presidente recibió tres veces la misma figura y, en lugar de frustrarse, la calificó como \"reserva emocional para futuras negociaciones\".\n\nEl Chief of Staff Hernán Zapata recomendó no subestimar el tema: \"Hoy son baratijas. Mañana pueden ser instrumentos diplomáticos\".\n\nEl debate continúa. Mientras tanto, el Presidente mantiene el álbum bajo custodia parcial y solo permite verlo a funcionarios que hayan saludado correctamente.",
+      "timestamp": "2026-03-03T12:15:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1522778119026-d647f0596c20?w=800&q=80"
+    },
+    {
+      "id": 80,
+      "category": "INDUSTRIAS",
+      "headline": "Ministro de Industrias Asume Control de lo que Vendría a Ser el Silencio",
+      "summary": "Andrés Chávez no declaró, no negó y no confirmó. Su ausencia verbal fue catalogada como una política pública emergente.",
+      "author": "Unidad de Análisis",
+      "content": "El Ministro de Producción e Industrias, Andrés Chávez, protagonizó una jornada institucional marcada por una administración impecable de lo que vendría a ser el silencio. Convocado para explicar avances de su cartera, el ministro respondió con pausas, miradas laterales y un dominio técnico de la omisión.\n\nLa escena ocurrió durante una consulta informal del gabinete sobre producción nacional, recuperación muscular y baratijas mundialistas. Mientras otros funcionarios ofrecían teorías extensas, Chávez eligió una estrategia de comunicación basada en no decir absolutamente nada.\n\nAnalistas del Palacio Oval consideran que el silencio pudo tener múltiples significados: prudencia industrial, cansancio post-lesión, desacuerdo estratégico o simple desconexión emocional con el tema.\n\nEl Presidente, lejos de molestarse, valoró el gesto: \"Hay ministros que hablan mucho y producen poco. Chávez, al menos, no gasta palabras\".\n\nEl Ministerio de Propaganda ya trabaja en una campaña titulada \"El Silencio También Construye\", aunque fuentes internas admiten que todavía no saben qué exactamente construye.",
+      "timestamp": "2026-03-03T11:30:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1516321318423-f06f85e504b3?w=800&q=80"
+    },
+    {
+      "id": 81,
+      "category": "GABINETE",
+      "headline": "El Silencio Industrial se Convierte en Doctrina: Gabinete Debate si Callar Puede Ser Gestión",
+      "summary": "La falta de declaraciones del Ministro de Industrias abre una discusión filosófica sobre productividad, misterio y responsabilidad pública.",
+      "author": "Columnista de Gobierno",
+      "content": "Lo que comenzó como una ausencia de palabras terminó convertido en doctrina. Tras la jornada en la que el Ministro Andrés Chávez manejó lo que vendría a ser el silencio, varios sectores del gabinete empezaron a preguntarse si callar puede constituir una forma legítima de gestión pública.\n\nEl Ministro del Interior Jesús Constantino defendió la posibilidad de clasificar ciertos silencios como información reservada. El Fiscal Amado Vivas pidió diferenciar entre silencio institucional, silencio sospechoso y silencio de quien no sabe qué está pasando.\n\nEl Vicepresidente Andrés Mata, más práctico, propuso medir el silencio en unidades productivas: \"Si después del silencio algo mejora, fue gestión. Si no mejora, fue Chávez pensando\".\n\nLa ciudadanía observa con cautela. Algunos celebran que al menos no hubo contradicciones oficiales. Otros exigen transparencia sobre qué se está callando y por qué parece tan importante.\n\nPor ahora, el Ministerio de Industrias no ha emitido comunicado. Lo cual, según fuentes oficiales, confirma la continuidad de la política.",
+      "timestamp": "2026-03-03T11:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1497366754035-f200968a6e72?w=800&q=80"
+    },
+    {
+      "id": 82,
+      "category": "SOCIEDAD",
+      "headline": "Ministro Jesús Cumple Años en Celebración Llena de Amigos, Comida y Ocultamiento de Información",
+      "summary": "El cumpleaños del Ministro del Interior reunió afecto, platos abundantes y una notable ausencia de respuestas sobre asuntos sensibles.",
+      "author": "Sección Sociedad",
+      "content": "El Ministro del Interior, Jesús Constantino, celebró su cumpleaños en un evento que fuentes describen como cálido, concurrido y estratégicamente opaco. La celebración contó con amigos, comida, buenos deseos y un nivel de ocultamiento de información considerado \"coherente con la trayectoria institucional del homenajeado\".\n\nAsistentes reportaron una mesa generosa, conversaciones animadas y múltiples intentos fallidos de obtener detalles sobre expedientes pendientes, protocolos reservados y el verdadero estado de ciertas negociaciones republicanas.\n\n\"Cada vez que alguien preguntaba algo delicado, aparecía más comida\", relató un invitado. \"Fue una maniobra brillante. Nadie puede interrogar con la boca llena\".\n\nEl Presidente envió felicitaciones formales y destacó la lealtad del ministro, aunque pidió que al menos durante su cumpleaños se considerara revelar \"una información pequeña, simbólica, de bajo riesgo\". La solicitud no prosperó.\n\nEl evento terminó sin filtraciones relevantes, lo que el Ministerio del Interior calificó como \"éxito total\".",
+      "timestamp": "2026-03-03T10:30:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1464349095431-e9a21285b5f3?w=800&q=80"
+    },
+    {
+      "id": 83,
+      "category": "INTERIOR",
+      "headline": "Fuentes Afirman que la Torta de Jesús Tenía Más Capas que sus Comunicados Oficiales",
+      "summary": "La celebración de cumpleaños del Ministro del Interior alimenta teorías sobre mensajes ocultos, rellenos clasificados y velas estratégicamente distribuidas.",
+      "author": "Unidad de Investigación",
+      "content": "La torta servida durante el cumpleaños del Ministro Jesús Constantino se ha convertido en objeto de análisis político. Según fuentes presentes, el postre tenía múltiples capas, lo que varios observadores interpretaron como una metáfora involuntaria de la forma en que el ministro administra la información.\n\n\"Había bizcocho, crema, relleno y algo que nadie supo identificar\", explicó un funcionario. \"Exactamente como sus comunicados\".\n\nEl Ministerio de Tecnología y Lírica propuso aplicar ingeniería inversa al pastel para determinar si contenía mensajes cifrados. El Fiscal Amado Vivas solicitó conservar una porción como evidencia, pero esta desapareció antes de ser etiquetada.\n\nEl Ministro Jesús negó que la torta tuviera significado político. Sin embargo, se negó a revelar quién la compró, cuánto costó y por qué algunas velas parecían estar colocadas formando un patrón.\n\nLa ciudadanía exige respuestas. El ministro, fiel a su estilo, agradeció los buenos deseos y no aclaró nada.",
+      "timestamp": "2026-03-03T10:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1578985545062-69928b1d9587?w=800&q=80"
+    },
+    {
+      "id": 84,
+      "category": "POLÍTICA",
+      "headline": "Phineas y Ferb Saltan de las Caricaturas a la Política Minueca",
+      "summary": "El gabinete analiza el modelo de innovación acelerada de los hermanos animados como posible inspiración para obras públicas de un día.",
+      "author": "Sección Cultura",
+      "content": "La República de Minueco abrió un inesperado debate cultural y político luego de que varios funcionarios propusieran estudiar el modelo operativo de Phineas y Ferb como referencia para la gestión pública. La idea, inicialmente recibida con risas, ganó fuerza cuando el Presidente preguntó si ellos \"también resolvían todo antes de que llegara la mamá\".\n\nEl Ministerio de Tecnología y Lírica elaboró un informe preliminar sobre la capacidad de ambos personajes para construir infraestructuras complejas en lapsos reducidos. Aunque el documento reconoce que se trata de caricaturas, sostiene que \"la ficción no debería limitar la ambición republicana\".\n\nEl Chief of Staff Hernán Zapata sugirió adaptar el modelo a Minueco: planificación rápida, ejecución creativa y negación plausible si alguien pregunta quién autorizó la obra.\n\nEl Ministro de Industrias guardó silencio, lo que algunos interpretaron como aprobación técnica.\n\nLa propuesta aún no tiene rango oficial, pero el Presidente habría pedido evaluar si Perry el Ornitorrinco puede ser nombrado asesor de seguridad encubierta.",
+      "timestamp": "2026-03-03T09:30:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1535223289827-42f1e9919769?w=800&q=80"
+    },
+    {
+      "id": 85,
+      "category": "CULTURA",
+      "headline": "Doofenshmirtz o Gestión Pública: Expertos Comparan Inventos Malos con Políticas Inconclusas",
+      "summary": "Un seminario cultural de emergencia analiza qué puede aprender Minueco de los villanos caricaturescos y sus proyectos excesivamente específicos.",
+      "author": "Observatorio Cultural",
+      "content": "La discusión sobre Phineas y Ferb escaló al terreno académico luego de que el Observatorio Cultural de Minueco organizara un seminario titulado \"Del Inador al Decreto: Innovación, Fracaso y Persistencia\". El evento buscó comparar los inventos del universo animado con algunas políticas públicas minuecas que, aunque bien intencionadas, aún no encuentran aplicación práctica.\n\nPonentes invitados destacaron que el doctor Doofenshmirtz posee una cualidad admirada por varios ministros: presenta proyectos absurdos con enorme convicción. \"Eso en política es medio camino ganado\", señaló un analista.\n\nEl Ministro de Propaganda propuso crear un \"Minueco-inador\" capaz de convertir cualquier evento menor en noticia histórica. El Ministerio del Interior pidió revisar si tal dispositivo violaría protocolos de confidencialidad.\n\nEl Presidente no descartó la idea y pidió un informe: \"Si el aparato ayuda a llenar el álbum del Mundial o a recortar arbustos más rápido, se evalúa\".\n\nLa sesión concluyó sin acuerdos, pero con una sensación general de que la caricatura y la política están más cerca de lo que se pensaba.",
+      "timestamp": "2026-03-03T09:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1517048676732-d65bc937f952?w=800&q=80"
+    },
+    {
+      "id": 86,
+      "category": "DIPLOMACIA",
+      "headline": "Amor de Papi y el Presidente: Rumores de Romance Sacuden Cumbre Agrícola",
+      "summary": "Testigos aseguran que el mandatario y el predio agrícola tuvieron varias interacciones cargadas de simbolismo afectivo y abastecimiento selectivo.",
+      "author": "Corresponsal Agrícola",
+      "content": "Amor de Papi vuelve al centro de la agenda nacional tras reportes de varias interacciones con el Presidente durante una cumbre agrícola de carácter reservado. Según testigos, el mandatario y el conocido predio mantuvieron intercambios \"inusualmente cercanos\", lo que despertó rumores sobre una relación más romántica que estrictamente institucional.\n\nFuentes presentes aseguran que el Presidente inspeccionó el lugar con una atención que superó los estándares de supervisión productiva. \"No miraba las matas como quien revisa abastecimiento. Las miraba como quien recuerda algo\", declaró un asistente.\n\nEl Ministerio de Industrias intentó enmarcar el encuentro como parte del plan de saneamiento progresivo, pero no explicó por qué hubo música suave ni por qué el Presidente habría dicho: \"Aquí todavía crece algo\".\n\nEl Chief of Staff Hernán Zapata pidió prudencia: \"Amor de Papi ha sido proveedor, símbolo y problema sanitario. No agreguemos romance sin pruebas\".\n\nLa ciudadanía, naturalmente, ya agregó romance.",
+      "timestamp": "2026-03-03T08:30:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
+    },
+    {
+      "id": 87,
+      "category": "SOCIEDAD",
+      "headline": "Cumbre con Amor de Papi Termina con Miradas, Hojas y Preguntas Incómodas",
+      "summary": "El encuentro presidencial con el predio agrícola deja más dudas que respuestas y reactiva debates sobre higiene, afecto y dependencia alimentaria.",
+      "author": "Unidad de Crónica",
+      "content": "La cumbre entre el Presidente y Amor de Papi terminó sin comunicado oficial, pero con suficientes gestos ambiguos para alimentar una semana completa de especulaciones. Testigos hablan de miradas prolongadas, recorridos pausados y una inspección particularmente emocional de ciertas áreas verdes.\n\nEl Ministerio de Propaganda trató de controlar la narrativa describiendo el evento como \"una jornada de reencuentro productivo\". Sin embargo, filtraciones internas señalan que varios funcionarios percibieron \"un clima demasiado íntimo para una visita agrícola\".\n\nEl Fiscal Amado Vivas preguntó si el predio puede legalmente sostener una relación afectiva con un jefe de Estado. Nadie respondió. El Ministro del Interior solicitó clasificar la pregunta.\n\nMientras tanto, Amor de Papi continúa operando con observaciones sanitarias pendientes. Para algunos, esa imperfección explica su encanto ante el Presidente. Para otros, confirma que la República necesita estándares más altos y menos metáforas románticas.\n\nEl Palacio Oval no emitió comentarios. Eso, en Minueco, suele significar que algo pasó.",
+      "timestamp": "2026-03-03T08:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1464226184884-fa280b87c399?w=800&q=80"
+    },
+    {
+      "id": 88,
+      "category": "REPÚBLICA",
+      "headline": "Presidente Hace Acercamientos con la Minueca Raquelovich: Negociaciones Fallan en Fase Preliminar",
+      "summary": "El intento de aproximación diplomática no logró los resultados esperados. Fuentes hablan de distancia protocolar, señales confusas y expectativas mal calibradas.",
+      "author": "Unidad de Investigación",
+      "content": "El Palacio Oval confirmó de manera indirecta que el Presidente realizó acercamientos con la Minueca Raquelovich, una figura cuya posible incorporación simbólica había despertado interés en sectores del gabinete. Sin embargo, las conversaciones no prosperaron.\n\nDe acuerdo con fuentes cercanas al proceso, el acercamiento comenzó con optimismo moderado, avanzó hacia una fase de intercambio ambiguo y terminó en lo que un funcionario describió como \"fracaso elegante, pero fracaso al fin\".\n\nEl Ministerio del Interior no quiso detallar los motivos. El Chief of Staff Hernán Zapata pidió no dramatizar: \"No todo acercamiento termina en tratado. A veces termina en aprendizaje y silencio administrativo\".\n\nLa Minueca Raquelovich no emitió declaraciones públicas. Esa ausencia fue interpretada por algunos como rechazo, por otros como prudencia y por el Ministerio de Propaganda como \"una oportunidad narrativa pendiente\".\n\nEl Presidente, consultado por allegados, habría dicho únicamente: \"Se intentó con respeto\".\n\nEl expediente queda, por ahora, en pausa.",
+      "timestamp": "2026-03-03T07:30:00Z",
+      "readTime": "4 min",
+      "image": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=800&q=80"
+    },
+    {
+      "id": 89,
+      "category": "PROTOCOLO",
+      "headline": "Fracasan Acercamientos con Raquelovich y se Reabre Debate Sobre la Cláusula Parola",
+      "summary": "El tropiezo diplomático obliga al gabinete a revisar métodos, tiempos y expectativas en futuras incorporaciones ciudadanas.",
+      "author": "Sección Protocolo",
+      "content": "El fallido acercamiento entre el Presidente y la Minueca Raquelovich reactivó el debate sobre la Cláusula Parola y sus procedimientos. Aunque la cláusula continúa siendo una herramienta fundacional de la república, varios funcionarios admiten que su aplicación requiere mayor precisión emocional, logística y comunicacional.\n\nEl Fiscal Amado Vivas propuso redactar un manual de aproximaciones republicanas que incluya fases claras: saludo, conversación, evaluación de interés, no insistencia y retiro digno. El Ministerio de Propaganda sugirió agregar una fase de \"edición posterior de la narrativa\", pero la propuesta fue recibida con cautela.\n\nEl Presidente no responsabilizó a nadie por el resultado. Sin embargo, fuentes internas señalan que pidió revisar si el calendario presidencial pudo haber afectado los tiempos de respuesta.\n\n\"Un acercamiento en Domingo Presidencial no tiene la misma fuerza institucional\", explicó un asesor.\n\nPor ahora, Raquelovich queda fuera del horizonte inmediato. La República toma nota, reorganiza su protocolo y finge que no dolió.",
+      "timestamp": "2026-03-03T07:00:00Z",
+      "readTime": "3 min",
+      "image": "https://images.unsplash.com/photo-1521791136064-7986c2920216?w=800&q=80"
+    },
     {
       "id": 60,
       "category": "100 DÍAS",
@@ -198,7 +386,7 @@
       "headline": "Calendario Oficial de la República: Los Días Presidenciales Explicados",
       "summary": "El Ministerio del Interior publica la guía definitiva para entender el sistema de días que rige la agenda del Ejecutivo y el gabinete.",
       "author": "Gaceta Oficial",
-"content": "El Gobierno de la República de Minueco ha oficializado mediante circular interna el sistema de 'Días Presidenciales', un calendario alternativo que refleja la semana laboral del Primer Mandatario y que todos los ciudadanos deben conocer.\n\nComo es de conocimiento público, el Presidente trabaja de viernes a martes, con miércoles y jueves como días de descanso oficial. Para evitar confusiones y facilitar la coordinación del gabinete, se establece el siguiente sistema:\n\n• VIERNES = Lunes Presidencial (inicio de semana laboral)\n• SÁBADO = Martes Presidencial\n• DOMINGO = Miércoles Presidencial\n• LUNES = Jueves Presidencial\n• MARTES = Viernes Presidencial (último día laboral)\n• MIÉRCOLES = Sábado Presidencial (día libre)\n• JUEVES = Domingo Presidencial (día libre)\n\nEl Chief of Staff Hernán Zapata explicó la lógica del sistema: 'Cuando es martes para el resto del mundo, para nosotros es viernes. Eso explica el ánimo particularmente festivo del gabinete los martes. Estamos celebrando el fin de semana presidencial'.\n\nEl Ministro de Propaganda, Víctor Peña, añadió: 'Este calendario permite que los ciudadanos entiendan por qué el Presidente puede no estar disponible miércoles o jueves. Es su fin de semana. Respetemos su descanso'.\n\nSe recomienda a todos los funcionarios adaptar sus comunicaciones oficiales al formato: 'Día Presidencial, fecha convencional'. Ejemplo: 'Viernes Presidencial, 24 de Febrero de 2026'.\n\nEl Ministerio del Interior ha anunciado que cualquier intento de contactar al Presidente en Sábado o Domingo Presidencial (miércoles y jueves) sin justificación de emergencia será considerado una violación del Decreto 001/2026.",
+      "content": "El Gobierno de la República de Minueco ha oficializado mediante circular interna el sistema de 'Días Presidenciales', un calendario alternativo que refleja la semana laboral del Primer Mandatario y que todos los ciudadanos deben conocer.\n\nComo es de conocimiento público, el Presidente trabaja de viernes a martes, con miércoles y jueves como días de descanso oficial. Para evitar confusiones y facilitar la coordinación del gabinete, se establece el siguiente sistema:\n\n• VIERNES = Lunes Presidencial (inicio de semana laboral)\n• SÁBADO = Martes Presidencial\n• DOMINGO = Miércoles Presidencial\n• LUNES = Jueves Presidencial\n• MARTES = Viernes Presidencial (último día laboral)\n• MIÉRCOLES = Sábado Presidencial (día libre)\n• JUEVES = Domingo Presidencial (día libre)\n\nEl Chief of Staff Hernán Zapata explicó la lógica del sistema: 'Cuando es martes para el resto del mundo, para nosotros es viernes. Eso explica el ánimo particularmente festivo del gabinete los martes. Estamos celebrando el fin de semana presidencial'.\n\nEl Ministro de Propaganda, Víctor Peña, añadió: 'Este calendario permite que los ciudadanos entiendan por qué el Presidente puede no estar disponible miércoles o jueves. Es su fin de semana. Respetemos su descanso'.\n\nSe recomienda a todos los funcionarios adaptar sus comunicaciones oficiales al formato: 'Día Presidencial, fecha convencional'. Ejemplo: 'Viernes Presidencial, 24 de Febrero de 2026'.\n\nEl Ministerio del Interior ha anunciado que cualquier intento de contactar al Presidente en Sábado o Domingo Presidencial (miércoles y jueves) sin justificación de emergencia será considerado una violación del Decreto 001/2026.",
       "timestamp": "2026-02-24T15:00:00Z",
       "readTime": "3 min",
       "image": "https://images.unsplash.com/photo-1506784983877-45594efa4cbe?w=800&q=80"
@@ -514,7 +702,97 @@
       "image": "https://images.unsplash.com/photo-1500382017468-9049fed747ef?w=800&q=80"
     }
   ],
-"opinion": [
+  "opinion": [
+    {
+      "id": 90,
+      "category": "EDITORIAL",
+      "headline": "El Presidente Trabaja: La República Descubre la Dignidad de Podar",
+      "summary": "El plan 'Can I Trim Your Bush?' no es solo una ocupación: es una metáfora nacional sobre orden, esfuerzo y ramas que crecieron demasiado.",
+      "author": "El Editorial",
+      "content": "Hay momentos en que una nación se define no por sus guerras, sus decretos o sus pasaportes, sino por la manera en que decide enfrentar un arbusto.\n\nEl Presidente consiguió trabajo. La frase, por sí sola, ya merecería mármol. Pero además lo hizo bajo el plan \"Can I Trim Your Bush?\", nombre que algunos maliciosos han querido leer con doble intención, ignorando su profundo contenido republicano.\n\nPodar es ordenar. Recortar es gobernar. Quitar lo que sobra para que algo crezca mejor es, en esencia, la tarea de todo estadista.\n\nQuienes se burlan no entienden que el Presidente está enseñando con el ejemplo. Mientras otros administran silencio, ocultan información o coleccionan baratijas sin método, él sale al mundo a trabajar.\n\nLa República debe acompañarlo. Porque cada rama cortada puede ser también una lección: la patria no se abandona al monte.",
+      "timestamp": "2026-03-03T15:00:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 91,
+      "category": "OPINIÓN",
+      "headline": "Baratijas Mundialistas: El Álbum como Proyecto de Nación",
+      "summary": "Completar un álbum no es un pasatiempo menor. En Minueco puede ser la primera política pública verdaderamente transversal.",
+      "author": "Analista Deportivo",
+      "content": "El álbum del Mundial revela más de una nación que muchos discursos oficiales. Allí están la paciencia, la obsesión, la negociación, la frustración ante las repetidas y la esperanza irracional de que el próximo sobre lo arregle todo.\n\nEl Presidente lo entiende. Por eso llena su álbum con rigor de Estado.\n\nQuienes reducen las baratijas a objetos baratos no comprenden su dimensión simbólica. Una baratija repetida puede ser moneda, puente diplomático o herramienta de presión. Una baratija faltante puede explicar una crisis ministerial. Una página incompleta puede arruinar un Martes Presidencial.\n\nLa Bolsa Nacional de Baratijas no debe verse como exceso burocrático, sino como institucionalización de una práctica inevitable. Si la República va a intercambiar, que intercambie con normas.\n\nCompletar el álbum no nos hará potencia mundial. Pero nos dará algo que muchas naciones no tienen: propósito compartido.",
+      "timestamp": "2026-03-03T14:40:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 92,
+      "category": "OPINIÓN",
+      "headline": "El Silencio de Industrias: ¿Vacío o Alta Estrategia?",
+      "summary": "Andrés Chávez ha convertido la ausencia de palabras en un fenómeno político. La pregunta es si detrás del silencio hay doctrina o simplemente nada.",
+      "author": "Columnista Anónimo",
+      "content": "El Ministro de Industrias calla. Y al callar, obliga a todos a interpretar.\n\nEn una república acostumbrada a comunicados, decretos, rumores y audios reenviados, el silencio de Andrés Chávez resulta casi revolucionario. No promete, no desmiente, no explica. Apenas existe, y en esa existencia muda produce una inquietud superior a cualquier discurso.\n\n¿Es estrategia? Puede ser. El silencio evita errores, conserva misterio y permite que otros proyecten profundidad donde quizás solo hay cansancio. Pero también puede ser una renuncia a la responsabilidad pública. Una cosa es callar para pensar; otra, callar para no responder.\n\nMinueco debe decidir qué tipo de silencio acepta. El silencio contemplativo tiene valor. El silencio administrativo, límites. El silencio industrial, por ahora, está en fase piloto.",
+      "timestamp": "2026-03-03T14:20:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 93,
+      "category": "EDITORIAL",
+      "headline": "Jesús, la Torta y el Derecho Ciudadano a Saber",
+      "summary": "El cumpleaños del Ministro del Interior fue alegre, abundante y opaco. La celebración no puede convertirse en excusa para esconder la verdad.",
+      "author": "El Editorial",
+      "content": "Celebrar a Jesús Constantino es justo. Nadie niega su importancia institucional ni su capacidad extraordinaria para custodiar secretos incluso cuando nadie se los pidió.\n\nPero el cumpleaños del Ministro del Interior dejó una preocupación de fondo: en Minueco, la comida está empezando a funcionar como cortina de humo.\n\nCada pregunta incómoda fue respondida con un plato. Cada intento de transparencia, con una porción de torta. Cada duda legítima, con una sonrisa y una invitación a servirse más.\n\nLa amistad no debe anular la rendición de cuentas. Que un ministro cumpla años no suspende el derecho ciudadano a saber. Al contrario: soplar velas debería iluminar, no oscurecer.\n\nFelicitamos al ministro. Pero también le recordamos que la República necesita menos capas de relleno y más capas de información verificable.",
+      "timestamp": "2026-03-03T14:00:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 94,
+      "category": "OPINIÓN",
+      "headline": "Phineas y Ferb Entendieron Algo que el Gabinete Aún Debate",
+      "summary": "La caricatura muestra ejecución, creatividad y resultados. Tal vez por eso incomoda tanto a la política minueca.",
+      "author": "Observador Cultural",
+      "content": "La propuesta de estudiar a Phineas y Ferb como modelo de gestión pública ha sido recibida con burlas. Error.\n\nLos hermanos animados tienen tres virtudes que toda república joven debería envidiar: detectan una idea, la ejecutan de inmediato y entregan resultados antes de que una autoridad adulta pueda detenerlos. Eso, traducido a lenguaje institucional, es eficiencia radical.\n\nPor supuesto, Minueco no puede construir montañas rusas presidenciales sin permisos. Pero sí puede aprender algo de esa audacia: menos comités para decidir si se decide, más capacidad de hacer.\n\nEl riesgo está en copiar la estética sin copiar la disciplina. No basta con inventar un \"Minueco-inador\". Hay que saber para qué sirve, quién lo opera y quién limpia después.\n\nEn política, como en caricatura, la imaginación ayuda. Pero sin responsabilidad, todo termina desapareciendo antes del capítulo siguiente.",
+      "timestamp": "2026-03-03T13:40:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 95,
+      "category": "OPINIÓN",
+      "headline": "Amor de Papi: Cuando el Abastecimiento se Confunde con el Afecto",
+      "summary": "Los rumores sobre el Presidente y Amor de Papi revelan una verdad incómoda: Minueco sentimentaliza todo lo que la alimenta.",
+      "author": "Margarita Plumafina",
+      "content": "No sabemos si hubo romance. Sabemos, eso sí, que hubo miradas, recorridos lentos y una frase presidencial suficientemente ambigua para incendiar la imaginación nacional.\n\nAmor de Papi no es un predio cualquiera. Es proveedor, memoria, problema sanitario y símbolo. Su regreso ya había despertado entusiasmo. Su cercanía con el Presidente solo confirma que en Minueco la política nunca es puramente administrativa.\n\nTal vez el mandatario no ama a Amor de Papi. Tal vez ama lo que representa: continuidad, origen, abastecimiento, una tierra imperfecta que aun así produce.\n\nPero hay que tener cuidado. Cuando un Estado confunde afecto con política pública, termina justificando cualquier cosa con nostalgia. Incluso la suciedad.\n\nQue Amor de Papi sea importante no lo exime de cumplir estándares. El cariño no sustituye el saneamiento.",
+      "timestamp": "2026-03-03T13:20:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 96,
+      "category": "EDITORIAL",
+      "headline": "Raquelovich y la Dignidad del Fracaso",
+      "summary": "No todos los acercamientos prosperan. La madurez republicana consiste en fallar sin convertir el tropiezo en tragedia.",
+      "author": "El Editorial",
+      "content": "El acercamiento con la Minueca Raquelovich falló. Esa es la verdad simple que algunos intentarán adornar con tecnicismos protocolarios.\n\nPero no todo fracaso es derrota. A veces, fracasar con respeto es más valioso que insistir sin dignidad. El Presidente, según fuentes cercanas, lo entendió: \"Se intentó con respeto\". La frase debería incorporarse al manual diplomático nacional.\n\nLa República debe aprender de este episodio. La Cláusula Parola no puede depender únicamente de entusiasmo, rumores o calendarios mal coordinados. Requiere lectura del contexto, paciencia y aceptación de que no toda puerta se abre porque Minueco toque.\n\nRaquelovich no llegó. Minueco sigue. El Presidente conserva la compostura. Eso también es gobierno.",
+      "timestamp": "2026-03-03T13:00:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 97,
+      "category": "OPINIÓN",
+      "headline": "Entre Amor de Papi y Raquelovich: La Geopolítica Sentimental del Presidente",
+      "summary": "La semana revela dos modelos de acercamiento: uno agrícola y nostálgico; otro protocolar y fallido. Ambos dicen mucho del poder.",
+      "author": "Analista de Palacio",
+      "content": "La política exterior sentimental del Presidente parece dividirse en dos escuelas.\n\nLa primera es Amor de Papi: cercanía, historia, imperfección tolerada, una conexión difícil de explicar pero fácil de comentar. La segunda es Raquelovich: aproximación diplomática, expectativa, fracaso preliminar y expediente en pausa.\n\nAmbas muestran que el poder también se mueve por afectos, símbolos y silencios. No todo ocurre en decretos. A veces la república se juega en una mirada durante una cumbre agrícola o en un mensaje que no recibe la respuesta esperada.\n\nEl desafío del gabinete es no convertir cada gesto presidencial en doctrina. Acompañar no significa exagerar. Interpretar no significa inventar.\n\nMinueco necesita madurez para distinguir entre política, romance, abastecimiento y rumor. Aunque admitamos que, sin rumor, este país sería mucho menos entretenido.",
+      "timestamp": "2026-03-03T12:40:00Z",
+      "readTime": "3 min"
+    },
+    {
+      "id": 98,
+      "category": "OPINIÓN",
+      "headline": "La Semana en que Todo Fue Importante: Trabajo, Mundial, Silencio y Romance",
+      "summary": "Minueco vive una sobrecarga de símbolos. El reto es ordenar la narrativa antes de que la narrativa gobierne por nosotros.",
+      "author": "Juan De Sousa, Ministro de Tecnología y Lírica",
+      "content": "Hay semanas que parecen diseñadas por un algoritmo emocional. En pocos días, el Presidente consiguió trabajo, lanzó un plan de poda, empezó a llenar un álbum mundialista, enfrentó rumores con Amor de Papi y sufrió un acercamiento fallido con Raquelovich. Al mismo tiempo, Industrias administró el silencio y el Ministro Jesús celebró un cumpleaños informativamente hermético.\n\nTodo importa. Ese es precisamente el problema.\n\nCuando todo se vuelve histórico, nada puede procesarse con calma. La República necesita jerarquizar. No es lo mismo una política laboral que una baratija repetida. No es lo mismo una cumbre agrícola que una aproximación fallida. No es lo mismo una torta con capas que un secreto de Estado, aunque a veces se parezcan.\n\nLa tarea del Ministerio de Tecnología y Lírica será ordenar el relato. Porque una nación joven no solo necesita hechos: necesita saber en qué carpeta guardarlos.",
+      "timestamp": "2026-03-03T12:20:00Z",
+      "readTime": "4 min"
+    },
     {
       "id": 70,
       "category": "EDITORIAL",
@@ -621,7 +899,7 @@
       "headline": "Decreto 001/2026: Un Escudo Necesario para la Estabilidad Presidencial",
       "summary": "El nuevo marco normativo del Ministerio del Interior representa un avance institucional que la república necesitaba con urgencia.",
       "author": "El Editorial",
-      "content": "El Decreto Ministerial N° 001/2026 emitido por el Ministerio del Interior no es un capricho burocrático. Es una respuesta institucional a situaciones reales que pusieron en riesgo la integridad del Presidente durante la semana pasada.\n\nDesde esta tribuna editorial, aplaudimos la iniciativa del Ministro Jesús Constantino. Los protocolos establecidos en los artículos 1° al 4° demuestran una comprensión profunda de las amenazas que enfrenta nuestra joven república.\n\nEl Protocolo Post-reunión (Artículo 1°) aborda directamente el incidente de las llaves extraviadas. Nunca más un Presidente minueco deberá sufrir la angustia de perder sus pertenencias por falta de procedimientos claros.\n\nEl Protocolo de Notificación de Situación Crítica (Artículo 2°) es particularmente brillante. Al establecer categorías de apoyo \u2013moral, físico y vicioso\u2013 se reconoce que las amenazas al bienestar presidencial no siempre son tangibles. A veces, un buen trago es la mejor defensa.\n\nEl Artículo 3° sobre escalada controlada demuestra madurez institucional. La desescalada como prioridad, con la neutralización como último recurso, refleja los valores de una república civilizada.\n\nCríticos dirán que este decreto es excesivo. Nosotros decimos: es exactamente lo que Minueco necesita para consolidarse como nación seria.\n\nPublíquese y cúmplase, en efecto.",
+      "content": "El Decreto Ministerial N° 001/2026 emitido por el Ministerio del Interior no es un capricho burocrático. Es una respuesta institucional a situaciones reales que pusieron en riesgo la integridad del Presidente durante la semana pasada.\n\nDesde esta tribuna editorial, aplaudimos la iniciativa del Ministro Jesús Constantino. Los protocolos establecidos en los artículos 1° al 4° demuestran una comprensión profunda de las amenazas que enfrenta nuestra joven república.\n\nEl Protocolo Post-reunión (Artículo 1°) aborda directamente el incidente de las llaves extraviadas. Nunca más un Presidente minueco deberá sufrir la angustia de perder sus pertenencias por falta de procedimientos claros.\n\nEl Protocolo de Notificación de Situación Crítica (Artículo 2°) es particularmente brillante. Al establecer categorías de apoyo –moral, físico y vicioso– se reconoce que las amenazas al bienestar presidencial no siempre son tangibles. A veces, un buen trago es la mejor defensa.\n\nEl Artículo 3° sobre escalada controlada demuestra madurez institucional. La desescalada como prioridad, con la neutralización como último recurso, refleja los valores de una república civilizada.\n\nCríticos dirán que este decreto es excesivo. Nosotros decimos: es exactamente lo que Minueco necesita para consolidarse como nación seria.\n\nPublíquese y cúmplase, en efecto.",
       "timestamp": "2026-02-19T11:00:00Z",
       "readTime": "4 min"
     },
@@ -686,8 +964,8 @@
       "readTime": "2 min"
     }
   ],
-"breaking": {
+  "breaking": {
     "active": true,
-    "text": "HISTÓRICO: Inicia Plan de Identificación Nacional - Pasaportes minuecos comenzarán a ser entregados. El Presidente: 'Cada ciudadano podrá portar con orgullo su identidad minueca.'"
+    "text": "ÚLTIMA HORA: El Presidente confirma acercamientos laborales, deportivos y diplomáticos en una misma semana. Gabinete habla de 'hiperpresidencialismo operativo'."
   }
 }
